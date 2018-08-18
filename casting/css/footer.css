@@ -1,0 +1,28 @@
+
+
+.toggle_menu {
+    display: block;
+}
+
+#menu ul {
+    margin-top: 5px;
+}
+.main-menu {
+  /* пункты меню скрыты */
+  display: none;
+  padding: 0;
+  margin: 0;
+  float: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#menu li a {
+  line-height: 35px;
+  font-size: 20px;
+}
+#wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+.move #menu{left:0;}
+.move #wrapper {-webkit-transform:translateX(-0%);-moz-transform:translateX(0%);transform:translateX(0%);}

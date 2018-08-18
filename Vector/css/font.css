@@ -1,0 +1,18 @@
+/*@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&subset=cyrillic');*/
+
+/*font-family: 'Play', sans-serif;*/
+/*font-family: 'Arimo', sans-serif;*/
+
+@font-face {
+  font-family: 'PFDinDisplayPro-Regular';
+  src: url('../fonts/PFDinDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFDinDisplayPro-Regular.woff') format('woff'), url('../fonts/PFDinDisplayPro-Regular.ttf')  format('truetype'), url('../fonts/PFDinDisplayPro-Regular.svg#PFDinDisplayPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro-Thin';
+  src: url('../fonts/PFDinDisplayPro-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFDinDisplayPro-Thin.woff') format('woff'), url('../fonts/PFDinDisplayPro-Thin.ttf')  format('truetype'), url('../fonts/PFDinDisplayPro-Thin.svg#PFDinDisplayPro-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

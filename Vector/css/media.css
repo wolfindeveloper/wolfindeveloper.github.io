@@ -1,0 +1,745 @@
+@media only screen and (max-width : 1279px) {
+	.container {
+		width: 960px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	.head .item-info {
+		flex-direction: column;
+		align-items: flex-start;
+		width: 38%;
+	}
+
+	.head .item1 {
+    width: 69.25641%;
+    padding-top: 10px;
+	}
+
+	.head .item2 {
+    width: 38.025641%;
+    margin-left: 0;
+    margin-top: 20px;
+	}
+
+	.head .item3 {
+    width: 26.34188%;
+    margin-left: 50px;
+	}
+
+	.head .item4 {
+		margin-left: 0;
+	}
+
+	.month-offer .img {
+		width: 70%;
+	}
+
+	.slider-our-works .slide {
+		margin: 50px 50px;
+		height: auto;
+	}
+
+	.slider-our-works .slick-next {
+		right: 125px;
+	}
+
+	.slider-our-works .slick-prev {
+		left: 125px;
+	}
+
+	.contacts .address {
+		width: 28%;
+	}
+
+	.contacts .address .text {
+		width: 85%;
+	}
+
+	.contacts .more-info {
+		width: 51%;
+	}
+
+	.zoom-bg {
+		height: 180px;
+	}
+
+	/*zoom*/
+	.zoom {
+		height: 200px;
+	}
+
+	.outer {
+		width: 140%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		margin-left: 0;
+	}
+
+	.zoom .left-text p, .zoom .right-text p {
+		font-size: 25px;
+	}
+
+	.left-img img, .right-img img {
+	}
+	/*zoom*/
+
+	.online-aplication-block {
+		align-items: center;
+	}
+
+	.online-aplication-block .aplication-img {
+		width: 45%;
+	}
+
+	.drop-cars {
+		position: static;
+		padding: 0;
+		border: none;
+	}
+
+	.consultant-online {
+		width: 100%;
+	}
+
+	.month-consultation .zg {
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.month-consultation .line {
+		width: 90%;
+    	height: 2px;
+    	background-color: red;
+    	margin: 5px auto;
+	}
+
+	.consultant-online .zg {
+		text-align: center;
+	}
+
+	.vector-voucher .border {
+		display: none;
+	}
+
+	.vector-voucher {
+		width: 100%;
+	}
+
+	.reviews-content .item .text-block {
+		margin-left: 5px;
+	}
+
+	.news .text {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.container {
+		width: 750px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	.head .item-info {
+		width: 37%;
+	}
+
+	.head .item1 {
+		width: 93%;
+	}
+
+	.head .item2 {
+		width: 51.025641%;
+	}
+
+	.zoom .left-text p, .zoom .right-text p {
+		font-size: 18px;
+	}
+
+	.nav-menu {
+		width: 81%;
+	}
+
+	.services-content {
+		justify-content: space-around;
+	}
+
+	.services-content .item {
+		width: 30%;
+		margin: 30px 10px;
+	}
+
+	.services-content .item .text {
+		font-size: 17px;
+	}
+
+	.month-offer .zg {
+		width: 25%;
+	}
+
+	.slider-our-works .slick-next {
+		right: 30px;
+	}
+
+	.slider-our-works .slick-prev {
+		left: 30px;
+	}
+
+	.price-slider .slick-next {
+		right: 0;
+	}
+
+	.price-slider .slick-prev {
+		left: 0;
+		z-index: 1;
+	}
+
+	.reviews .rewievs-slider {
+		order: 0;
+		width: 100%;
+	}
+
+	.reviews .widget {
+		order: 1;
+		width: 220px;
+		height: 400px;
+		margin: 0 auto;
+	}
+
+	.rewievs-slider .slick-prev {
+		left: 0;
+		z-index: 1;
+	}
+
+		.rewievs-slider .slick-next {
+		right: 0;
+	}
+
+	.contacts .address {
+		width: 37%;
+	}
+
+	.more-info .check {
+		margin: 20px auto;
+	}
+
+	.slider-our-works:before,
+	.slider-our-works:after {
+		display: none;
+	}
+
+	/*zoom*/
+	.zoom {
+		height: 180px;
+	}
+	/*zoom*/
+
+	.consultant-online .item1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.consultant-online .zg,
+	.month-consultation .zg,
+	.consultant-online .item2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.reviews-content {
+		width: 100%;
+	}
+
+	.leave-review-form .type {
+		line-height: 30px;
+	}
+	.news .text {
+		width: 75%;
+	}
+
+}
+
+@media only screen and (max-width : 767px) {
+	.container {
+		width: 100%;
+	}
+
+	header {
+		background-color: #dadada;
+	}
+
+	.head-bg {
+		padding-bottom: 20px;
+	}
+
+	.head .item3 {
+		order: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.head .item3 img {
+		margin: 0 auto;
+	}
+
+	.head .item-info {
+		order: 1;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		width: 100%;
+		margin-top: 17px;
+	}
+
+	.head .item4 {
+		display: none;
+	}
+
+	.head .item1 {
+		width: 170px;
+		padding-top: 0;
+		align-items: flex-start;
+	}
+
+	.head .item1 .text {
+		margin-left: 10px;
+	}
+
+	.head .item2 {
+		width: 135px;
+		margin-top: 0;
+		align-items: flex-start;
+	}
+
+	h1 {
+		display: none;
+	}
+
+	.zoom .left-text,
+	.zoom .right-text {
+		width: 128px;
+	}
+
+	.nav-menu {
+		flex-direction: column;
+	}
+
+	.nav-menu li:before {
+		display: none;
+	}
+
+	.f-nav {
+		position: static;
+	}
+
+	.nav-menu li {
+		padding: 5px;
+	}
+
+	/*zoom*/
+	.zoom {
+		height: 130px;
+	}
+	/*zoom*/
+
+	.services-content {
+		justify-content: space-around;
+	}
+
+	.services-content .item {
+		width: 40%;
+	}
+
+	.month-offer .zg {
+		width: 30%;
+	}
+
+	.month-offer .img {
+		width: 65%;
+	}
+
+	.slider-our-works .slick-center .slide-left-text,
+	.portfolio-spec-car .item .slide-left-text,
+	.slider-our-works .slick-center .slide-right-text,
+	.portfolio-spec-car .item .slide-right-text {
+		width: 100%;
+		background: #fd001a;
+		padding-left: 20px;
+	}
+
+	.slider-our-works .slick-center .slide-left-text {
+		position: static;
+	}
+
+		.slider-our-works .slick-center .slide-left-text,
+	.portfolio-spec-car .item .slide-left-text {
+		text-align: left;
+	}
+
+		.slider-our-works .slick-center .slide-right-text,
+	.portfolio-spec-car .item .slide-right-text {
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.slider-our-works .slick-center {
+		transform: none;
+	}
+
+	.slider-our-works .slide,
+	.slider-our-works .slick-center img {
+		height: auto;
+	}
+
+	.our-works-info {
+		justify-content: space-around;
+	}
+
+	.our-works-info .item {
+		width: 33%;
+		margin: 10px 0;
+	}
+
+	.rewievs-slider .slide {
+		overflow-y: visible;
+	}
+
+	.rewievs-slider .slide .text-block {
+		width: 100%;
+	}
+
+	.contacts .address {
+		width: 45%;
+	}
+
+	.more-info .check {
+		width: 100%;
+	}
+
+	/*zoom*/
+	.zoom {
+		display: none;
+	}
+
+	.zoom-bg {
+		display: block;
+		height: auto;
+	}
+	/*zoom*/
+
+	.zoom-mobile {
+		height: 175px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.zoom-mobile .item {
+		width: 50%;
+		height: 100%;
+		position: relative;
+	}
+
+	.zoom-mobile .item .left-text {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background: red;
+	}
+
+	.zoom-mobile .item .right-text {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: red;
+	}
+
+	.zoom-mobile .item .left-text p {
+		font-family: 'PFDinDisplayPro-Thin';
+		font-size: 24px;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 0.02px;
+		padding: 6px 15px;
+		color: rgb(255, 255, 255);
+	}
+
+	.zoom-mobile .item .right-text p {
+		font-family: 'PFDinDisplayPro-Thin';
+		font-size: 24px;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 0.02px;
+		padding: 6px 15px;
+		color: rgb(255, 255, 255);
+	}
+
+	.nonebox {
+		width: 90%;
+		transform: translate(-50%, -40%);
+	}
+
+	.popup-price {
+		padding-left: 10px;
+		padding-top: 40px;
+	}
+
+	.popup-call {
+		padding: 39px 20px 49px 20px;
+	}
+
+	.popup-price .kind-work-zg, .popup-price .kind-work {
+		width: 49%;
+	}
+
+	.popup-call .zg {
+		font-size: 24px;
+	}
+
+	.f-nav-mobile {
+	z-index: 9999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.price-slider:before,
+.price-slider:after {
+	display: none;
+}
+
+.price-slider .slide .img {
+	width: 90%;
+}
+
+.online-aplication-block .more-info {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.online-aplication-block .aplication-img {
+	display: none;
+}
+
+.review-vk {
+	width: 90%;
+}
+
+.specialists-slider .specialist {
+	padding: 20px 30px 0 30px;
+}
+
+.portfolio-spec-car .item {
+	padding: 46px 0;
+}
+
+.leave-review-form {
+	width: 100%;
+}
+
+.news .zg {
+	text-align: center;
+}
+
+.news .img {
+	margin: 0 auto;
+}
+
+.news .text {
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width : 550px) {
+	.head .item1 {
+		width: 150px;
+	} 
+
+	.head .item1 p {
+		font-size: 15px;
+	}
+
+	.services-content .item {
+		width: 50%;
+		margin: 30px 0;
+	}
+
+	.services-content .item .img {
+		margin: 0 auto;
+	}
+
+	.services-content .item .text {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.month-offer {
+		display: block;
+	}
+
+	.month-offer .line {
+		height: 2px;
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.month-offer .zg {
+		width: 100%;
+		text-align: center;
+	}
+
+	.month-offer .img {
+		width: 100%;
+	}
+
+	.slider-our-works .slide {
+		margin: 0;
+	}
+
+	.slider-our-works .slick-center img {
+		height: auto;
+	}
+
+	.our-works-info .item {
+		width: 50%;
+	}
+
+	.our-works-info .item .text {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.price-slider .slide {
+		background-color: rgb(220, 220, 220);
+	}
+
+	.price-slider .slide .btn-enroll {
+		display: block;
+	}
+
+	.rewievs-slider .slide {
+		display: block;
+		height: auto;
+	}
+
+	.rewievs-slider .slide .img {
+		width: 98px;
+		height: 98px;
+		margin: 0 auto;
+	}
+
+	.rewievs-slider .slick-next,
+	.rewievs-slider .slick-prev {
+		display: none;
+	}
+
+	.rewievs-slider .slides .slide:last-child {
+		display: none;
+	}
+
+	.auto-hotel-bg {
+		padding-bottom: 0;
+	}
+
+	.contacts .address {
+		width: 100%;
+	}
+
+	.footer-logo,
+	.contacts .address .footer-tel {
+		text-align: center;
+	}
+
+	.contacts .more-info {
+		width: 100%;
+	}
+
+	.container-bg {
+		padding-bottom: 0;
+	}
+
+	.specialists-slider .specialist {
+		padding: 20px 0px 0 0px;
+	}
+
+	.specialists-slider .specialist .info {
+		width: 100%;
+		text-align: center;
+	}
+
+	.specialists-slider .specialist .text {
+		width: 60%;
+	}
+
+	.services-content {
+		margin: 0;
+	}
+
+	.cars-list .item {
+		width: 50%;
+		text-align: center;
+	}
+
+	.portfolio-spec-car .item {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.voucher .row {
+		align-items: flex-start;
+	}
+
+	.voucher .finished-works-zg, .voucher .finished-works, .voucher .total {
+		width: 30%;
+	}
+
+	.voucher .time-zg, .voucher .price-zg, .voucher .time, .voucher .price, .voucher .total-time, .voucher .total-price {
+		width: 20%;
+	}
+
+	.vector-voucher .voucher {
+		text-align: center;
+	}
+
+	.voucher .row-total {
+		align-items: flex-end;
+	}
+
+	.reviews-content .item .img {
+		width: 100%;
+		text-align: center;
+	}
+
+	.reviews-content .item .text-block,
+	.leave-review-form .input input,
+	.leave-review-form .textarea textarea {
+		width: 100%;
+	}
+
+	.leave-review-form .input, .leave-review-form .textarea {
+		width: 90%;
+	} 
+
+.tipical-text-bg h2 {
+	text-align: center;
+	}
+
+.tipical-text-bg img {
+	float: none;
+	display: block;
+	margin-left: 0;
+	width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+	}
+
+.tipical-text-bg .text p {
+	text-align: center;
+	}
+
+}

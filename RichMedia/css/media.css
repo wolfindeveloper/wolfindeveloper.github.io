@@ -1,0 +1,446 @@
+@media screen and (max-width:1700px){
+	.section3 .uslugi-block {
+		margin-top: 35px;
+	}
+}
+
+@media screen and (max-width:1600px){
+	.line {
+		width: 3%;
+	}
+
+	.head .burger {
+		margin-right: 3%;
+	}
+
+	.section1 .content {
+		padding-bottom: 5%;
+	}
+
+	.tab {
+		padding-top: 0;
+	}
+
+	.tabs_item {
+		padding: 15px 0;
+	}
+
+	.section3 .uslugi-block .uslugi-info {
+		width: 53%;
+	}
+
+	.section3 .uslugi-block .uslugi-info .text {
+		width: 100%;
+	}
+
+	.section3 .uslugi-block .uslugi-info .img-block {
+		display: none;
+	}
+}
+
+@media screen and (max-width:1500px){
+	.head h1 {
+		font-size: 35px;
+	}
+
+	.section1 .works-list {
+		margin-left: 10%;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+	}
+
+	.line {
+		display: none;
+	}
+
+	.section2 .advantages .item {
+		margin-top: 50px;
+		padding: 0 45px 50px 45px;
+	}
+
+	.section5 .order-form {
+		width: 350px;
+		right: 12%;
+		height: 65%;
+	}
+
+		.section3 .uslugi-block .uslugi-info .text {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:1366px){
+	.section1 .works-list {
+		margin-left: 5%;
+	}
+
+	.head .menu li a,
+	.head .communications {
+		font-size: 16px;
+	}
+
+	.section .content h2 {
+		padding-top: 120px;
+	}
+}
+
+@media screen and (max-width:1279px){
+	h1 {
+		font-size: 25px;
+	}
+
+	.section1 .content {
+		padding-left: 20px;
+		align-items: flex-start;
+		padding-top: 150px;
+	}
+
+	.head {
+		padding: 30px;
+	}
+
+	.section .social {
+		left: 30px;
+	}
+
+	.head .menu li a, .head .communications {
+		font-size: 15px;
+	}
+
+	.head .communications .mail {
+		margin-right: 30px;
+	}
+
+	.head .communications .mail img {
+		margin-right: 10px;
+	}
+
+	.head .menu li {
+		margin: 0 10px;
+	}
+
+	.section1 .works-list .item {
+		width: 170px;
+		height: 170px;
+	}
+
+	.section1 .works-list {
+		margin-left: 15px;
+		justify-content: space-around;
+	}
+
+	.section1 .works-list .item {
+		padding-top: 25px;
+	}
+
+	.section1 .order-call-block {
+		margin-top: 0;
+	}
+
+	.section1 {
+		background-size: inherit;
+	}
+
+	.section1 .order-call-block .order-cal-btn {
+		margin-top: 70px;
+	}
+
+	.section2 .advantages {
+		width: 80%;
+	}
+
+	.section3 .uslugi-block .uslugi-info {
+		height: 380px;
+		overflow-y: auto;
+	}
+
+	.section5 .contacts .contacts-block {
+		margin-left: 18%;
+	}
+
+	.section5 .contacts .contacts-block .item {
+		margin-right: 50px;
+	}
+
+	.section5 .order-form {
+		right: 0;
+	}
+	.section5 .order-form {
+		font-size: 16px;
+	}
+
+	.section5 .copyright {
+		left: 10%;
+	}
+}
+
+@media screen and (max-width:992px){
+	.mobile-header {
+		display: block;
+	    position: fixed;
+	  }
+
+	.head {
+		display: none;
+	}
+
+	.mobile-logo {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+	}
+
+	.mobile-logo p {
+		font-size: 25px;
+	}
+
+	.mobile-logo p i:first-child {
+	color: #ffffff;
+}
+
+.mobile-logo p i:last-child {
+	color: #eb233f;
+}
+
+.mobile-logo p i:first-child.grey {
+	color: #333333;
+}
+
+.fp-tableCell {
+	height: auto!important;
+}
+
+.section {
+	height: auto!important;
+}
+
+.section .social {
+	display: none;
+}
+
+.section1 .content {
+	flex-wrap: wrap;
+}
+
+.section1 .order-call-block {
+	width: 100%;
+	text-align: center;
+	margin-left: 0;
+}
+
+.section1 .order-call-block .order-cal-btn {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+
+.section1 .works-list {
+	margin: 20px auto;
+}
+
+.section .content h2 {
+	padding-top: 0;
+}
+
+.section3 .uslugi-block {
+	margin: 40px auto;
+}
+
+.section3 .uslugi-block .item {
+	margin: 0 auto;
+}
+
+.section3 .uslugi-block .uslugi-info {
+	background-color: rgb(74, 11, 64);
+}
+
+.section .uslugi .close {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.section3 .uslugi-block .uslugi-info.active {
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+} 
+
+.section .content {
+	padding: 90px 0;
+}
+
+.section5 .contacts .contacts-block {
+	margin: 20px auto;
+	width: 100%;
+	justify-content: center;
+}
+
+.section5 .contacts .contacts-block .item {
+	margin-right: 0;
+	margin: 0 auto;
+}
+
+.section5 .order-form {
+	position: static;
+	margin: 20px auto;
+	padding-bottom: 15px;
+}
+
+.section5 .copyright {
+	position: static;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.section5 h2 {
+	margin-bottom: 20px;
+}
+
+
+}
+
+@media screen and (max-width:767px){
+	.section1 .order-call-block .caption {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	.section {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.section .content {
+		padding: 60px 0 40px 0;
+	}
+
+	.section1 .content {
+		padding: 60px 0 100px 0;
+	}
+
+	.section2 .advantages {
+		margin-top: 40px;
+		width: 100%;
+	}
+
+	.section2 .advantages .item {
+		padding: 0;
+		align-self: stretch;
+		margin: 0;
+		padding: 0 10px;
+		width: 33%;
+		height: 150px;
+	}
+
+	.section2 .advantages .item img {
+		height: 40%;
+	}
+
+	.section2 .advantages .item .text {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.section2 .advantages .item2 {
+		border: none;
+	}
+
+	.section3 .uslugi-block .uslugi-info  {
+		padding-top: 60px;
+	}
+
+	.tabs {
+		flex-wrap: wrap;
+	}
+
+	.tabs li {
+		line-height: 30px;
+	} 
+
+	.section4 .cays .btns-block {
+		flex-wrap: wrap;
+	}
+
+	.section4 .cays .order-all-cays,
+	.section4 .cays .order-call-cays {
+		width: 100%;
+		margin: 15px auto;
+	}
+
+	.section5 .contacts .contacts-block .item {
+		text-align: center;
+	}
+
+	.section5 .contacts .contacts-block .item img {
+		height: 100px;
+		margin: 0 auto;
+	}
+
+	.section5 .contacts .contacts-block .text, .section5 .contacts .contacts-block .text a {
+		font-size: 18px;
+	}
+
+	.nonebox .order-form {
+		width: 300px;
+		padding: 20px;
+	}
+
+}
+
+@media screen and (max-width:420px){
+	.section1 .order-call-block .order-cal-btn {
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	.section1 .works-list .item {
+		width: 140px;
+		height: 160px;
+	}
+
+	.section1 .works-list .item .text {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.section3 .uslugi-block .item {
+		width: 100%;
+	}
+
+	.section2 .advantages .item {
+		width: 100%;
+	}
+
+	.advantages-info {
+		flex-wrap: wrap;
+	}
+
+	.section4 .cays {
+		width: 100%;
+	}
+
+	.section5 .order-form {
+		width: 100%;
+	}
+
+	.section3 .uslugi-block .uslugi-info .text {
+		font-size: 16px;
+	}
+
+	.section3 .uslugi-block .item i {
+		margin-left: 20px;
+	}
+
+	.section5 .order-form {
+		padding: 20px;
+	}
+}

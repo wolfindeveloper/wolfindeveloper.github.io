@@ -1,0 +1,549 @@
+@media screen and (max-width: 1100px){
+	.container {
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	.footer-info-text,
+	.footer-info-contacts,
+	.content,
+	.search-content,
+	.form-lk .input-block,
+	.tab-left,
+	.tabs ul,
+	.search-page-news .text-block {
+		width: 100%;
+	}
+
+	.header-group .logo {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.nav-menu {
+		padding: 0;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer div, .footer a {
+		margin: 10px;
+	}
+
+	.footer-bg {
+		padding: 10px 0;
+	}
+
+	.form-lk2 .input {
+		width: 290px;
+	}
+
+	.search-page-news .item {
+		justify-content: center;
+	}
+
+	.search-page-news .text-block {
+		text-align: center;
+	}
+
+	.search-form .input-search {
+		margin: 0 auto;
+	}
+
+	.search-page-news .date {
+		margin-top: 10px;
+	}
+
+	.error {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 767px) {
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+
+.news-page .item .text-block,
+.last-news-index .item,
+.rubriki-news .item .text-block,
+.news-page .sort {
+	width: 100%;
+}
+
+body {
+	padding-top: 50px;
+}
+
+header,
+.banner-head {
+	display: none;
+}
+
+.mobile-headerr {
+    position: fixed;
+  }
+
+  .mobile-header {
+  	display: block;
+  }
+
+  .mobile-logo {
+  	position: absolute;
+  	top: 12px;
+  	left: 12px;
+  	width: 160px;
+  }
+
+  .slider .slide .text a,
+  .golosovania-content .item .zg {
+  	font-size: 16px;
+  }
+
+  .last-news-index .item {
+  	align-items: center;
+  }
+
+  .last-news-index .item figure {
+  	margin-right: 5px;
+  }
+
+  .last-news-index .item .news-info {
+  	margin-left: 5px;
+  }
+
+  .latest-news-index .item .date-index,
+  .latest-news-index .item .zg {
+	margin: 10px 0;
+  }
+
+  .rubriki-news .item figure,
+  .news-page figure  {
+  	margin: 10px auto;
+  }
+
+  .rubriki-news .item .text-block,
+  .news-page .item .text-block,
+  .form-lk h2,
+  .error .text-block {
+  	text-align: center;
+  }
+
+  .rubriki-news .item .assessments,
+  .news-page .sort,
+  .last-news-index .item {
+  	justify-content: center;
+  }
+
+  .form-lk .input-block .input,
+  .news-page h2,
+  .similar-news .item {
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .similar-news .item {
+  	width: 210px;
+  }
+
+  .nonebox {
+  	width: 300px;
+  }
+
+  .nonebox .form .input,
+  .nonebox .form .submit {
+  	width: 270px;
+  }
+
+  .nonebox .form {
+  	max-height: 90vh;
+  	overflow-y: auto;
+  }
+
+  .form-registration .rubriki-check-form [type="checkbox"]:not(:checked) + label:before,
+.form-registration .rubriki-check-form [type="checkbox"]:checked + label:before {
+	left: 45px;
+}
+
+.form-registration .rubriki-check-form [type="checkbox"]:not(:checked) + label:after,
+.form-registration .rubriki-check-form [type="checkbox"]:checked + label:after {
+	left: 47px;
+}
+}
+
+@media screen and (max-width: 551px) {
+	.mobile-hide,
+	.last-news-index .item figure,
+	.text-news-index,
+	.last-news-index-content .header,
+	.slider2 figure,
+	.video-index-content,
+	.footer-info-text,
+	.footer a.row,
+	.footer div.row,
+	.download-more,
+	.rubrika-text,
+	.one-news-video-block,
+	.one-news-tags,
+	.one-news-share {
+		display: none;
+	}
+
+	.rubriki-news .item figure,
+	.last-news-index .item .news-info,
+	.one-news-page .one-news-info,
+	.mobile-baner,
+	.footer-info-contacts .social,
+	.rubriki-news .item figure,
+	.news-page figure,
+	.news-page .item .social,
+	.news-page-footer .assessments,
+	.one-news-page-block .img-text,
+	.similar-news .item figure,
+	.similar-news .item,
+	.search-form .input-search,
+	.search-page-news .item figure {
+		width: 100%;
+	}
+
+	.rubriki-news .item figure {
+		height: 197px;
+	}
+
+	.mobile-block {
+		visibility: visible;
+		z-index: initial;
+	}
+
+	.full-version {
+		display: block;
+	}
+
+	.rubrika-mobile {
+		float: right;
+	}
+
+	.social-zg,
+	.news-social-zg {
+		text-align: center;
+	}
+
+	.last-news-index .item {
+		margin: 0 auto;
+		padding: 16px 0 12px 0;
+		border-bottom: 1px solid rgb(247, 247, 247);
+	}
+
+	.last-news-index .item:last-child {
+		border-bottom: none;
+	}
+
+
+	.slider2 {
+		box-shadow: 0 0 7px 1px rgba(32, 32, 32, 0.1);
+		margin-bottom: 0;
+	}
+
+	.slider2.slick-dotted.slick-slider,
+	.slider.slick-dotted.slick-slider {
+		margin-bottom: 0;
+	}
+
+	.last-news-index {
+		margin-top: 0;
+	}
+
+	h5 {
+		font-size: 12px;
+	}
+
+	h3, h3 a {
+		font-size: 14px;
+	}
+
+	.mobile-baner {
+		text-align: center;
+		margin: 0 auto;
+		height: 290px;
+		margin-bottom: 10px;
+	}
+
+	.content {
+		padding-bottom: 0;
+	}
+
+	.footer-info-contacts .row {
+		width: 220px;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-info-contacts .row .text {
+		width: auto;
+	}
+
+	.footer-info-contacts p {
+		margin-left: 5px;
+		font-size: 12px;
+	}
+
+	.footer a.row,
+	.footer div.row {
+		display: none;
+	}
+
+	.indentation {
+		padding: 26px 5px;
+	}
+
+	.rubriki-news .item .text-block,
+	.news-page .item .text-block,
+	.form-lk h2,
+	.error .text-block {
+		text-align: left;
+	}
+
+	.rubriki-news .item .assessments,
+	.news-page .sort,
+	.last-news-index .item {
+		justify-content: flex-start;
+	}
+
+	.rubriki-news-date {
+		font-size: 12px;
+	}
+
+	.rubriki-news .item .text {
+		font-size: 14px;
+	}
+
+	.rubriki-news .item figure,
+	.news-page figure {
+		height: 197px;
+	}
+
+	.form-lk .input-block .input,
+	.news-page h2,
+	.similar-news .item {
+		margin-left: 0;
+	}
+
+	.news-page .item {
+		padding-top: 0;
+	}
+
+	.news-page .sort .zg {
+		font-size: 13px;
+	}
+
+	.news-page .item .social {
+		order: 1;
+		justify-content: flex-end;
+	}
+
+	.news-page .item .social a {
+		width: 29px;
+		height: 29px;
+	}
+
+	.news-page-footer .assessments {
+		justify-content: flex-start;
+		margin-top: 12px;
+	}
+
+	.news-mobile-block {
+		margin-right: auto;
+		font-size: 12px;
+		color: rgb(0, 0, 0);
+	}
+
+	.plain-select {
+		width: 135px;
+	}
+
+	.plain-select select {
+		font-size: 11px;
+	}
+
+	.plain-select:after {
+		right: 5px;
+	}
+
+	.one-news-page-block .zg {
+		text-align: left;
+		font-size: 16px;
+	}
+
+	.one-news-page .one-news-info {
+		margin: 10px 0;
+	}
+
+	.one-news-page-block .img-text {
+		float: none;
+	}
+
+	table {
+		display: block;
+		width: 100%;
+		overflow: auto;
+	}
+
+	table thead th,
+	table tbody td {
+		padding: 10px 5px;
+		font-size: 12px;
+	}
+
+	.one-news-page-content .assessments {
+		order: 0;
+	}
+
+		.one-news-page-content .social {
+		order: 1;
+	}
+
+	.one-news-page-content .social a {
+		width: 29px;
+		height: 29px;
+	}
+
+	.one-news-btns div {
+		width: 140px;
+		padding: 0;
+	}
+
+	.one-news-btns div a {
+		font-size: 12px;
+	}
+
+	.similar-news .item .info,
+	.similar-news .item .zg a {
+		font-size: 12px;
+	}
+
+	.similar-news .item {
+		margin: 5px 0;
+	}
+
+	.conkurs-page-content figure {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.search-page-news .text-block {
+		text-align: left;
+	}
+
+	.search-page-news .date {
+		font-size: 12px;
+	}
+
+	.golosovania-content .one-news-share {
+		display: flex;
+	}
+
+	.golosovania-content .social a {
+		width: 29px;
+		height: 29px;
+	}
+
+	.form-lk .input-block .input {
+		margin: 12px auto;
+	}
+
+	.error .text-block {
+		text-align: center;
+		width: 100%;
+	}
+
+	.error .zg {
+		font-size: 20px;
+	}
+
+	.error .text {
+		font-size: 13px;
+	}
+
+	.error .link a {
+		font-size: 14px;
+	}
+
+	.golosovania-content .item .zg {
+		font-size: 14px;
+	}
+
+	input[type="radio"] + label {
+		font-size: 13px;
+	}
+
+	.text-page .img-block figure {
+		margin: 10px auto;
+	}
+
+	.photo-video-block .item {
+		margin: 20px auto;
+	}
+
+	.tabs ul {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.tabs ul li {
+		width: 100%;
+	}
+
+	.form-lk2 {
+		padding: 5px;
+	}
+
+	.form-lk2 .input {
+		margin: 15px auto;
+	}
+
+	.input-block .item {
+		width: 100%;
+	}
+
+	.form-lk2 .ava {
+		justify-content: center;
+	}
+
+	.form-lk2 .ava figure {
+		width: 90px;
+		height: 90px;
+	}
+
+	.news-lk2 {
+		padding: 5px;
+	}
+
+	.footer-info-contacts .social {
+		width: auto;
+	}
+
+	.rubriki .download-more {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.rubriki .social a {
+		width: 29px;
+		height: 29px;
+	}
+}

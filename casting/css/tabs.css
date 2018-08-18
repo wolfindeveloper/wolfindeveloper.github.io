@@ -1,0 +1,614 @@
+.tabs{
+  /*display:inline-block;*/
+}
+.tabs > div{
+  padding-top:10px;
+}
+.tabs ul{
+  margin:0px;
+  padding:0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs ul:after{
+  content:"";
+  display:block;
+  clear:both;
+  height:5px;
+/*  background:#46c765;*/
+}
+
+
+
+.tabs ul li{
+  width: 85px;
+  height: 85px;
+  margin:0px;
+  padding:0px;
+  cursor:pointer;
+  display:block;
+  padding:10px 10px;
+  background:transparent;
+  color:#707070;
+  border: 1px solid #f47200;
+  border-radius: 50%;
+}
+
+.tabs ul li p {
+    border: 1px solid #f47200;
+    border-radius: 50%;
+    background: transparent;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    font-family: 'AABebasNeue';
+    font-size: 25px;
+    line-height: 61px;
+    color: #343434;
+}
+
+.tabs ul li.active, .tabs ul li.active:hover{
+  background-color: #f47200;
+  border: 1px solid #f47200;
+  color:#fff;
+}
+
+.tabs ul  p.active, .tabs ul  p.active:hover {
+  background-color: #f47200;
+  color: #ffffff;
+}
+
+.tabs ul {
+  margin-top: 150px;
+  background: url(../img/reg-bg.png) no-repeat;
+  background-size: cover;
+}
+
+.tabs1 h1,
+.tabs2 h1,
+.tabs3 h1,
+.tabs4 h1 {
+  position: absolute;
+  top: 10%;
+}
+
+
+.form-bg {
+  background: url(../img/form-bg-copy.png) no-repeat;
+  background-position: right bottom;
+  height: 935px;
+ 
+}
+
+/*_______________1___________________*/
+
+.form-tab1 {
+  width: 62%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.form-tab1 input,
+.form-tab1 label,
+.form-tab1 select {
+  display: block;
+}
+
+.form-tab1 label {
+  font-family: 'AABebasNeue';
+  font-size: 25px;
+  color: #343434;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-tab1 label span {
+  color: #fe0000;
+  margin-left: 5px;
+}
+
+.form-tab1 .form-right {
+  margin-left: 20px;
+}
+
+.form-tab1 input,
+.form-tab1 label, 
+.form-tab1 select {
+  width: 385px;
+  height: 46px;
+}
+
+.form-tab1 input,
+.form-tab1 select {
+  padding-left: 15px;
+    border: 2px solid #e6e6e6;
+  background-color: #ffffff;
+  outline: none;
+  color: #959595;
+}
+
+.form-tab1-btns {
+  display: flex;
+  margin: 50px auto;
+}
+
+.form-tab1-btns input{
+  width: 138px;
+  height: 46px;
+  text-align: center;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.form-tab1-btns input[type="reset"] {
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #a4a4a4;
+  margin-right: 5px;
+}
+
+.form-tab1-btns input[type="submit"] {
+  border: none;
+  background-color: #f47200;
+  border-radius: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+/*_______________2________________*/
+
+.tabs2 .download {
+  width: 385px;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 5px;
+  background-color: #f47200;
+  margin: 10px 0;
+
+} 
+
+.tabs2 .download img {
+  vertical-align: middle;
+}
+
+.tabs2 .download span {
+  padding-left: 10px;
+  line-height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.file,
+.file2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.file p,
+.file2 p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 385px;
+  height: 46px;
+  border: 2px solid #e6e6e6;
+  background-color: #ffffff;
+  padding: 0 5px;
+} 
+
+.file p:last-child {
+  margin-left: 5px;
+}
+
+.file2 p:last-child {
+  margin-left: 5px;
+}
+
+
+
+
+/*_______________3____________________*/
+
+.form-tab3 label {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #959595;
+}
+
+.form-tab3 .body-type,
+.form-tab3 .appearance,
+.form-tab3 .hair-color,
+.form-tab3 .eye-color, 
+.form-tab3 .clothing-size,
+.form-tab3 .shoe-size {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form-tab3 .growth,
+.form-tab3 .weight,
+.form-tab3 .length {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form-tab3 .growth label,
+.form-tab3 .weight label,
+.form-tab3 .length label {
+  width: 15%;
+}
+
+.form-tab3 .body-type label,
+.form-tab3 .appearance label,
+.form-tab3 .hair-color label,
+.form-tab3 .eye-color label,
+.form-tab3 .clothing-size label,
+.form-tab3 .shoe-size label {
+  width: 22%;
+}
+
+.form-tab3 .body-type select,
+.form-tab3 .appearance select,
+.form-tab3 .hair-color select,
+.form-tab3 .eye-color select {
+  width: 50%;
+  height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #959595;
+  border: 2px solid #e6e6e6;
+  background-color: #ffffff;
+} 
+
+.form-tab3 .growth select,
+.form-tab3 .weight select,
+.form-tab3 .length select {
+  width: 28%;
+  height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #959595;
+  border: 2px solid #e6e6e6;
+  background-color: #ffffff;
+  margin: 0 1.6px;
+}
+
+.form-tab3 .clothing-size input,
+.form-tab3 .shoe-size input {
+  width: 24%;
+  height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #959595;
+  border: 2px solid #e6e6e6;
+  background-color: #ffffff;
+  margin: 0 3px;
+  outline: none;
+}
+
+.form-tab3-btns {
+  display: flex;
+  margin: 50px 0 50px 18%;
+}
+
+.form-tab3-btns input{
+  width: 138px;
+  height: 46px;
+  text-align: center;
+  padding-left: 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.form-tab3-btns input[type="reset"] {
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #a4a4a4;
+  margin-right: 5px;
+  background: transparent;
+}
+
+.form-tab3-btns input[type="submit"] {
+  background-color: #f47200;
+  border-radius: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+/*______________4______________*/
+
+.tabs4 p:nth-child(2) {
+  margin-top: 20px;
+}
+
+.tabs4 p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #343434;
+}
+
+.tabs4 a {
+  display: block;
+  width: 138px;
+  height: 46px;
+  line-height: 46px;
+  background-color: #f47200;
+  border-radius: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 47px auto 0;
+}
+
+.form-tab2-btns {
+  margin: 20px auto 20px 19.1%;
+  display: flex;
+}
+
+.form-tab2-btns input[type="reset"] {
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+  background: transparent;
+  text-align: center;
+  width: 138px;
+  height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  color: #a4a4a4;
+  text-transform: uppercase;
+}
+
+.form-tab2-btns input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  background-color: #f47200;
+  text-align: center;
+  width: 138px;
+  height: 46px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 1%;
+}
+
+@media only screen and (max-width:1311px) {
+  .form-bg {
+    background-size:45%;
+  }
+
+  .form-tab1 {
+    width: 100%;
+  }
+
+  .form-tab3 .body-type, .form-tab3 .appearance, .form-tab3 .hair-color, .form-tab3 .eye-color, .form-tab3 .clothing-size, .form-tab3 .shoe-size {
+    width: 60%;
+  }
+
+  .form-tab3 .growth, .form-tab3 .weight, .form-tab3 .length {
+    width: 60%;
+  }
+
+    .form-tab2-btns {
+  margin: 20px auto 20px 26.1%;
+}
+
+.form-tab3-btns {
+      margin: 50px 0 50px 28%;
+}
+}
+
+@media only screen and (max-width:992px) {
+  .tabs1 h1, .tabs2 h1, .tabs3 h1, .tabs4 h1 {
+    top: 15%;
+  }
+
+  .tabs ul li {
+    width: 65px;
+    height: 65px;
+  }
+
+  .tabs ul li p {
+    width: 44px;
+    height: 44px;
+    font-size: 19px;
+    line-height: 45px;
+  }
+
+  .form-tab1 {
+    justify-content: space-between;
+  }
+
+  .form-left {
+    width: 48%;
+  }
+
+  .form-right {
+    width: 48%;
+  }
+
+  .form-tab1 .form-right {
+    margin-left: 0;
+  }
+
+  .form-tab1 input, .form-tab1 label, .form-tab1 select {
+    width: 360px;
+  }
+
+  .form-tab1-btns input[type="reset"] {
+    width: 138px;
+  }
+
+  .form-tab1-btns input[type="submit"] {
+    width: 138px;
+  }
+
+  .form-tab2-btns {
+  margin: 20px auto 20px 30.5%;
+}
+
+
+  .form-bg {
+    background-size: 25%;
+  }
+
+  .form-tab3 .body-type, .form-tab3 .appearance, .form-tab3 .hair-color, .form-tab3 .eye-color, .form-tab3 .clothing-size, .form-tab3 .shoe-size {
+    width: 100%;
+  }
+
+  .form-tab3 .growth, .form-tab3 .weight, .form-tab3 .length {
+    width: 100%;
+  }
+
+  .form-tab3 {
+    padding-left: 20%;
+  }
+
+  .form-tab3-btns {
+        margin: 50px 0 50px 22%;
+  }
+
+  .tabs-bg span {
+    font-size: 12px;
+  } 
+
+  .tabs4 p:nth-child(2) {
+    text-align: center;
+  }
+
+  .tabs4 p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .tabs-bg span {
+    display: none;
+  }
+
+  .tabs1 h1, .tabs2 h1, .tabs3 h1, .tabs4 h1 {
+    top: 14%;
+    left: 0;
+  }
+
+  .form-left {
+    width: 100%;
+  }
+
+  .form-right {
+    width: 100%;
+  }
+
+  .form-tab1 input, .form-tab1 label, .form-tab1 select {
+    width: 90%;
+  }
+
+  .form-bg {
+    height: auto;
+    background: none;
+  }
+
+  .tabs2 .download {
+    width: 100%;
+  }
+
+  .tabs2 h1 {
+    top: 29%;
+    left: 0;
+  }
+
+  .tabs3 h1 {
+    top: 22%;
+    left: 0;
+  }
+
+  .tabs4 h1 {
+    top: 31%;
+  }
+
+  .fileload {
+    padding-bottom: 50px;
+  }
+
+  .form-tab3 .body-type, .form-tab3 .appearance, .form-tab3 .hair-color, .form-tab3 .eye-color, .form-tab3 .clothing-size, .form-tab3 .shoe-size {
+    /*display: block;*/
+  }
+
+  .form-tab3 {
+    padding-left: 0;
+  }
+
+  .form-tab3 .body-type label, .form-tab3 .appearance label, .form-tab3 .hair-color label, .form-tab3 .eye-color label, .form-tab3 .clothing-size label, .form-tab3 .shoe-size label {
+    width: 40%;
+  }
+
+  .form-tab3 .growth select, .form-tab3 .weight select, .form-tab3 .length select {
+    width: 36.7%;
+  }
+
+  .form-tab3-btns {
+        margin: 20px auto;
+  }
+
+
+
+  .form-tab2-btns input[type="reset"] {
+    width: 50%;
+  }
+
+  .form-tab2-btns input[type="submit"] {
+    width: 50%;
+  }
+
+  .form-tab3-btns input[type="reset"] {
+    width: 50%;
+  }
+
+  .form-tab3-btns input[type="submit"] {
+    width: 50%;
+  }
+
+        .form-tab2-btns {
+  margin: 20px auto 20px 0;
+}
+
+}

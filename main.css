@@ -1,0 +1,455 @@
+body {
+	overflow-x: hidden;
+	background: rgba(64, 66, 86, 0.23);
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: rgb(224, 224, 224);
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*HEADER*/
+header {
+	padding: 20px;
+	background-color: rgb(81, 81, 81);
+	background-image: linear-gradient(-45deg, rgb(135, 57, 230) 0%, rgb(108, 84, 255) 100%);
+	box-shadow: 10px -3px 20px 5px rgb(81, 81, 81);
+}
+
+header nav ul {
+	position: relative;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	margin: 10px auto;
+}
+
+.logo img:hover {
+	filter: brightness(2);
+}
+
+.menu {
+	width: 100%;
+	justify-content: center;
+} 
+
+.menu li {
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.7s;
+	margin: 0 10px;
+}
+
+.menu li:hover {
+	background: rgba(12, 12, 12, 0.21);
+	border: 1px solid rgb(187, 201, 222);
+}
+
+.menu li:hover a {
+	color: rgb(208, 217, 232);
+}
+
+.menu li a {
+	font-family: 'Boogaloo', cursive;
+	font-size: 28px;
+	color: white;
+}
+/*END-HEADER*/
+/*ABOUT*/
+.about {
+	padding: 50px 0;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+}
+
+.about-list {
+	justify-content: center;
+}
+
+.about-list li {
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.about-list li p {
+	font-family: 'Nosifer', cursive;
+	font-size: 30px;
+	color: rgba(32, 40, 128, 0.7);
+}
+
+.about h2 {
+	font-family: 'Nosifer', cursive;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: rgb(51, 51, 51);
+	text-align: center;
+}
+
+.about .info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.about .info .img {
+	width: 103px;
+	height: 103px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about .info .img,
+.about .info .text {
+	margin: 0 10px;
+}
+
+.about .info .text p {
+	font-family: 'Boogaloo', cursive;
+	font-size: 25px;
+	color: rgb(51, 51, 51);
+}
+
+.about .aboutfooter {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.about .aboutfooter .caption {
+	font-family: 'Nosifer', cursive;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: rgb(51, 51, 51);
+	margin-bottom: 20px;
+}
+
+.about .aboutfooter .skills .text {
+	font-family: 'Boogaloo', cursive;
+	font-size: 18px;
+	line-height: 27px;
+	color: rgb(51, 51, 51);
+}
+
+.about .aboutfooter .technologies .img-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.about .aboutfooter .technologies .img-block .item {
+	width: 80px;
+	height: auto;
+	margin-right: 20px;
+	border: 1px solid rgb(230, 230, 230);
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	align-self: stretch;
+}
+
+.about .aboutfooter .technologies .img-block .item:last-child {
+	margin-right: 0;
+}
+
+/*TABS*/
+.tabs {
+	width: 1000px;
+    display:block;
+    height: auto; 
+    margin: 0 auto;   
+    position: relative;
+}
+.tabs > div{
+    padding-top:10px;
+    display: block;
+}
+
+.tabs-content {
+	padding: 0 10px;
+}
+
+.tabs-content p {
+	font-family: 'Boogaloo', cursive;
+	font-size: 25px;
+	color: rgb(64, 66, 86);
+}
+
+.tabs-content span {
+	height: 140px;
+}
+
+.tabs ul{  
+    margin:0px auto;
+    padding:0px;
+    justify-content: center;
+}
+
+.tabs-list li {
+	width: 33%;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    padding:10px 15px;
+    color:rgba(54, 62, 134, 0.62);
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    color:rgba(54, 62, 134, 1);
+}
+.tabs ul li:hover{
+    color:rgba(54, 62, 134, 1);
+}
+
+.tab-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+/*END-TABS*/
+/*END-ABOUT*/
+
+/*PORTFOLIO*/
+.portfolio {
+	padding: 50px 0;
+	background-color: rgb(81, 81, 81);
+	background-image: linear-gradient(-45deg, rgb(152, 86, 232) 0%, rgb(109, 109, 245) 100%);
+	background-size: cover;
+}
+
+.portfolio h1 {
+	position: relative;
+}
+
+.portfolio-block {
+	justify-content: center;
+}
+
+.portfolio-block article,
+.portfolio-block .tabs .tab-content article {
+	width: 23%;
+	height: 233px;
+	cursor: pointer;
+	margin: 10px;
+	margin-bottom: 100px;
+}
+
+.portfolio-block .tabs .tab-content article {
+	height: auto;
+}
+
+.portfolio-block .tabs .tab-content article {
+	margin: 0 auto;
+}
+
+.portfolio-block article figure,
+.portfolio-block .tabs .tab-content article figure {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 233px;
+	background: url(img/Device.png) no-repeat center;
+}
+
+.portfolio-block .tabs .tab-content article figure {
+	background-size: contain;
+}
+
+.portfolio-block .tabs article figure p {
+	margin-top: 73px;
+}
+
+.portfolio-block article img {
+	width: 258px;
+	height: 145px;
+	margin-top: 10px;
+}
+
+.portfolio-block .tabs .tab-content article img {
+	width: 210px;
+  height: 118px;
+  margin-top: 32px;
+}
+
+.portfolio-block .tabs article {
+	width: 100%;
+}
+
+.item-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background: transparent;
+	margin: 18px auto 0 auto;
+}
+
+.item-text:hover {
+	background-color: rgb(211, 211, 212);
+	    border: 1px solid rgba(211, 211, 212, 0.3);
+	    transition: 0.5s all;
+}
+
+.item-text:hover a {
+	color: rgb(118, 104, 242);
+	transition: 0.5s all;
+}
+
+.item-text a {
+	font-family: 'Permanent Marker', cursive;
+	color: rgb(255, 255, 255);
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+/*END-PORTFOLIO*/
+
+/*FOOTER*/
+footer {
+	background: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 10px -3px 20px 5px rgb(65, 103, 163);
+  position: relative;
+} 
+
+footer .caption {
+	font-family: 'Nosifer', cursive;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: rgb(51, 51, 51);
+	text-align: center;
+}
+
+.contacts {
+	width: 100%;
+	align-self: stretch;
+	justify-content: space-between;
+}
+
+.contact-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25%;
+	margin-top: 40px;
+	outline: none;
+}
+
+.contact-item3 {
+	width: 33%;
+}
+
+.contact-item figure {
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+}
+
+.contact-item a {
+	font-family: 'Boogaloo', cursive;
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.contact-item a:hover {
+	text-decoration: underline;
+}
+
+footer .social {
+	width: 120px;
+	align-self: stretch;
+	flex-wrap: wrap;
+	margin: 20px auto;
+}
+
+footer .social a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	outline: none;
+	text-align: center;
+}
+/*END-FOOTER*/
+
+/* PARTICLEJS */
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, rgb(152, 86, 232) 0%, rgb(109, 109, 245) 100%);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 0;
+} 
+/* PARTICLEJS */

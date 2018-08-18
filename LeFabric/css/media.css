@@ -1,0 +1,342 @@
+@media screen and (max-width:1279px){
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.head {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.nav-menu li a {
+		font-size: 18px;
+	}
+	
+	.slider {
+	width: 100%;
+	}
+
+	.row {
+		justify-content: space-around;
+	}
+
+		.about-us {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	.categories {
+		padding: 0 0 30px 0;
+	}
+
+		.categories .item {
+		margin: 20px 0;
+	}
+
+	.catalog {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.tabs-content .item {
+		margin: 10px 0;
+	}
+
+	.about-us .item {
+		margin: 15px 0;
+	}
+
+	.footer .logo {
+		width: 30%;
+		order: 0;
+	}
+
+	.footer .social {
+		width: 30%;
+		order: 1;
+	}
+
+	.footer .contacts {
+		width: 30%;
+		order: 2;
+	}
+
+	.footer .copyright {
+		width: 100%;
+		order: 3;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.footer .contacts .address {
+		text-align: right;
+	}
+
+}
+
+@media screen and (max-width:991px){
+	.head .item1 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+		order: 0;
+	}
+
+	.head .bascet {
+		width: auto;
+		order: 1;
+		margin: 15px 0;
+	}
+
+	.head .search {
+		width: 100%;
+		order: 2;
+	}
+
+	.head .head-info {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		order: 3;
+	}
+
+	.select-open {
+		top: 60px;
+	}
+
+	.nav-menu>li {
+		padding: 0 15px;
+	}
+
+	.prefooter {
+		padding-top: 20px;
+		padding-bottom: 45px;
+	}
+
+	.prefooter .img {
+		/*width: 100%;*/
+		text-align: center;
+		order: 0;
+	}
+
+	.prefooter .text {
+		width: 100%;
+		text-align: center;
+		order: 1;
+		margin-top: 20px;
+	}
+
+	.form p {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.head .bascet,
+	.head .search,
+	.head .head-info {
+		display: none;
+	}
+
+	.head {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.head .item1 {
+		width: 206px;
+		margin-bottom: 0;
+	}
+
+	.nav-menu {
+		flex-direction: column;
+	}
+
+	.dropmenu {
+		text-align: center;
+	}
+
+	.nav-menu>li i {
+		display: none;
+	}
+
+	.sub-menu {
+		position: static;
+	}
+
+	.sub-menu:before {
+		display: none;
+	}
+
+	.sub-menu {
+		box-shadow: none;
+		width: auto;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		background: transparent;
+	}
+
+	.sub-menu li {
+		padding: 0;
+	}
+
+	.nav-menu li {
+		padding: 5px 0;
+	}
+
+	nav {
+		position: absolute;
+		padding: 20px 0;
+		width: 100%;
+		z-index: 999;
+		background-color: rgb(135, 186, 195);
+		display: none;
+	}
+
+	.nav-menu li a {
+		font-size: 20px;
+		font-weight: 400;
+		color: rgb(255, 255, 255);
+	}
+
+	.nav-menu li a:hover {
+		color: initial;
+	}
+
+	.tabs ul {
+		justify-content: space-between;
+	}
+
+	.tabs ul li {
+		padding: 10px 10px;
+	}
+
+	.footer .logo {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.footer .social {
+		width: 36%;
+	}
+
+	.footer .contacts {
+		width: 60%;
+	}
+
+	/*BUTTON-MENU*/
+	.button-menu {
+	display: block;
+	width: 30px;
+	height: 22px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	position: relative;
+	
+}
+
+.button-menu span {
+	text-align: center;
+	height: 3px;
+	width: 100%;
+	background-color: rgb(135, 186, 195);
+	transition: 0.5s all;
+}
+
+.line2-open {
+	display: none;
+}
+
+.button-menu .line1-open {
+	transform: rotate(45deg);
+	position: absolute;
+	bottom: 50%;
+	background-color: rgb(255, 255, 255);
+	z-index: 999999999;
+}
+
+.button-menu .line3-open {
+	transform: rotate(-45deg);
+	position: absolute;
+	bottom: 50%;
+	background-color: rgb(255, 255, 255);
+	z-index: 999999999;
+}
+
+.height {
+	height: 30px;
+	z-index: 99999;
+}
+
+.head-color {
+	background-color: rgb(135, 186, 195);
+}
+	/*BUTTON-MENU*/
+
+			.about-us .item img {
+		margin: 0 auto;
+	}
+
+	.catalog,
+	.prefooter .img {
+		display: none;
+	}
+
+		.form p {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:549px) {
+	.tabs ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.about-us .item img {
+		margin: 0 auto;
+	}
+
+	.about-us {
+		padding-bottom: 0;
+	}
+
+	.footer .social {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.footer .contacts {
+		width: 100%;
+	}
+
+	.footer .contacts .tel,
+	.footer .contacts .address {
+		text-align: center;
+	}
+
+	.nonebox {
+		width: 280px;
+	}
+}
+
+@media screen and (max-width:500px) {
+		.about-us .item p {
+		/*width: 290px;*/
+		margin: 10px auto;
+	}
+
+		.about-us .item img {
+		margin: 0 auto;
+	}
+
+	.about-us {
+		padding-bottom: 0;
+	}
+}

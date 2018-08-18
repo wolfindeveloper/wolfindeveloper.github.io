@@ -1,0 +1,316 @@
+@media screen and (max-width: 1199px) {
+	.aside {
+		/*width: 250px;*/
+	}
+
+	.slider-content {
+		width: 685px;
+	}
+
+	.nav>li:not(.logo) {
+		width: 137px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.slick-dots {
+		bottom: 0px;
+	}
+
+	.useful .useful-nav-tabs > li {
+		width: 215px;
+	}
+
+	.useful-text .nav li a {
+		font-size: 12px;
+	}
+
+	.tired-img {
+		padding: 35px 15px;
+	}
+
+	.know {
+		margin-top: 0;
+	}
+
+	.know .item {
+		text-align: center;
+	}
+
+	.know-text p:last-child {
+		height: auto;
+	}
+
+	.know-text p:first-child {
+		height: auto;
+	}
+
+	.know .item {
+		margin-top: 20px;
+	} 
+
+	.feedback-form form {
+		width: 330px;
+		/*margin: 0 auto;*/
+	}
+
+	.feedback-form {
+		margin-top: 20px;
+	}
+	
+	.themes ul li:nth-child(1) {
+		border-top-right-radius: 10px;
+	}
+
+	.themes ul li:nth-child(3) {
+		border-top-right-radius: 0;
+	}
+
+	.themes ul li:nth-child(4) {
+		border-bottom-left-radius: 0;
+	}
+
+	.themes ul li:nth-child(6) {
+		border-bottom-left-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.logo {
+		width: 100%;
+		background: #5a5a5a;
+	}
+
+	.logo a {
+		float: none;
+	}
+
+	.nav>li>a>img {
+		margin: 0 auto;
+	}
+
+	.content .navbar-form {
+		display: none;
+	}
+
+	.aside {
+		clear: both;
+		width: 100%;
+		    margin-top: 60px;
+	}
+
+	.nav>li:not(.logo) {
+		width: 150px;
+	}
+
+	.aside-menu {
+		clear: both;
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
+
+	.slider-content {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.slick-dots {
+		bottom: 0px;
+	}
+
+	.useful .useful-nav-tabs > li {
+		width: 215px;
+	}
+
+	.useful-text {
+		background: none;
+	}
+
+	.useful-text .nav li a {
+		font-size: 12px;
+	}
+
+	.themes {
+		padding-bottom: 0;
+	}
+
+	.sticky {
+		position: static;
+		height: auto;
+	}
+
+	.stop {
+		position: static;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header.container {
+		height: auto;
+	}
+
+	.slider-content {
+		box-shadow: none;
+	}
+
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		position: static;
+	}
+
+	.content {
+		box-shadow: none;
+	}
+
+	h2 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	ul.flex {
+		display: block;
+	}
+
+	.nav>li:not(.logo) {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.aside-menu {
+		display: block;
+	}
+
+	.slider {
+		display: none;
+	}
+
+	.useful-img img {
+		display: none;
+	}
+
+	.useful {
+		height: 500px;
+	}
+
+	.useful-img {
+		height: 400px;
+		background: url(../img/useful.png) no-repeat;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.useful-text {
+		top: 0;
+	}
+
+	.useful .useful-nav-tabs > li {
+		float: none;
+		width: 280px;
+		margin: 10px auto;
+		/*background: none;*/
+		/*text-align: center;*/
+	}
+
+	.useful-nav-tabs li:nth-child(2) {
+		background-position: 10px 0;
+	}
+
+	.useful-nav-tabs li:nth-child(3) {
+		background-position: 10px 0;
+	} 
+
+		.useful-text .nav li a {
+		font-size: 15px;
+		padding-left: 55px;
+	}
+
+	.useful .nav-tabs {
+		padding-left: 0;
+	}
+
+	.themes {
+		padding: 10px;
+		margin-top: 75px;
+	}
+
+	.themes ul li:nth-child(1) {
+		    border-top-right-radius: 10px;
+	}
+
+	.themes ul li:nth-child(3) {
+	 border-top-right-radius: 0; 
+	}
+
+	.themes ul li:nth-child(4) {
+		border-bottom-left-radius: 0;
+	}
+
+	.themes ul li:nth-child(6) {
+		    border-bottom-left-radius: 10px;
+	}
+
+	.themes-btn {
+		width: 90%;
+	}
+
+	.themes-btn a {
+		font-size: 14px;
+	}
+
+	.tired h2 {
+		font-size: 19px;
+	}
+
+	.tired-text {
+		padding: 0;
+	}
+
+	.tired .zg {
+		font-size: 16px;
+	}
+
+	.tired-img {
+		display: none;
+	}
+
+	.feedback-form {
+		width: 280px;
+	}
+
+	.feedback-form form {
+		width: 280px;
+	}
+
+	.feedback-form form input {
+		width: 260px;
+	}
+
+	.feedback-form form button {
+		width: 260px;
+		margin: 30px 0;
+	}
+
+	footer {
+		padding: 15px;
+	}
+
+	.after-footer {
+		padding: 20px;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		text-align: -webkit-center;
+	}
+
+	.sticky {
+		position: static;
+	}
+
+	.stop {
+		position: static;
+	}
+}
+

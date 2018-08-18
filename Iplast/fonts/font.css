@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Plumb-Light';
+  src: url('Plumb-Light.eot?#iefix') format('embedded-opentype'),  url('Plumb-Light.woff') format('woff'), url('Plumb-Light.ttf')  format('truetype'), url('Plumb-Light.svg#Plumb-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plumb-Regular';
+  src: url('Plumb-Regular.eot?#iefix') format('embedded-opentype'),  url('Plumb-Regular.otf')  format('opentype'),
+	     url('Plumb-Regular.woff') format('woff'), url('Plumb-Regular.ttf')  format('truetype'), url('Plumb-Regular.svg#Plumb-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plumb-Bold';
+  src: url('Plumb-Bold.eot?#iefix') format('embedded-opentype'),  url('Plumb-Bold.otf')  format('opentype'),
+	     url('Plumb-Bold.woff') format('woff'), url('Plumb-Bold.ttf')  format('truetype'), url('Plumb-Bold.svg#Plumb-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

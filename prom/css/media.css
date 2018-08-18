@@ -1,0 +1,375 @@
+@media screen and (max-width: 1100px) {
+	.page-wrapper {
+		width: 90%;
+		box-shadow: none;
+	}
+
+	.logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-menu {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.tel {
+		width: 25%;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.range h1 {
+		font-size: 25px;
+	}
+
+	.range .zg .line {
+		width: 15%;
+	}
+
+	.range-goods {
+		justify-content: space-around;
+	}
+
+	.range-goods-block {
+		width: 35%;
+	}
+
+	.advantages-img {
+		width: 50%;
+		margin: 15px auto;
+	}
+
+	.footer-block .adress {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-block .adress p:first-child {
+		background: none;
+		padding-left: 0;
+	}
+
+	.footer-tel {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.katalog-img figure {
+		width: 40%;
+	}
+
+	.katalog-img-text p {
+		font-size: 15px;
+	}
+
+	.none-mb {
+		display: none;
+	}
+
+	.none {
+		display: block;
+	}
+
+	.costumes-img {
+		order: 1;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.costumes-text {
+		width: 50%;
+	}
+
+	.costumes-img-block figure {
+		width: 40%;
+	}
+
+	.costumes-radio-block {
+		width: 55%;
+		margin: 0 auto;
+	}
+
+	.radio-border p {
+		padding-left: 10%;
+	}
+
+	.costumes .zg .line {
+		width: 30%;
+	}
+
+	.costumes-img-block figure img {
+		margin: 0 auto;
+	}
+
+	.all-products-show {
+		text-align: center;
+	}
+
+	.btn a {
+		font-size: 12px;
+	}
+
+	.card-zag .jacket h1 {
+		font-size: 20px;
+	}
+
+	.card-zag p {
+		font-size: 18px;
+	}
+
+	.description-img-min {
+		width: 67%;
+	}
+
+	.img-min-block {
+		margin: 10px 0;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+.page-wrapper {
+	width: 100%;
+	box-shadow: none;
+}
+
+.container {
+	padding: 0 5px;
+}
+
+.none-mobile {
+	display: none;
+}
+
+.none-desctop {
+	display: block;
+}
+
+.logo {
+	margin-top: 10px;
+} 
+
+	.nav-menu ul a {
+		background: none;
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.tel {
+		width: 100%;
+	}
+
+	.tel p:first-child {
+		background: none;
+	}
+
+	.tel p:first-child:after {
+		width: 50%;
+		margin: 5px auto;
+	}
+
+	h1 {
+		font-size: 14px;
+		line-height: 35px;
+	}
+
+	h2 {
+		font-size: 20px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.crumbs {
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.katalog-img-text p {
+		text-align: center;
+	}
+
+	.security p {
+		text-align: center;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.range h1 {
+		font-size: 20px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.range {
+		margin-top: 20px;
+	}
+
+	.range-goods-block {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.range-goods-btn {
+		justify-content: space-around;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+
+
+	.advantages .zg {
+		display: block;
+	}
+
+	.advantages-img {
+		width: 90%;
+	}
+
+	.advantages-text {
+		text-align: center;
+	}
+
+	.partners {
+		padding: 10px 0;
+	}
+
+.partners .zg {
+	display: block;
+	margin: 10px 0;
+}
+
+.partners-block {
+	padding: 10px 0;
+}
+
+.partners-img {
+	width: 100%;
+	margin: 5px auto;
+	text-align: center;
+} 
+
+.footer-tel p {
+	width: 100%;
+	text-align: center;
+}
+
+.footer-tel-icon {
+	background: none;
+	padding-left: 0;
+	width: 100%;
+}
+
+.katalog-img {
+	width: 100%;
+}
+
+.katalog-img-text p {
+	font-size: 14px;
+}
+
+.range .zg {
+	display: block;
+}
+
+.type-group-blocks, .gender-group-blocks, .cloth-group-blocks, .color-group-blocks {
+	display: block;
+}
+
+.type-group, .gender-group, .cloth-group, .color-group {
+	width: 100%;
+}
+
+.costumes-radio-block {
+	width: 90%;
+}
+
+.radio-border p {
+	padding-bottom: 10px;
+}
+
+.costumes-img {
+	display: block;
+}
+
+.costumes-img-block {
+	width: 90%;
+}
+
+.costumes-text {
+	margin-top: 40px;
+}
+
+.all-products-show {
+	margin: 15px 0;
+}
+
+.costumes-img-block figure {
+	width: 35%;
+}
+
+.description-img {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.description-img-min {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.jacket {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card-zag p {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.card-zag .btn-order {
+	margin: 0 auto;
+}
+
+.details {
+	justify-content: center;
+	margin: 10px auto;
+}
+
+.img-min .img-min-block {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.description-text p:last-child {
+	margin-bottom: 10px;
+}
+
+.box {
+	text-align: center;
+}
+
+.nonebox {
+	width: 90%;
+}
+
+.form3 {
+	width: 100%;
+}
+
+}

@@ -1,0 +1,359 @@
+@media (max-width: 1515px) {
+	table {
+		min-width: 1515px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.head {
+		justify-content: center;
+	}
+
+	.select-block,
+	.infoline {
+		justify-content: center;
+	}
+
+	.select-block .item,
+	.select-block .btn-go,
+	.container-check,
+	.range,
+	.head .logo,
+	.head .info,
+	.head .thanks,
+	.infoline .date-block,
+	.infoline .curs-block,
+	.footer .logo,
+	.footer .info,
+	.footer .thanks {
+		margin: 15px auto;
+	}
+
+	.select-content .more,
+	.range {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.range .caption,
+	.range .range-block {
+		margin: 0 auto;
+	}
+
+	.content-block .item-block .project {
+		padding-left: 20px;
+    	padding-right: 14px;
+	}
+
+	.content-block .item-block .item .green {
+		font-size: 14px;
+	}
+
+	.tab button {
+		font-size: 18px;
+	}
+
+	.content-block .item-block .item .currentprice .zg, .content-block .item-block .item .retutnssinceico .zg {
+		font-size: 13px;
+		padding-left: 0;
+	}
+
+	.footer {
+		justify-content: center;
+	}
+
+	.select-content {
+		position: relative;
+	}
+
+	.select-block .btn-go {
+		position: absolute;
+		bottom: 0;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.content-block .item-block .item {
+		width: 30%;
+	}
+}
+
+@media (max-width: 767px) {
+	header {
+		padding: 0;
+	}
+
+		.content-block .item-block .item {
+		width: 45%;
+	}
+
+	.head .thanks .links p {
+		font-size: 13px;
+	}
+
+	.tab {
+		width: 100%;
+		justify-content: center;
+		order: 1;
+	}
+
+	input[type=text] {
+		position: static;
+	}
+
+	form {
+		margin-left: auto;
+		order: 0;
+	}
+
+	.footer .logo {
+		width: 100%;
+	}
+
+	.content-table,
+	.preview-block {
+		display: none;
+	}
+
+	.content-block {
+		display: block;
+	}
+
+	.head .info,
+	.head .thanks,
+	.select-content {
+		display: none;
+	}
+
+	.content-bg {
+		padding: 0px 0 41px 0
+	}
+
+	/*block*/
+	.content-block .item-block {
+		margin: 0 auto;
+		padding: 0;
+		padding-left: 20px;
+	}
+
+	.content-block .tabcontent .item-block {
+		background-color: transparent;
+		border-radius: 0;
+		padding: 20px;
+	}
+
+	.content-block .item-block .item {
+		width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    border: none;
+	    box-shadow: none;
+	    border-radius: 0;
+	    display: flex;
+	    justify-content: flex-start;
+	    align-items: center;
+	    flex-wrap: wrap;
+	}
+
+	.content-block .item-block .item .top {
+		border: none;
+	}
+
+	.content-block .item-block .item .icons {
+		display: none;
+	}
+
+	.content-block .item-block .item .category,
+	.content-block .item-block .item .update {
+		display: none;
+	}
+
+	.content-block .item-block .item .white-list, 
+	.content-block .item-block .item .kyc {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.content-block .item-block .item .caption {
+		margin-bottom: 0;
+	}
+
+	.content-block .item-block .item .willbeclosed {
+		display: none;
+	}
+
+	.content-block .item-block .item .top,
+	.content-block .item-block .item .bottom {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		padding: 0;
+	}
+
+	.content-block .item-block .item .caption i {
+		display: none;
+	}
+
+	.content-block .item-block .item .peoplesays p {
+		margin: 0;
+	}
+
+	.content-block .item-block .project .caption,
+	.content-block .item-block .project .star-icon {
+		display: none;
+	}
+
+	.content-block .item-block .listingtime {
+		order: 10;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.content-block .item-block .item .currentprice, 
+	.content-block .item-block .item .retutnssinceico,
+	.content-block .item-block .item .score,
+	.content-block .item-block .item .peoplesays {
+		display: none;
+	}
+
+	.content-block .item-block .item .caption {
+		width: 120px;
+		text-align: left;
+	}
+
+	.content-block .item-block .icoprice .zg {
+		margin: 0;
+	}
+
+	.content-block .item-block .item .hardcup .zg, .content-block .item-block .item .personalcup .zg {
+		padding-left: 0;
+	}
+	.content-block .item-block .icoprice .zg {
+		padding-left: 0;
+	}
+
+	.content-block .item-block .listingtime .links {
+		padding-left: 0;
+	}
+
+	.content-block .item-block .none {
+		display: none;
+	}
+
+	.content-block .item-block .listingtime .links p {
+		margin-bottom: 0;
+	}
+
+	.content-block {
+		margin-top: 0;
+	}
+
+	.infoline .date-block,
+	.infoline .curs-block {
+		margin: 3px auto;
+		text-align: center;
+	}
+
+	.infoline .curs-block p {
+		margin-right: 10px;
+	}
+
+	.infoline .mobilesocial p {
+		margin-right: 0;
+	}
+
+	.head .logo {
+		width: 30%;
+	}
+
+	.content-block .item-block .item .hardcup .zg, .content-block .item-block .item .personalcup .zg {
+		font-size: 16px;
+		font-family: 'ProximaNova-Regular';
+		color: black;
+	}
+
+	.content-block .item-block .item .hardcup .zg span, .content-block .item-block .item .personalcup .zg span {
+		color: black;
+	}
+
+	.content-block .item-block .icoprice .zg {
+		font-family: 'ProximaNova-Regular';
+		color: black;
+	}
+
+	.content-block .item-block .icoprice .zg span {
+		color: black;
+	}
+
+	.content-block .item-block .item .name-block {
+		margin-bottom: 10px;
+	}
+
+	.content-block .item-block .project .name, table .project .name {
+		font-family: 'ProximaNova-Bold';
+		font-size: 18px;
+	}
+
+	.content-block .item-block .item .caption {
+		margin-bottom: 5px;
+	}
+
+	.tab button span {
+		display: block;
+		font-size: 15px;
+	}
+
+	.curs-block {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.mobilesocial {
+		display: flex;
+		margin-left: auto;
+	}
+
+	.infoline .date-block, .infoline .curs-block {
+		margin: 0;
+		width: 100%;
+		text-align: left;
+	}
+
+	.infoline {
+		justify-content: flex-start;
+	}
+	/*block*/
+}
+
+@media (max-width: 600px) {
+	.content-block .item-block .item {
+		width: 100%;
+	}
+
+	.range {
+		width: 100%;
+	}
+
+	.range .range-block {
+		width: 100%;
+	}
+
+	input[type=range] {
+		width: 100%;
+	}
+
+	.head .thanks .links a {
+		font-size: 12px;
+	}
+}

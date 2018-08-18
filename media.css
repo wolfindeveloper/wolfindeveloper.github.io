@@ -1,0 +1,231 @@
+@media screen and (max-width: 1024px) { 
+	.tabs {
+		width: 100%;
+	}
+
+	.about {
+		padding: 50px;
+	}
+
+	.tab-content .flex {
+		justify-content: space-around;
+	}
+
+	.tab-content .flex span {
+		margin: 10px;
+	}
+
+	.about .info .text {
+		text-align: center;
+} 
+
+	.about .aboutfooter {
+		flex-wrap: wrap;
+	}
+
+	.about .aboutfooter .skills {
+		width: 100%;
+		text-align: center;
+	}
+
+	.about .aboutfooter .technologies {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+ }
+
+  @media screen and (max-width: 992px) {
+	.logo {
+		margin: 10px auto;
+	}
+
+  .menu {
+		width: 100%;
+		justify-content: center
+  }
+
+  .menu li {
+  	margin: 0 10px;
+  }
+
+  .about h2 {
+  	font-size: 20px;
+  }
+
+  .about .info .text p {
+  	font-size: 15px;
+  }
+
+  .about .aboutfooter {
+  	margin-top: 20px;
+  }
+
+	.portfolio-block .tabs .tab-content article figure {
+		width: 150px;
+		height: 150px;
+		background-size: contain;
+		margin: 0 auto;
+	}
+
+	.portfolio-block article figure {
+		width: 200px;
+		background-size: contain;
+	}
+
+	.portfolio-block .tabs .tab-content article img {
+		width: 92%;
+	  height: auto;
+    margin-top: 18px;
+	}
+
+	.portfolio-block article,
+	.portfolio-block .tabs .tab-content article {
+	margin-bottom: 0;
+	}
+
+	.item-text {
+		width: 100%;
+	}
+
+	.about .aboutfooter .caption {
+		font-size: 15px;
+	}
+ }
+
+
+ @media screen and (max-width: 768px) {
+	.menu {
+		width: 60%;
+	}
+
+	.about .aboutfooter .technologies .img-block .item {
+		width: 50px;
+		padding: 5px;
+		margin: 10px auto;
+	}
+
+	.about .aboutfooter .technologies .img-block .item:last-child {
+	margin-right: auto;
+}
+
+	.tabs-list li {
+		width: auto;
+	}
+
+	.portfolio-block article {
+		width: auto;
+	}
+
+	.portfolio-block article figure {
+		width: 150px;
+		background-size: contain;
+	}
+
+	.portfolio-block .tabs article figure p {
+		font-size: 12px;
+		margin-top: 90px;
+	}
+
+	.portfolio-block .tabs .tab-content article figure {
+		width: 130px;
+	}
+
+	.portfolio-block .tabs .tab-content article img {
+		margin-top: 27px;
+	}
+
+	h1 {
+		margin-bottom: 0;
+	}
+ }
+
+ @media screen and (max-width: 650px) {
+	.contact-item3 {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+
+	.menu {
+		width: 100%;
+	}
+
+	.portfolio-block .tabs .tab-content article {
+		width: 30%;
+		height: auto;
+	}
+
+	.portfolio-block .tabs article {
+		width: 100px;
+	}
+
+	.portfolio-block article figure {
+		width: 100%;
+	}
+
+	.portfolio-block article, .portfolio-block .tabs .tab-content article {
+		margin: auto;
+	}
+
+	.portfolio-block .tabs .tab-content article figure {
+		width: 85px;
+		height: 100px;
+	}
+
+	.portfolio-block .tabs .tab-content article img {
+		margin-top: 19px;
+	}
+
+	.item-text a {
+		font-size: 10px;
+	}
+ }
+
+  @media screen and (max-width: 450px) {
+	header {
+		padding: 10px;
+	}
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.menu li {
+		width: 80px;
+		height: 80px;
+	}
+
+	.menu li a {
+		font-size: 20px;
+	}
+
+	footer {
+		padding: 10px;
+	}
+
+	.tabs-list li {
+		width: 70px;
+		padding: 0;
+		margin: 10px;
+	}
+
+	.portfolio-block .tabs article {
+		width: 100%;
+		height: 100px;
+	}
+
+	.portfolio-block article figure {
+		height: 100px;
+	}
+
+	.portfolio-block .tabs article figure p {
+		margin-top: 30px;
+		font-size: 10px;
+	}
+
+}

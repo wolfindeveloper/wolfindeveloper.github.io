@@ -1,0 +1,359 @@
+@media only screen and (max-width : 1379px) {
+	.head .logo,
+	.nav-menu,
+	.footer .copy {
+		margin-right: 0;
+	}
+
+	.bg-white {
+		width: 60%;
+	}
+
+	.bg-red {
+		width: 35%;
+	}
+
+	.form {
+	height: 90vh;
+	overflow-y: auto;
+}
+
+}
+
+@media only screen and (max-width : 1279px) {
+	.container {
+		width: 950px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	.img-header-top,
+	.img-footer-bottom {
+		display: none;
+	}
+
+	.bg-white,
+	.bg-red {
+		width: 50%;
+	}
+
+	.logo,
+	.nav-menu {
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-menu  li {
+		padding: 15px 30px;
+	}
+
+	.nav-menu  li:hover {
+		box-shadow: inset 0px -4px 0px 0px red;
+	}
+
+	.header-content-img {
+		bottom: 0%;
+		top: 100px;
+    	left: -20px;
+	}
+
+	.slider-use .slick-next,
+	.certificate-slider .slick-next {
+		right: 0;
+	}
+
+	.slider-use .slick-prev,
+	.certificate-slider .slick-prev {
+		left: 0;
+		z-index: 1;
+	}
+
+	.video-content {
+		align-items: flex-start;
+	}
+
+	.delivery-partner {
+		justify-content: space-around;
+	}
+
+	.delivery-partner .item {
+		width: auto;
+	}
+
+	.slick-slide img {
+		margin: 0 auto;
+	}
+
+	.footer .copy {
+		margin: 0 auto;
+	}
+
+	.footer-links {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+/*MAP*/
+	.city1 {
+   	 	bottom: 130px;
+    	left: 25px;
+	}
+
+	.city2 {
+    	bottom: 200px;
+    	left: 30px;
+	}
+
+	.city3 {
+   	 	bottom: 243px;
+    	left: 62px;
+	}
+
+	.city4 {
+    	bottom: 283px;
+    	left: 78px;
+	}
+
+	.city5 {
+    	bottom: 296px;
+    	left: 103px;
+	}
+
+	.city6 {
+    	top: 109px;
+    	left: 112px;
+	}
+
+	.city7 {
+    	bottom: 266px;
+    	left: 135px;
+	}
+
+	.city8 {
+    	bottom: 220px;
+    	left: 160px;
+}
+
+	.city9 {
+    	bottom: 230px;
+    	left: 220px;
+}
+
+	.city10 {
+    	bottom: 220px;
+    	left: 255px;
+}
+/*MAP*/
+}
+
+@media only screen and (max-width : 991px) {
+	.container {
+		width: 750px;
+	}
+
+	.nav-menu  li {
+		padding: 15px;
+	}
+
+	.header-content-img {
+		display: none;
+	}
+
+	.header-content .row {
+		justify-content: center;
+	}
+
+	.header-content,
+	.use-bg,
+	.delivery-bg,
+	.value-bg,
+	.characteristics-bg,
+	.questions-bg {
+		padding: 50px 0;
+	}
+
+	.video-content .item {
+		width: 30%;
+	}
+
+	.container-map {
+		display: none;
+	}
+
+	.delivery-partner {
+		margin: 40px auto;
+	}
+
+	.value-block .item {
+		width: 45%;
+	}
+	
+	.table .item .cell,
+	.table .item .cell1 {
+		font-size: 16px;
+	}
+
+	.table .item .cell .color {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.container {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+
+	.containers .zg {
+		font-size: 30px;
+	}
+
+	.bg-white,
+	.bg-red,
+	.value-block .item {
+		width: 100%;
+	}
+
+	.nav-menu  li a {
+		font-size: 20px;
+	}
+
+	.bg-red:before {
+		display: none;
+	}
+
+	.bg-red .info {
+		text-align: center;
+		padding-left: 0;
+		width: 100%;
+	}
+
+	.btn {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.video-content .item {
+		width: 100%;
+		margin: 15px 0;
+		justify-content: flex-start;
+		align-items: center;
+		background: transparent;
+	}
+
+	.video-content .item p {
+		margin-left: 5px;
+		color: rgb(0, 0, 0);
+	}
+
+	.video-bg {
+		height: 630px;
+	}
+
+	.video {
+		height: 50%;
+	}
+
+	.table .item .cell {
+		width: 100%;
+	}
+
+	.btn-table {
+		width: 300px;
+		font-size: 12px;
+	}
+
+	.table {
+		display: none;
+	}
+
+	.question img {
+		float: left;
+	}
+
+	.remained-bg {
+		padding: 30px 0;
+	}
+
+	.nonebox {
+		width: 90%;
+	}
+
+	a.box-close {
+		top: -35px;
+    	right: -5px;
+	}
+
+	.form {
+		padding: 10px 20px 10px 20px;
+	}
+
+	.nonebox h2 {
+		margin-bottom: 15px;
+	}
+
+	.modal-input {
+		height: 40px;
+		margin: 10px 0;
+	}
+
+	.form-order .zg {
+		font-size: 16px;
+	}
+
+	.form-order .check {
+		margin: 10px auto;
+	}
+
+	.range {
+		margin-top: 15px;
+	}
+
+	.form  .modal-button-img {
+		width: 260px;
+	}
+
+	.form .btn {
+		width: 100%;
+	}
+
+	.form-order {
+		height: 90vh;
+		overflow-y: auto;
+	}
+
+	.bg-red .info .call {
+		display: none;
+	}
+
+	.bg-red .info .tel {
+		position: relative;
+	}
+
+	.bg-red .info .tel:before {
+		content: '';
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 0px;
+		left: -40px;
+		background: url(../img/call-icon.png) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.delivery-partner .item {
+		margin: 10px 0;
+		width: 255px;
+	}
+
+}

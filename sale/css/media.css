@@ -1,0 +1,520 @@
+@media screen and (max-width: 1100px) {
+	.container {
+		width: 750px;
+		margin: 0 auto;
+	}
+
+	.flexnav .touch-button .navicon {
+		left: 10px;
+	}
+
+	form.checkbox {
+		margin: 20px auto;
+	}
+
+	.btn-orange {
+		width: 200px;
+		margin-top: 10px;
+	}
+
+	.service {
+		justify-content: space-around;
+	}
+
+	.service-item {
+		margin-top: 30px;
+	}
+
+	.popular {
+		margin-top: 100px;
+	}
+
+	.slider-text {
+		left: 130px;
+	}
+
+	.slider-text p {
+		margin: 0 20px;
+	}
+
+	.slick-dots li:first-child {
+		left: -195px;
+	}
+
+	.slick-dots li:nth-child(2) {
+		left: -120px;
+	}
+
+	.slick-dots li:nth-child(3) {
+		left: -50px;
+	}
+	.slick-dots li:last-child {
+		left: 25px;
+	}
+
+	.advatages-bg {
+		margin-top: 100px;
+	}
+
+	.advatages-block {
+		justify-content: space-around;
+	}
+
+	.advatages-item {
+		width: 200px;
+		margin-top: 20px;
+	}
+
+	.work {
+		margin-top: 100px;
+	}
+
+	.video {
+		justify-content: space-around;
+	}
+
+	iframe {
+		margin-top: 20px;
+	}
+
+	.last-news-bg {
+		margin-top: 100px;
+	}
+
+	.last-news-articles {
+		justify-content: space-around;
+	}
+
+	.last-news-article {
+		margin-top: 20px;
+	}
+
+	.reviews {
+		margin-top: 100px;
+	}
+
+	.pre-footer {
+		justify-content: space-around;
+	}
+
+	.pre-footer-item {
+		margin-top: 20px;
+	}
+
+	.footer-block {
+		justify-content: space-around;
+	}
+
+	.footer-item-logo {
+		order: 2;
+		margin-top: 20px;
+	}
+
+	.footer-item-navigation {
+		order: 1;
+		
+	}
+
+	.footer-item-navigation, .footer-item-fast {
+		padding-top: 0;
+	}
+
+	/*LOGIN-HTML*/
+	.button-head-login {
+		justify-content: space-around;
+	}
+
+	.button-head-login>div {
+		margin-top: 10px;
+	}
+	/*LOGIN-HTML*/
+
+
+/*LICH-KAB1*/
+.content-kalkulator,
+.content-buy {
+	padding-left: 10px;
+}
+
+/*BUY-TOW/HTML*/
+.buy-tow {
+	justify-content: center;
+}
+
+.buy-tow  h2 {
+	text-align: center;
+}
+
+.buy-tow h2:after {
+	    margin: 10px auto 10px;
+}
+
+.buy-tow {
+	display: block;
+}
+
+/*KALKULATOR.HTML*/
+.kalkulator-all .link {
+	margin-left: 0;
+}
+
+.form-kalkulator .inp p {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+/*LICH-KAB5*/
+.custom02 label {
+	display: flex;
+	margin: 10px 0;
+}
+
+/*MAIL*/
+.mail {
+	justify-content: center;
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+	
+	nav {
+		height: inherit;
+	}
+
+	.flexnav {
+		max-height: 0;
+	}
+
+	.menu-button {
+		background-color: rgb(0, 147, 208);
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 650px;
+		margin: 0 auto;
+	}
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.slick-dots li:first-child {
+		left: -145px;
+	}
+
+	.slick-dots li:nth-child(2) {
+		left: -70px;
+	}
+
+	.slick-dots li:nth-child(3) {
+		left: 0;
+	}
+
+	.slick-dots li:last-child {
+		left: 75px;
+	}
+
+	.work {
+		margin-top: 50px;
+	}
+
+	.reviews {
+		margin-top: 50px;
+	}
+
+	.pre-footer-bg {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+
+	.head {
+		justify-content: center;
+	}
+
+	.time-in-tokio {
+		margin: 10px auto;
+		text-align: center;
+		width: 150px;
+	}
+
+	.time-in-tokio img {
+		margin: 0 auto;
+	}
+
+	.time-in-tokio-text {
+		margin: 0 auto;
+	}
+
+.time-in-tokio-text p:first-child {
+	font-size: 15px;
+}
+
+.time-in-tokio-text p:last-child {
+	font-size: 13px;
+}
+
+
+	.exchange-rates {
+		margin: 10px auto;
+		width: 150px;
+	}
+
+	.exchange-rates p:first-child {
+		font-size: 14px;
+	}
+
+	.contacts {
+		margin: 10px auto;
+		width: 150px;
+	}
+
+	.contacts p:first-child {
+		font-size: 15px;
+	}
+
+	.contacts p:nth-child(2) {
+		font-size: 12px;
+	}
+
+	.header-block-bg {
+		width: 100%;
+		background: #fefefe;
+		text-align: center;
+	}
+
+	.button {
+		margin-top: 20px;
+	}
+
+	.btn-jp {
+		margin: 10px auto;
+	}
+
+	.btn-orange {
+		display: block;
+		margin: 10px auto;
+	}
+
+	h1:after {
+		margin: 18px auto;
+	}
+
+	.popular {
+		margin-top: 50px;
+	}
+
+	.slick-prev, .slick-next {
+		display: none!important;
+	}
+
+	.slider-text p {
+		display: none;
+	}
+
+	.work {
+		margin-top: 50px;
+	}
+
+	.reviews {
+		margin-top: 50px;
+	}
+
+	.footer-item-logo {
+		margin: 0 auto;
+		/*order: 0;*/
+	}
+
+	.footer-item-fast {
+		/*order: 2;*/
+	}
+
+	.footer-block,
+	.fast-block {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-item h5 {
+		margin-top: 20px;
+	}
+
+	/*LICH-KAB1*/
+	.buy-tow, .kalkulator {
+		display: block;
+	}
+
+	.content-kalkulator-crumbs {
+		text-align: center;
+	}
+
+	.kalkulator h2 {
+		text-align: center;
+	}
+
+	.kalkulator h2:after, .buy-tow h2:after {
+		margin: 10px auto 10px;
+		width: 100%;
+	}
+
+	.form-buy p {
+		display: block;
+	}
+
+	.form-buy label {
+		display: block;
+	}
+
+	.form-buy p input {
+		display: block;
+		width: 280px;
+	}
+
+	/*BUY.HTML*/
+	.content-buy-crumbs {
+		text-align: center;
+	}
+
+	.form-buy p input {
+		width: 280px;
+	}
+
+	.content-buy-crumbs a, .content-kalkulator-crumbs a {
+		font-size: 15px;
+	}
+
+	.buy-tow-btns {
+		display: block;
+	}
+
+	.buy-tow-btns .tow-delete-btn, .buy-tow-btns .tow-add-btn {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.buy-tow-btns .tow-add-btn {
+		margin-top: 10px;
+	}
+
+	.form-buy p input[type="file"] {
+		font-size: 11px;
+	}
+
+	.form-buy textarea {
+		width: 97%;
+		margin: 20px auto;
+	}
+
+	.form-buy .tow-add-btn-finish {
+		margin: 10px auto;
+	}
+
+	/*KALKULATOR.HTML*/
+	.form-kalkulator .inp {
+		display: block;
+	}
+
+	.form-kalkulator .flex {
+		display: block;
+	}
+
+	.form-kalkulator label {
+		display: block;
+	}
+
+	.kalkulator-all .gr {
+		margin-left: 0;
+	}
+
+	.form-kalkulator .inp p {
+		margin-left: 0;
+	}
+
+	.kalkulator-all {
+		margin-top: 20px;
+	}
+
+	/*LICH-KAB2*/
+.table {
+	overflow-x: scroll;
+}
+
+	.lich-kab2-btns {
+		display: block;
+	}
+
+	.lich-kab2-btns .all-orders-btn,
+	.lich-kab2-btns .orders-stock-btn,
+	.lich-kab2-btns .new-order-btn {
+		margin: 10px auto;
+	}
+
+	/*LICH-KAB4*/
+	.lich-kab4-btn {
+		margin-top: 20px;
+	}
+
+	/*LICH-KAB5*/
+	.history-message h2 {
+		font-size: 20px;
+	}
+
+	/*LICH-KAB6*/
+	.form-lich-kab6 h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.form-lich-kab6 input {
+		display: block;
+		margin: 10px auto;
+	}
+
+	.form-lich-kab6 p {
+		text-align: center;
+	}
+
+	/*MAIL.HTML*/
+	.mail-form .flex input {
+		width: 300px;
+	}
+
+	.mail-form .flex {
+		justify-content: center;
+	}
+
+	.mail-form .flex label br {
+		display: none;
+	}
+
+	.mail-form .flex label {
+		text-align: center;
+	}
+
+	/*REGISTRATION.HTML*/
+	.button-head-bg {
+		padding-bottom: 20px;
+	}
+
+	.form-registration .flex input {
+		width: 300px;
+	}
+
+	.select {
+		text-align: center;
+	} 
+}

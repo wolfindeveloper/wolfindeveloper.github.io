@@ -1,0 +1,686 @@
+@charset 'UTF-8';
+
+body {
+	overflow-x: hidden;
+	font-family: 'PTSerif-Regular';
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 60px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	max-width: 815px;
+	margin: 74px auto 0 auto;
+}
+
+h2 {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 52px;
+}
+
+h3 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;	
+}
+
+h4 {
+	font-size: 35px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;	
+}
+
+h5 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;	
+}
+
+h6 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;	
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.self {
+	align-self: stretch;
+}
+
+/*BEGIN-HEADER*/
+header {
+	padding: 0px 0 84px 0;
+}
+
+header .head {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 9px;
+	padding-bottom: 22px;
+	border-bottom: 1px solid rgb(189, 162, 104);
+}
+
+header .head .logo {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+}
+
+header .head .menu {
+	margin: 0 30px;
+}
+
+header .head .menu li {
+	margin: 0 10px;
+}
+
+header .head .menu li a {
+	font-size: 20px;
+	color: rgb(255, 255, 254);
+}
+
+header .head .tel a {
+	font-size: 24px;
+	color: rgb(255, 255, 254);
+}
+
+header .head .menu li a:hover,
+header .head .tel a:hover {
+	color: rgb(189, 162, 104);
+	transition: 0.5s all;
+}
+/*END-HEADER*/
+
+/*BEGIN-ABOUT-ME*/
+.aboutme-bg {
+	padding: 61px 0 68px 0;
+}
+
+.aboutme .photo {
+	border: 3px solid rgb(189, 162, 104);
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+	background-color: rgb(255, 255, 255);
+	width: 320px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 48px;
+}
+
+.aboutme .name {
+	font-family: 'PTSerif-BoldItalic';
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 10px;
+}
+
+.aboutme .info,
+.aboutme .text {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(0, 0, 0);
+}
+
+.aboutme .info {
+	margin-bottom: 10px;
+}
+
+.aboutme .text {
+	margin-bottom: 10px;
+}
+/*END-ABOUT-ME*/
+
+/*MORE*/
+.desc-wrapper {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  max-height: 535px;
+  overflow: hidden;
+}
+
+.more-info {
+  /* Hide more info to begin with and reveal if text inside desc is too long*/
+  display: none;
+  background-color: rgb(189, 162, 104);
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.more-info span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+/* Only display 'more' to begin with */
+.more-info .less,
+.more-info.expand .more {
+  display: none;
+}
+.more-info.expand .less {
+  display: inline;
+}
+
+/* Misc, just to make things look a bit prettier */
+.more-info:focus {
+  outline: none;
+}
+span.glyphicon {
+  margin-left: 3px;
+}
+/*MORE*/
+
+/*BEGIN-SERVICES*/
+.services-bg {
+	padding-top: 68px;
+	text-align: center;
+	clear: both;
+}
+
+.services h2 {
+	margin: 60px 0;
+}
+
+.services-block .item {
+	width: 18%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.services-block .item .img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	border: 3px solid rgb(189, 162, 104);
+	box-shadow: 2px 3px 5px rgba(18, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.services-block .item .img:hover {
+	background-color: rgb(189, 162, 104);
+	transition: 0.5s all;
+}
+
+.services-block .item .img:hover img {
+	filter: brightness(200);
+}
+
+.services-block .item .text {
+	word-wrap: break-word;
+	margin-top: 20px;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+/*END-SERVICES*/
+
+/*BEGIN-USEFULL*/
+.usefull-bg {
+	padding-top: 68px;
+	text-align: center;
+	padding-bottom: 68px;
+}
+
+.usefull h2 {
+	margin: 60px 0;
+} 
+
+.usefull-block .item {
+	cursor: pointer;
+}
+
+.usefull-block .item .text {
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	margin-top: 20px;
+}
+/*END-USEFULL*/
+
+/*BAGIN-MAP*/
+.map {
+	width: 100%;
+	height: 520px;
+	position: relative;
+}
+
+.map .contacts-caption {
+	width: 334px;
+	height: 106px;
+	background: url(../img/contacts-bg.png) no-repeat center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -21px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.map .contacts-caption p {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+.map .info-block {
+	width: 365px;
+	box-shadow: 2px 3px 5px rgba(18, 0, 0, 0.3);
+	border: 2px solid rgb(189, 162, 104);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding-top: 40px;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 30%;
+	right: 20%;
+}
+
+.map .info-block .zg {
+	text-align: center;
+	padding-bottom: 22px;
+	border-bottom: 1px solid rgb(189, 162, 104);
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+}
+
+.map .info-block .tel {
+	position: relative;
+	padding-top: 19px;
+}
+.map .info-block .tel,
+.map .info-block .mail,
+.map .info-block .address {
+	padding-left: 67px;
+} 
+
+.map .info-block .tel a {
+	display: block;
+	font-family: 'PTSerif-Bold';
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 10px;
+}
+
+.map .info-block .tel a:hover,
+.map .info-block .mail a:hover {
+	color: rgb(189, 162, 104);
+	transition: 0.5s all;
+}
+
+.map .info-block .tel:before {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/tel-icon.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: 23px;
+	left: 47px;
+}
+
+.map .info-block .mail {
+	position: relative;
+}
+
+.map .info-block .mail a {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+.map .info-block .mail:before {
+	content: '';
+	display: block;
+	width: 28px;
+	height: 18px;
+	background: url(../img/mail-icon.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: 3px;
+	left: 33px;
+}
+
+.map .info-block .address {
+	position: relative;
+	margin-top: 17px;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+}
+
+.map .info-block .address:before {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 18px;
+	background: url(../img/address-icon.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: -3px;
+	left: 48px;	
+}
+/*END-MAP*/
+
+/*BEGIN-FORM*/
+.form-bg {
+	background: url(../img/form-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding: 70px 0;
+}
+
+.form-bg form {
+	width: 490px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.form-bg form .caption {
+	font-size: 30px;
+	line-height: 40px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.form-bg form .input {
+	width: 100%;
+	height: 42px;
+	position: relative;
+	margin: 20px 0;
+}
+
+.form-bg form .input input {
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	border: 1px solid rgb(204, 204, 204);
+	background-color: rgb(255, 255, 255);
+	outline: none;
+	padding-left: 10px;
+}
+
+.form-bg form .input label {
+	font-family: 'PTSerif-Regular';
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+
+.form-bg form .input label.active {
+	top: -17px;
+	color: white;
+	transition: 0.5s all;
+}
+
+.form-bg form .input label span {
+	color: rgb(255, 0, 0);
+}
+
+.form-bg form .textarea {
+	width: 100%;
+	height: 72px;
+}
+
+.form-bg form .textarea textarea {
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	border: 1px solid rgb(204, 204, 204);
+	background-color: rgb(255, 255, 255);
+	outline: none;
+	padding-top: 12px;
+	padding-left: 13px;	
+	font-family: 'PTSerif-Regular';
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+}
+
+.form-bg form .submit {
+	width: 100%;
+	height: 42px;
+	margin-top: 20px;
+}
+
+.form-bg form .submit input {
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	background-color: rgb(189, 162, 104);
+	border: none;
+	font-family: 'PTSerif-Bold';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.form-bg form .submit input:hover {
+	background-color: rgb(143, 127, 92);
+	transition: 0.5s all;
+}
+/*END-FORM*/
+
+/*BEGIN-REVIEWS*/
+.reviews-bg {
+	padding: 70px 0;
+}
+
+.reviews-bg .caption {
+	font-family: 'PTSerif-Regular';
+	font-size: 40px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.reviews-slider .slide {
+	box-shadow: 2px 3px 5px rgba(18, 0, 0, 0.3);
+	border-radius: 5px;
+	border: 2px solid rgb(189, 162, 104);
+	background-color: rgb(255, 255, 255);
+}
+
+.reviews-slider .slide {
+	margin: 0 10px;
+	padding: 20px;
+}
+
+.reviews-slider .slide .text img {
+	float: left;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.reviews-slider .slide .text .info {
+	margin-bottom: 10px;
+}
+
+.reviews-slider .slide .text .info .name {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+.reviews-slider .slide .text .info .date {
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	font-weight: 100;
+}
+
+.reviews-slider .slide .text .review-text {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+
+.reviews-slider .slick-prev,
+.reviews-slider .slick-next {
+	width: 36px;
+	height: 36px;
+	z-index: 9;
+}
+
+.reviews-slider .slick-prev {
+	background: url(../img/prev-arrow.png) no-repeat center;
+	background-size: cover;
+	left: -45px;
+}
+
+.reviews-slider .slick-next {
+	background: url(../img/next-arrow.png) no-repeat center;
+	background-size: cover;
+	right: -45px;
+}
+
+.reviews-slider .slick-disabled {
+	opacity: 0.4;
+}
+/*END-REVIEWS*/
+footer {
+ 	padding: 30px 0;
+ 	background-color: rgb(0, 0, 0);
+}
+
+footer .copy p {
+	font-size: 16px;
+	color: rgb(254, 255, 255);
+	text-align: center;
+}
+
+/*BEGIN-POPUP*/
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.nonebox {
+    position: fixed;
+    top: -2000px;
+    background-color: rgb(230, 231, 233);
+    width: 900px;
+    height: auto;
+    z-index: 999;
+    padding: 40px;
+}
+
+.nonebox .info-block {
+	padding: 30px 30px 30px 70px;
+	border: 2px solid black;
+}
+
+.pop-up {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a.box-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+    width: 33px;
+    height: 33px;
+    background: url(../img/close.png) no-repeat;
+    cursor: pointer;
+    display: block;
+}
+
+.thanks .text {
+	text-align: center;
+}
+
+.nonebox .info-block .caption {
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 20px;
+}
+
+.nonebox .info-block ul {
+	padding-left: 30px;
+	list-style-type: disc;
+	/*width: 70%;*/
+}
+
+.nonebox .info-block ul li {
+	font-size: 20px;
+	color: rgb(122, 120, 120);
+	margin: 15px 0;
+}
+/*END-POPUP*/
+
+/*STICKY*/
+#sticker {
+	z-index: 999!important;
+}
+
+.is-sticky {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 99999;
+}
+
+.is-sticky .head {
+	max-width: 100%;
+	background-color: rgb(5, 4, 1);
+}
+
+.is-sticky .head .head-block {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*STICKY*/

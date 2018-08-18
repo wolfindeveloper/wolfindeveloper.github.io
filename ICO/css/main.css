@@ -1,0 +1,1248 @@
+body {
+	overflow-x: hidden;
+	font-family: 'ProximaNova-Regular';
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/*BEGIN-HEADER*/
+header {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	padding: 30px 0 25px 0;
+}
+
+.head .info p,
+.head .info a {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(168, 168, 168);
+	display: block;
+}
+
+.head .info a:hover {
+	color: rgb(200, 108, 108);
+}
+
+.head .info a i {
+	margin-right: 5px;
+}
+
+.head .thanks {
+	align-items: flex-start;
+}
+
+.head .thanks p.text {
+	font-size: 18px;
+	color: rgb(110, 125, 149);
+	margin-right: 5px;
+}
+
+.head .thanks .links p {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(254, 143, 77);
+}
+
+.head .thanks .links a:hover {
+	color: rgb(190, 105, 54);
+}
+/*END-HEADER*/
+
+/*BEGIN-INFOLINE*/
+.infoline-bg {
+	background-color: rgb(235, 235, 235);
+	padding: 8px 0;
+}
+
+.infoline {
+	justify-content: flex-start;
+}
+
+.infoline .date-block p {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(110, 125, 149);
+}
+
+.infoline .date-block p span {
+	color: rgb(168, 168, 168);
+}
+
+.infoline .curs-block {
+	margin-left: 235px;
+}
+
+.infoline .curs-block p {
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.infoline .curs-block p span.name {
+	color: rgb(254, 143, 77);
+}
+
+.infoline .curs-block p span.price {
+	color: rgb(110, 125, 149);
+}
+
+.infoline .curs-block p span.dol {
+	color: rgb(183, 183, 183);
+}
+/*END-INFOLINE*/
+
+/*BEGIN-SELECT-BLOCK*/
+/*select*/
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-size: 20px;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 5px;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #acacac transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: rgb(149, 149, 149);
+  padding: 8px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*select*/
+.select-content {
+	border-radius: 10px;
+	box-shadow: 0 0 35px rgba(99, 99, 99, 0.1);
+	border: 1px solid rgb(235, 235, 235);
+	background-color: rgb(251, 252, 254);
+	padding: 60px 20px 40px 20px;
+	margin-top: 50px;
+}
+
+.select-block {
+	align-items: flex-end;
+}
+
+.select-block .custom-select {
+	width: 167px;
+}
+
+.select-block .item .caption {
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: rgb(110, 125, 149);
+	padding-left: 5px;
+}
+
+.select-block .btn-go {
+	width: 167px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	background-image: linear-gradient(to top, rgb(252, 96, 118) 0%, rgb(255, 154, 68) 100%);
+	border: none;
+	font-family: 'ProximaNova-Bold';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.5px;
+}
+
+.select-block .btn-go:hover {
+	background-color: rgb(255, 255, 255);
+	background-image: linear-gradient(to top, rgb(244, 78, 102) 0%, rgb(244, 80, 101) 100%);
+	cursor: pointer;
+}
+
+/*checkbox*/
+.select-content .more {
+	margin-top: 33px;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(110, 125, 149);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+    left: 5px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid #abacac;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*checkbox*/
+/*range*/
+input[type=range]{
+  width: 363px;
+  display:inline-block;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color:  #fc686f;
+  width: 16px;
+  height: 16px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-top: -4px;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  background-color:  #fc686f;
+  width: 16px;
+  height: 16px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+  background-color:  #fc686f;
+  width: 16px;
+  height: 16px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 10px;
+  background:linear-gradient(to right, #fc686f calc(var(--value)*1%), #ebebeb 0);
+  border-radius: 5px;
+}
+input[type=range]::-moz-range-track {
+  height: 10px;
+  background:linear-gradient(to right, #fc686f calc(var(--value)*1%), #ebebeb 0);
+  border-radius: 5px;
+}
+
+input[type=range]::-ms-track {
+  background-color: rgb(235, 235, 235);
+  height: 10px;
+} 
+
+input[type=range]::-ms-fill-lower {
+  background-color: HotPink
+}
+
+input[type=range]::-ms-fill-upper {
+  background-color: black;
+} 
+
+.range {
+	margin-left: 80px;
+	align-items: flex-start;
+}
+
+.range-block label {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.range .caption {
+	font-size: 20px;
+	color: rgb(110, 125, 149);
+}
+
+.range .range-block {
+	position: relative;
+	margin-left: 15px;
+}
+
+.range .range-block i {
+	position: absolute;
+}
+
+.range .range-block i.begin {
+	left: 0;
+	bottom: 0;
+}
+
+.range .range-block i.finish {
+	right: 0;
+	bottom: 0;
+}
+/*range*/
+/*END-SELECT-BLOCK*/
+
+/*BEGIN-CONTENT*/
+.content-bg {
+	padding: 0px 0 41px 0;
+}
+/*tabs*/
+/* Style the tab */
+.tab {
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(194, 194, 194);
+    margin: 0 10px;
+    border-bottom: 2px solid white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+   color: rgb(110, 125, 149);
+   border-bottom: 2px solid red;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: rgb(110, 125, 149);
+   border-bottom: 2px solid red;
+}
+
+/* Style the tab content */
+.tabcontent,
+.tabcontent1 {
+    display: none;
+    padding: 6px 0;
+    border-top: none;
+}
+/*tabs*/
+/*search*/
+.tabs {
+	position: relative;
+	padding: 0 20px;
+	height: 50px;
+}
+
+.tabs .table-icon {
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.tabs .block-icon {
+	cursor: pointer;
+}
+
+input[type=text] {
+	width: 150px;
+	position: absolute;
+	top: 70px;
+	right: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    background-image: url('../img/search-icon.png');
+    background-position: 18px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+.content-block {
+	margin-top: 20px;
+}
+
+.content-block .tabcontent .item-block {
+	background-color: rgb(242, 245, 252);
+	border: 1px solid rgb(235, 235, 235);
+	border-radius: 10px;
+}
+/*search*/
+
+/*social-sprites*/
+.bg-social1 {
+    width: 16px; height: 14px;
+    background: url('../img/social/reddit-alien-head-logo.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social1:hover {
+ 	background: url('../img/social/reddit-alien-head-logo-h.svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social2 {
+    width: 12px; height: 13px;
+    background: url('../img/social/github-logo.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social2:hover {
+ 	background: url('../img/social/github-logo (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social3 {
+    width: 12px; height: 15px;
+    background: url('../img/social/facebook-logo.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social3:hover {
+ 	background: url('../img/social/facebook-logo (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social4 {
+    width: 12px; height: 12px;
+    background: url('../img/social/twitter-black-shape.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social4:hover {
+ 	background: url('../img/social/twitter-black-shape (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social5 {
+    width: 12px; height: 11px;
+    background: url('../img/social/telegram.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social5:hover {
+ 	background: url('../img/social/telegram (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social6 {
+    width: 12px; height: 10px;
+    background: url('../img/social/medium.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social6:hover {
+ 	background: url('../img/social/medium (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+
+.bg-social7 {
+    width: 12px; height: 17px;
+    background: url('../img/social/bitcoin-logo.svg') no-repeat center;
+    background-size: cover;
+}
+
+.bg-social7:hover {
+ 	background: url('../img/social/bitcoin-logo (1).svg') no-repeat center;	
+ 	background-size: cover;
+}
+/*social-sprites*/
+.content-block .item-block {
+	padding: 22px;
+	margin: 0 auto 20px auto;
+}
+
+.content-block .item-block .item {
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+	border: 1px solid rgb(225, 225, 225);
+	background-color: rgb(255, 255, 255);
+	width: 23%;
+	align-self: stretch;
+	padding: 10px 0 18px 0;
+	margin: 15px auto;
+}
+
+.content-block .item-block .item .caption i {
+	cursor: pointer;
+}
+
+.content-block .item-block .item .caption {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(110, 125, 149);
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.content-block .item-block .item .name-block {
+	justify-content: flex-start;
+}
+
+.content-block .item-block .project {
+	padding-left: 30px;
+	padding-right: 57px;
+}
+
+.content-block .item-block .project .caption {
+	margin-bottom: 6px;
+}
+
+.content-block .item-block .project .photo {
+	position: relative;
+	margin-right: 10px;
+}
+
+.content-block .item-block .project .star-icon {
+	position: absolute;
+	top: -5px;
+	left: -10px;	
+}
+
+.content-block .item-block .item .green {
+	font-family: 'ProximaNova-Bold';
+	font-size: 16px;
+	color: rgb(60, 184, 120);
+	letter-spacing: 0.4px;
+}
+
+.content-block .item-block .item .red {
+	font-family: 'ProximaNova-Bold';
+	font-size: 16px;
+	color: rgb(242, 108, 79);
+	letter-spacing: 0.4px;
+}
+
+.content-block .item-block .project .name,
+table .project .name {
+	font-size: 16px;
+	color: rgb(110, 125, 149);
+	padding-top: 10px;
+	user-select: none;
+}
+
+.content-block .item-block .project .name:hover,
+table .project .name:hover {
+	color: rgb(18, 99, 228);
+}
+
+.content-block .item-block .item .category p:first-child,
+.content-block .item-block .item .update p:first-child {
+	font-size: 14px;
+	color: rgb(194, 194, 194);
+	margin-bottom: 5px;
+}
+
+.content-block .item-block .item .category p:last-child,
+.content-block .item-block .item .update p:last-child {
+	font-size: 14px;
+	color: rgb(110, 125, 149);
+}
+
+.content-block .item-block .item .icons {
+	margin: 10px auto;
+	justify-content: flex-start;
+}
+
+.content-block .item-block .item .icons a {
+	margin-right: 4px;
+}
+
+.content-block .item-block .item .top {
+	padding-left: 14px;
+	padding-right: 28px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.content-block .item-block .item .bottom {
+	padding-top: 10px;
+	padding-right: 28px;
+	padding-left: 14px;
+}
+
+.content-block .item-block .item .willbeclosed p:first-child {
+	font-size: 12px;
+	color: rgb(194, 194, 194);
+	letter-spacing: 0.3px;
+}
+
+.content-block .item-block .item .willbeclosed p:last-child span {
+	font-size: 14px;
+	color: rgb(110, 125, 149);
+}
+
+.content-block .item-block .item .willbeclosed p:last-child span i {
+	color: rgb(197, 197, 197);
+}
+
+.content-block .item-block .item .hardcup .zg,
+.content-block .item-block .item .personalcup .zg {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(200, 200, 200);
+	padding-left: 20px;
+}
+
+.content-block .item-block .item .hardcup .zg span,
+.content-block .item-block .item .personalcup .zg span  {
+	color: rgb(183, 183, 183);
+}
+
+.content-block .item-block .listingtime .links {
+	padding-left: 20px;
+}
+
+.content-block .item-block .listingtime .links a {
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	color: rgb(254, 143, 77);
+}
+
+.content-block .item-block .listingtime .links p {
+	margin-bottom: 10px;
+}
+
+.content-block .item-block .listingtime .links p span {
+	font-size: 14px;
+	color: rgb(110, 125, 149);
+}
+
+.content-block .item-block .listingtime .links p span i {
+	color: rgb(197, 197, 197);
+}
+
+.content-block .item-block .icoprice .zg {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(200, 200, 200);
+	padding-left: 40px;
+	margin: 20px 0;
+}
+
+.content-block .item-block .icoprice .zg span {
+	color: rgb(183, 183, 183);
+}
+
+.content-block .item-block .item .currentprice .zg,
+.content-block .item-block .item .retutnssinceico .zg {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(200, 200, 200);
+	padding-left: 20px;
+}
+
+.content-block .item-block .item .currentprice .zg span {
+	color: rgb(183, 183, 183);
+}
+
+.content-block .item-block .item .retutnssinceico .zg span {
+	color: rgb(110, 125, 149);
+}
+
+.content-block .item-block .item .peoplesays .flex {
+	justify-content: center;
+}
+
+.content-block .item-block .item .peoplesays .like span:first-child {
+	font-size: 16px;
+	color: rgb(141, 198, 63);
+}
+
+.like i,
+.report i {
+	cursor: pointer;
+}
+
+.content-block .item-block .item .peoplesays .report span:first-child {
+	font-size: 16px;
+	color: rgb(158, 11, 15);
+}
+
+.content-block .item-block .item .peoplesays p {
+	margin-left: 10px;
+	margin-right: 10px;
+	user-select: none;
+}
+
+/*pagination*/
+.pagination {
+	margin: 20px auto;
+	justify-content: center;
+}
+
+.pagination a {
+	border-radius: 5px;
+	background-color: rgb(235, 235, 235);
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color .3s;
+    font-family: 'ProximaNova-Bold';
+    font-size: 18px;
+    color: rgb(253, 125, 93);
+    margin: 0 5px;
+
+}
+
+.pagination a.active {
+    border-radius: 5px;
+    background-color: rgb(59, 137, 238);
+    background-image: linear-gradient(to top, rgb(252, 96, 118) 0%, rgb(255, 154, 68) 100%);
+    font-family: 'ProximaNova-Bold';
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+/*pagination*/
+/*END-CONTENT*/
+
+/*BEGIN-TABLE-CONTENT*/
+.content-table {
+	margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*table*/
+.td1 p:first-child {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(60, 184, 120);
+}
+
+.td1 p:nth-child(2) {
+	margin: 10px 0;
+}
+
+.td1 p:nth-child(2),
+.td1 p:last-child {
+	font-size: 14px;
+	color: rgb(110, 125, 149);
+}
+
+.td2 .icons {
+	justify-content: flex-start;
+	margin: 5px 0;
+}
+
+.td2 .icons a {
+	margin-right: 3px;
+}
+
+.td2 .name-block {
+	justify-content: flex-start;
+}
+
+.td2 .name-block .photo {
+	position: relative;
+	margin-right: 5px;
+}
+
+.td2 .name-block .photo .star-icon {
+	position: absolute;
+	top: -5px;
+	left: -10px;
+}
+
+.td2 .category p:first-child,
+.td2 .update p:first-child {
+	font-size: 10px;
+	color: rgb(194, 194, 194);
+}
+
+.td2 .category p:last-child,
+.td2 .update p:last-child {
+	font-size: 10px;
+	color: rgb(110, 125, 149);
+} 
+
+.td2 .flex {
+	justify-content: flex-start;
+}
+
+.td2 .update {
+	margin-left: 10px;
+}
+
+td .green {
+	font-size: 16px;
+	color: rgb(60, 184, 120);
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+td .red {
+	font-size: 16px;
+	color: rgb(242, 108, 79);
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+td .willbeclosed p:first-child {
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	color: rgb(194, 194, 194);
+	margin-bottom: 11px;
+}
+
+td .willbeclosed p:last-child span {
+	font-size: 14px;
+	color: rgb(110, 125, 149);
+}
+
+td .willbeclosed p:last-child span i {
+	color: rgb(197, 197, 197);
+}
+
+.td7 .zg  span,
+.td8 .zg  span {
+	display: block;
+}
+
+td .zg {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(200, 200, 200);
+}
+
+td .zg span {
+	color: rgb(110, 125, 149);
+}
+
+td .zg span i {
+	font-size: 14px;
+}
+
+.td10 p:last-child span,
+.td11 p:last-child span {
+	display: block;
+}
+
+.td10 p:last-child,
+.td11 p:last-child, 
+.td12 p:last-child {
+	margin: 10px 0;
+}
+
+.td9 {
+	border-left: 1px solid rgba(215, 215, 215, 0.4);
+}
+
+.td9 .links a {
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	color: rgb(254, 143, 77);
+}
+
+.td9 .links p {
+	margin-bottom: 10px;
+}
+
+.td9 .links p span {
+	font-size: 14px;
+	color: rgb(110, 125, 149);	
+}
+
+.td9 .links p span i {
+	color: rgb(197, 197, 197);
+}
+
+.td13 p {
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.td13 .like span:first-child {
+	font-size: 16px;
+	color: rgb(141, 198, 63);
+	margin-right: 3px;
+	user-select: none;
+}
+
+.td13 .report span:first-child {
+	font-size: 16px;
+	color: rgb(158, 11, 15);
+	margin-right: 3px;
+	user-select: none;
+}
+
+.td13 .like i,
+.td13 .report i {
+	margin-left: 10px;
+}
+
+thead .ico-table {
+	background-color: rgb(255, 247, 246);
+	text-align: center;
+}
+
+thead .exchange {
+	background-color: rgb(247, 251, 241);
+	text-align: center;
+	border-left: 1px solid rgba(215, 215, 215, 0.4);
+}
+
+thead .border-none {
+	border: none;
+}
+
+thead tr {
+	border-bottom: 1px solid rgba(215, 215, 215, 0.4);
+}
+
+thead tr th {
+	padding: 15px 0;
+}
+
+thead tr .text-left {
+	background-color: rgb(255, 247, 246);
+}
+
+thead tr .text-left i,
+thead tr .text-right i {
+	cursor: pointer;
+}
+
+thead tr .text-right {
+	background-color: rgb(247, 251, 241);
+}
+
+thead tr .text-right1 {
+	border-left: 1px solid rgba(215, 215, 215, 0.4);
+	padding-left: 5px;	
+}
+/*table*/
+
+/*END-TABLE-CONTENT*/
+
+/*BEGIN-FOOTER*/
+footer {
+	background-color: rgb(54, 54, 54);
+	padding: 30px 0 21px 0;
+}
+
+.footer {
+	align-items: flex-start;
+}
+
+.footer .logo {
+	width: 50%;
+}
+
+.footer .logo p {
+	font-size: 14px;
+	color: rgb(252, 252, 252);
+	line-height: 16px;
+	margin-top: 13px;
+}
+
+.footer .logo p span {
+	color: rgb(253, 125, 93);
+}
+
+.footer .info  p,
+.footer .info  a {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: rgb(168, 168, 168);
+}
+
+.footer .info  a:hover {
+	color: rgb(200, 108, 108);
+}
+
+.footer .info  a img {
+	margin-right: 3px;
+}
+
+.footer .thanks {
+	align-items: flex-start;
+}
+
+.footer .thanks p.text {
+	margin-right: 5px;
+}
+
+.footer .thanks .links p {
+	font-size: 18px;
+	color: rgb(168, 168, 168);
+	margin-bottom: 20px;
+}
+/*END-FOOTER*/
+
+/*popup*/
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/*popup*/
+
+.content-block {
+	display: none;
+}
+
+.view-active {
+	display: none;
+}
+
+.like-icon svg {
+	height: 20px;
+	cursor: pointer;
+	fill: red;
+}
+
+.report-icon svg {
+	height: 20px;
+	cursor: pointer;
+}
+
+.svg-inline--fa.fa-w-16 {
+	width: 20px;
+}
+
+.like-icon,
+.report-icon {
+	color: rgba(128, 128, 128, 0.42);
+}
+
+.like-icon.active {
+	color: green;
+}
+
+.report-icon.active {
+	color: red;
+}
+
+.star-icon {
+	color: rgba(128, 128, 128, 0.33);
+	cursor: pointer;
+}
+
+.star-icon.active {
+	color: #f3cd0d;
+}
+
+.doublescroll2 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.scroll {
+	width: auto;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+.mobilesocial {
+	display: none;
+}
+
+.content-block .item-block .item .score .td1 {
+		justify-content: flex-start;
+}
+
+.content-block .item-block .item .score .td1 p:nth-child(2) {
+	margin-left: auto;
+	margin-right: 5px;
+}
+
+td .zg span.name {
+	display: block;
+}
+
+.preview-block {
+	position: relative;
+	top: 70px;
+}
+
+ 
+ .container-table::-webkit-scrollbar { width: 0px; height: 0px;}
+ .container-table::-webkit-scrollbar-button {  background-color: #666; }
+ .container-table::-webkit-scrollbar-track {  background-color: #999;}
+ .container-table::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+ .container-table::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+ .container-table::-webkit-scrollbar-corner { background-color: #999;}}
+ .container-table::-webkit-resizer { background-color: #666;}

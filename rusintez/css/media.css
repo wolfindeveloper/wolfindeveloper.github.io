@@ -1,0 +1,626 @@
+@media screen and (max-width: 1600px) {
+h1 {
+	font-size:  55px;
+}
+
+.slider-text {
+	width: 65%;
+}
+
+.line-in:after {
+	width: 80%;
+}
+
+#prev-btn {
+	left: 45%;
+}
+
+#next-btn {
+	right: 45%;
+}
+
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+	top: 90%;
+}
+
+.bx-wrapper .bx-prev {
+	left: 66%;
+}
+
+.bx-wrapper .bx-next {
+	right: 25%;
+}
+
+.bestseller-btn2 {
+	margin-left: 0;
+}
+
+.bestseller-btn {
+	margin-top: 20px;
+}
+}
+
+@media screen and  (max-width: 1500px) {
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+	top: 90%;
+}
+.bx-wrapper .bx-prev {
+	left: 67%;
+}
+
+.bx-wrapper .bx-next {
+	right: 26%;
+}
+
+}
+
+
+@media screen and  (max-width: 1400px) {
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+	top: 100%;
+}
+.bx-wrapper .bx-prev {
+	left: 67%;
+}
+
+.bx-wrapper .bx-next {
+	right: 26%;
+}
+
+}
+
+@media screen and  (max-width: 1322px) {
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+	top: 105%;
+}
+.bx-wrapper .bx-prev {
+	left: 67%;
+}
+
+.bx-wrapper .bx-next {
+	right: 26%;
+}
+
+}
+
+
+@media screen and (max-width: 1199px) {
+
+h1 {
+	font-size: 40px;
+}
+
+.tel {
+	padding-left: 3%;
+}
+
+.nav-menu {
+	padding-left: 15px;
+}
+
+.nav-menu li {
+	margin: 0 0 0 5px;
+}
+
+.nav-menu > li > a {
+	padding: 10px 7px;
+}
+
+.slider-text p {
+	font-size: 30px;
+}
+
+#prev-btn {
+	left: 43%;
+	top: calc(85% - 25px);
+}
+
+#next-btn {
+	right: 43%;
+	top: calc(85% - 25px);
+}
+
+.bestseller-text {
+	padding-top: 0;
+}
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	top: 100%;
+}
+
+.bx-wrapper .bx-prev {
+	left: 66%;
+}
+
+.bestseller-btn {
+	margin-top: 20px;
+}
+
+	.bestseller-btn:last-child {
+		margin-left: 0;
+	}
+
+	.contacts .icon1 {
+		font-size: 16px;
+	}
+
+	.footer-text p, .footer-text p a {
+		font-size: 15px;
+	}
+
+	.catalog-carwell-list li {
+		width: 180px;
+	}
+
+	.professional-chemistry p span {
+		font-size: 20px;
+	}
+
+	.catalog-carwell-list li {
+		border-bottom: none;
+	}
+
+	.catalog-carwell-list>li>a {
+		font-size: 15px;
+	}
+
+	.catalog-foxy-list li a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+		top: 107%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+.slider-text {
+	width: 70%;
+}
+
+.bx-wrapper {
+	padding-bottom: 75px;
+}
+
+.bestseller-bg {
+	padding-bottom: 0;
+	background: none;
+}
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	top: 96%;
+}
+
+.bx-wrapper .bx-prev {
+	left: 43%;
+}
+
+.bx-wrapper .bx-next {
+	right: 43%;
+}
+
+.brstseller-img-2 {
+	padding-top: 0;
+}
+
+ .properties .line:after,
+ .way .line:after,
+ .carwell-gel .line:after,
+ .measures .line:after,
+ .storage .line:after {
+ 	margin: 10px auto;
+ }
+
+ .logo,
+ .brstseller-img,
+ .company-img,
+ .contacts-img > div,
+ .footer-end p,
+ .footer-end .r,
+ .carwell-gel,
+ .carwell-gel h2,
+ .properties,
+ .way  {
+ 	text-align: center;
+ }
+
+ .header-bg {
+ 	padding: 20px 0;
+ }
+
+ .tel {
+ 	padding-left: 8%;
+ }
+
+ .nav-menu {
+ 	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .nav-menu li {
+ 	float: none;
+ 	/*width: 33%;*/
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .nav-tabs > li > a {
+ 	line-height: 15px;
+ }
+
+ .slider-text {
+ 	top: 12%;
+ }
+
+ .slider-text p {
+ 	font-size: 25px;
+ }
+
+ h1 {
+ 	font-size: 30px;
+ }
+
+ h4 {
+ 	text-align: center;
+ }
+
+ #prev-btn {
+ 	left: 41%;
+ 	top: calc(85% - 25px);
+ }
+
+ #next-btn {
+ 	right: 41%;
+ 	top: calc(85% - 25px);
+ }
+
+
+ .bestseller-text {
+ 	padding-top: 20px;
+ }
+
+ .car-washes-text {
+ 	  padding: 50px 0;
+ }
+
+ .car-washes-img img {
+ 	display: none;
+ }
+
+ .products {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+
+ .products h2 {
+ 	margin-bottom: 20px;
+ }
+
+ .products p {
+ 	padding: 10px 60px 0;
+ }
+
+ .company {
+ 	padding-top: 20px;
+ }
+
+ .company p {
+ 	margin-top: 20px;
+ }
+
+ .company-img {
+	width: 50%;
+	display: block;
+ }
+
+ .news {
+ 	margin-top: 30px;
+ }
+
+ .contacts {
+ 	margin-top: 30px;
+ }
+
+ .contacts-img .icon1, 
+ .contacts-img .icon2, 
+ .contacts-img .icon3 {
+		background: inherit;
+ }
+
+ .footer-rusintez {
+ 	margin-top: 20px;
+ }
+
+ .footer-text-center {
+ 	font-size: 13px;
+ }
+
+ .none {
+ 	display: none;
+ }
+
+ .carwell-gel p {
+ 	margin: 10px auto;
+ }
+
+ .packaging-icon,
+ .water-icon {
+ 	background: inherit;
+	padding-left: 0;
+ } 
+
+ .professional-chemistry-bg {
+ 	margin: 0;
+ }
+
+ .professional-chemistry .line:after,
+ .header-bg .line:after {
+ 	/*margin: 15px auto;*/
+ }
+
+ .catalog-carwell-list {
+ 	height: auto;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+
+ .catalog-carwell-list li {
+ 	margin: 10px 10px;
+ }
+
+ .footer-rusintez {
+ 	text-align: center;
+ }
+
+ .footer-text-center {
+ 	padding-left: 0;
+ }
+
+ .head:after {
+ 	content: '';
+ 	height: 0;
+ }
+
+ .none-mb {
+	display: none;
+}
+
+.menu-mb {
+	position: relative;
+	top: 35px;
+}
+
+.menu a {
+	width: 100%;
+}
+
+.route {
+	text-align: center;
+}
+
+
+
+}
+
+@media screen  and (max-width: 767px) {
+.line:after {
+	/*display: none;*/
+}
+
+.head {
+	position: relative;
+}
+
+.icon-tel {
+	background: none;
+}
+
+.menu-mb {
+	position: relative;
+}
+
+.nav-menu a li {
+	font-family: 'Display-Pro-Regular';
+	font-size: 15px;
+}
+
+.nav-menu {
+	display: block;
+}
+
+.nav-menu li {
+	width: 70%;
+}
+
+.none-mb {
+	display: none;
+}
+
+.bx-wrapper {
+	padding-bottom: 0;
+}
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	top: 105%;
+}
+
+.bx-wrapper .bx-prev {
+	left: 35%;
+}
+
+.bx-wrapper .bx-next {
+	right: 35%;
+}
+
+.route {
+	margin-top: 50px;
+}
+
+.contract,
+.company p {
+	padding: 0;
+}
+
+ .company-img {
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+ }
+
+ .none-mb {
+ 	display: none;
+ }
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.page-wrapper {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.none {
+	display: none;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.icon-tel {
+		padding-left: 0;
+	}
+
+	.brstseller-img-2 {
+		/*display: none;*/
+	}
+
+	.bestseller-text p {
+		line-height: 25px;
+	}
+
+	.bestseller-bg {
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+
+	.bestseller-text p {
+		padding: 0;
+	}
+
+	.contract-bg {
+		padding-bottom: 20px;
+	}
+
+	.contract p,
+	.products p,
+	.car-washes-text p,
+	.bestseller-text p {
+		font-size: 19px;
+	}
+
+	.products p {
+		padding: 0;
+	}
+
+	.car-washes-text {
+		padding: 20px 0;
+	}
+
+	.car-wash-btn {
+		margin-top: 20px;
+	}
+
+	.news-btn {
+	margin: 20px auto 0;
+	}
+
+	.contacts {
+		padding-bottom: 20px;
+	}
+
+	.footer-text-center {
+		padding-left: 0;
+	}
+
+	.footer-end {
+		font-size: 12px;
+	}
+
+	.footer-end p {
+		margin: 10px auto;
+	}
+
+	.breadcrumb > li {
+		margin: 0;
+	}
+
+	.breadcrumb > li > a {
+		font-size: 12px;
+	}
+
+	.brstseller-img {
+		padding-top: 30px;
+	}
+
+	.bestseller-btn {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.properties ul {
+		padding-left: 0;
+	}
+
+	.properties ul li {
+		line-height: 20px;
+	}
+
+	ol {
+		padding-left: 0;
+	}
+
+	ol li {
+		list-style: none;
+		margin: 10px 0;
+	}
+
+	.towar-btn {
+		margin: 20px 0;
+	}
+
+	.footer-text {
+		padding-bottom: 0;
+	}
+
+	.professional-chemistry p span {
+		font-size: 14px;
+	}
+
+	span {
+		padding-left: 0;
+	}
+
+	.catalog-carwell-list li {
+		margin: 0;
+	}
+
+	.footer-text {
+		padding-top: 0;
+	}
+}

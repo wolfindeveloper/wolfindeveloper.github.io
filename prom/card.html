@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>card</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body> 
+
+<!-- WRAPPER -->
+<div class="page-wrapper">
+
+<!-- HEADER -->
+	<header class="container none-mobile">
+		<div class="head">
+			<div class="logo"><img src="img/logo.png" alt=""></div>
+			<nav class="nav-menu">
+			<a href="#" class="menu__block"><i class='glyphicon glyphicon-th-large'></i></a>
+				<ul>
+					<a href="#" class="menu1">
+						<p>О компании</p>
+					</a>
+					<a href="#" class="menu2">
+						<p>Ассортимент</p>
+					</a>
+					<a href="#" class="menu3">
+						<p>Преимущества</p>
+					</a>
+					<a href="#" class="menu4">
+						<p>Наши партнеры</p>
+					</a>
+				</ul>
+			</nav>
+			<div class="tel">
+				<p>(343) 290-32-86</p>
+				<p><a href="#" class="btnf">Заказать звонок</a></p>
+			</div>
+		</div>
+	</header>
+	<!-- END-HEADER -->
+
+	<!-- MB-MENU -->
+<div class="container none-desctop">
+ <!-- Этот чекбокс даст нам поведение переключателя, 
+  он будет скрыт, но работать -->
+ <input id="toggle" type="checkbox">
+ <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+  состояния чекбокса, является «братским» элементом для чекбокса -->
+ <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+ <label class="toggle-container" for="toggle">
+ <!-- Если меню открыто, то здесь будет иконка «X», 
+  в противном случае просто иконка гамбургера -->
+  <span class="button button-toggle"></span>
+ </label>
+ <!-- Навигация -->
+ <div class="logo"><img src="img/logo.png" alt=""></div>
+ <nav class="nav">
+  <a class="nav-item" href="">О компании</a>
+  <a class="nav-item" href="">Ассортимент</a>
+  <a class="nav-item" href="">Преимущества</a>
+  <a class="nav-item" href="">Наши партнеры</a>
+<!--   <a class="nav-item" href="">Заказать звонок</a>
+  <a class="nav-item" href="">(343) 290-32-86</a> -->
+ </nav>
+ <div class="tel">
+		<p>(343) 290-32-86</p>
+		<p><a href="#" class="btnf">Заказать звонок</a></p>
+	</div>
+</div>
+	<!-- END-MB-MENU -->
+
+	<!-- CRUMBS -->
+	<div class="container crumbs">
+		<a href="#">Главная</a>
+		<span>&#187;</span>
+		<a href="#">Каталог</a>
+		<span>&#187;</span>
+		<a href="#">Летняя одежда</a>
+	</div>
+	<!-- END-CRUMBS -->
+
+<!-- DESCRIPTION -->
+<div class="container">
+
+	<div class="description">
+		<div class="description-img">
+			<figure><img src="img/card-img.png" alt=""></figure>
+		</div>
+
+		<div class="description-img-min">
+
+			<div class="card-zag">
+				<div class="jacket">
+					<h1>Куртка спец-авангард</h1>
+					<p>Артикул: 101-0081-61</p>
+				</div>
+				<p>Цена:<span>2 970 р.</span></p>
+				<div class="btn btn-order"><a href="#">заказать</a></div>
+			</div>
+
+			<div class="details">
+				<p>Детали:</p>
+				<div>
+				<label for="dimensions">Размеры:</label>
+				<select name="" id="dimensions">
+					<option value=""></option>
+					<option value="">1</option>
+					<option value="">2</option>
+					<option value="">3</option>
+				</select>
+			</div>
+			</div>
+
+			<div class="img-min">
+				<div class="img-min-block">
+					<img src="img/card-img-mini1.png" alt="">
+					<p>Карман для телефона</p>
+				</div>
+				<div class="img-min-block">
+					<img src="img/card-img-mini4.png" alt="">
+					<p>Вентиляционные отверстия</p>
+				</div>
+				<div class="img-min-block">
+					<img src="img/card-img-mini2.png" alt="">
+					<p>Эластичная резинка на талии</p>
+				</div>
+				<div class="img-min-block">
+					<img src="img/card-img-mini5.png" alt="">
+					<p>Вентиляционные отверстия на спинке</p>
+				</div>
+				<div class="img-min-block">
+					<img src="img/card-img-mini3.png" alt="">
+					<p>Застежка манжет на потайную кнопку с ответной частью</p>
+				</div>
+				<div class="img-min-block">
+					<img src="img/card-img-mini6.png" alt="">
+					<p>Потайная застежка предотвращает контакт фурнитуры рабочими поверхностями</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+<div class="description-text">
+	<p>Куртка с потайной застежкой на кнопки. Накладные нагрудные карманы, карман для телефона и боковые карманы в рельефах; под клапаном, слева, петля для крепления бейджа. Рукава с локтевым швом на манжетах с застежкой на потайные кнопки. В области лопаток и в области подмышечных впадин вентиляционные отверстия. Пояс с эластичными вставками по бокам.</p>
+	<p>Ткань: «Индестрактбл» смесовая (65% полиэстер, 35% хлопок), с малосминаемой отделкой, плотность 245 г/кв.м, пр-во Klopman (Италия).</p>
+	<p>Цвет: васильковый, отделка – темно-синий.</p>
+</div>
+
+</div>
+<!-- END-DESCRIPTION -->
+
+	<!-- FOOTER -->
+	<footer class="container">
+		<div class="footer-block">
+			<div class="adress">
+				<p>Москва, Люблинская улица 153</p>
+				<p>Все права защищены &copy; 2016 г</p>
+			</div>
+			<div class="footer-tel">
+				<p class="footer-tel-icon">(343) 380-41-87</p>
+				<p class="footer-tel-icon">(343) 290-32-86 </p>
+				<p><a href="#" class="btnf">Заказать звонок</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- END-FOOTER -->
+
+	</div>
+	<!-- END-WRAPPER -->
+
+	<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+    <div class="nonebox" id="nonebox"> 
+          <a class="box-close one" id="box-close" href="#"></a>
+          <div class="form">
+              <div class="form3">
+               <form id="form3">
+                    <p>Обратный звонок</p>
+                    <input name="name" placeholder="Ваше ФИО" class="modal_imput" required="" type="text">
+                    <input name="phone" placeholder="Телефон" class="modal_imput tel_phone" required="" type="text">
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Оставить комментарий"></textarea>	
+                    <input name="ok" value="Отправить" class="modal_button" type="submit">
+                    <input type="hidden" name="formData" value="Заявка с сайта HDMir.ru - Обратный звонок">
+               </form>
+          </div> 
+          </div>
+
+    </div> 
+<!-- END MODAL1 -->
+
+<!-- MODAL5 -->
+<div class="overlay" id="overlay5" style="display:none;"></div> 
+    <div class="nonebox" id="nonebox5"> 
+     <a class="box-close one" id="box-close5" href="index.html"></a>
+        <p class="success"><span>Спасибо за заявку!</span><br>
+        В ближайшее время наш<br> менеджер Вам перезвонит<br>
+        <a href="index.html">Спасибо</a></p>
+    </div> 
+<!-- END MODAL5 -->
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/ajax_form.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

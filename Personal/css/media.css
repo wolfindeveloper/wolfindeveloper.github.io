@@ -1,0 +1,326 @@
+@media screen and (max-width: 1520px) {
+	.head {
+		padding-top: 15px;
+	}
+
+	.head .logo {
+		order: 0;
+	}
+
+	.head .price {
+		order: 1;
+	}
+
+	.head .btns {
+		order: 2;
+	}
+
+	.head .nav-menu {
+		order: 4;
+		width: 100%;
+		text-align: center;
+	}
+
+	.head .languiges {
+		order: 3;
+	}
+}
+
+@media screen and (max-width: 1065px) {
+	.container {
+		width: 700px;
+	}
+
+	.head .languiges,
+	.head .btns {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.head .btns {
+		width: 100%;
+		justify-content: center;
+		margin: 20px auto;
+	}
+
+	.head .languiges {
+		justify-content: center;
+	}
+
+	.chart {
+		width: 90%;
+	}
+
+	.head .nav-menu ul li {
+		padding: 15px 10px;
+	}
+
+	.timer-block h2 {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.timer-block h2:after {
+		margin: 14px auto;
+	}
+
+	.timer {
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.road-map-content .opacity {
+		display: none;
+	}
+
+	.road-map-content2 {
+		bottom: 35px;
+    	right: -32px;
+	}
+
+	.platforma-content .item .bg:after {
+		display: none;
+	}
+
+	.platforma-content .item figure {
+		display: none;
+	}
+
+	.platforma-content .item .text-block {
+		width: 80%;
+	}
+
+	.advantages-bg {
+		padding: 0;
+	}
+
+	.platforma {
+		padding: 30px 0;
+	}
+
+	.timer-left,
+	.timer-right {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h1 p {
+		margin: 10px 0;
+	}
+
+	.chart {
+		height: 200px;
+	}
+
+	.advantages-content .item {
+		width: 48%;
+	}
+
+	.road-map-content .item {
+		width: 30%;
+		background: rgba(251, 251, 251, 0.11);
+		margin: 20px;
+	}
+
+	.road-map-content1 {
+		justify-content: center;
+	}
+
+	.road-map-content2 {
+		justify-content: center;
+		position: static;
+	}
+
+	.slick-prev, .slick-next {
+		right: 25px;
+		z-index: 3;
+	}
+
+	.slick-prev, .slick-prev {
+		left: 25px;
+		z-index: 3;
+	}
+
+	.platforma-content .item {
+		justify-content: space-around;
+	}
+
+	.platforma-content .item .text-block {
+		width: 75%;
+	}
+
+	.cash .invest, .cash .kurs {
+		width: 330px;
+		margin: 15px auto;
+	}
+
+	.join-us-bg {
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.head .price p {
+		font-size: 16px;
+	}
+
+	.head .btns .link {
+		width: 100px;
+	}
+
+	.btn a {
+		font-size: 15px;
+	}
+
+	.head .nav-menu ul {
+		justify-content: space-between;
+	}
+
+	.head .nav-menu ul li {
+		padding: 10px 0;
+		margin: 0 3px;
+	}
+
+	.head .nav-menu ul li a {
+		font-size: 13px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.header-block .link {
+		width: 275px;
+	}
+
+	.chart {
+		display: none;
+	}
+
+	.timer-bg,
+	.road-map-bg {
+		padding: 30px 0;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.clock-bg {
+		width: 80px;
+		height: 100px;
+		margin: 0 6px;
+	}
+
+	.time {
+		font-size: 40px;
+	}
+
+	.clock-bg .text {
+		font-size: 14px;
+	}
+
+	.platforma .zg {
+		font-size: 16px;
+	}
+
+	.advantages-content .item {
+		width: 100%;
+	}
+
+	.road-map-content .item {
+		width: 100%;
+	}
+
+	.road-map-content .item {
+		margin: 10px;
+		height: auto;
+		padding: 20px 0;
+	}
+
+	.join-us .social {
+		width: auto;
+	}
+
+	.header-index {
+		height: auto;
+		padding: 30px 0;
+	}
+
+	.platforma-content .item .text-block {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.advantages-content .item {
+		margin: 10px auto;
+	}
+
+	.timer-bg-itwork .link {
+		width: 270px;
+	}
+
+	.timer-bg-itwork .link a {
+		font-size: 14px;
+	}
+
+	.timer-how-itwork {
+		width: auto;
+	}
+
+	.cash .invest .zg, .cash .kurs .zg {
+		font-size: 20px;
+		padding-left: 35%;
+	}
+
+	.cash .invest .text, .cash .kurs .text {
+		padding-left: 35%;
+	}
+
+	.status-icon-bg .item {
+		margin: 10px auto;
+	}
+
+	.vhod .input {
+		width: 270px;
+	}
+
+	.footer-other {
+		padding-top: 30px;
+	}
+
+	footer {
+		padding: 20px 0;
+	}
+
+	.modal-form .text-block .zg {
+		font-size: 90px;
+	}
+
+	.modal-form .text-block .bonus-bounty,
+	.modal-form .text-block .pre {
+		font-size: 20px;
+	}
+
+	.modal-form .btn {
+		margin: 20px auto;
+	}
+
+	.modal-form .text-block {
+		margin: 5px auto;
+	}
+}

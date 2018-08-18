@@ -1,0 +1,1317 @@
+@media (max-width: 1279px) {
+	.container {
+		width: 900px;
+		margin: 0 auto;
+	}
+
+	header {
+		/*height: 100vh;*/
+	}
+
+	.head {
+		padding: 15px 0 15px 0;
+	}
+
+	.head p {
+		padding: 0;
+	}
+
+	.header-menu {
+		padding-top: 15px;
+    	padding-bottom: 20px;
+	}
+
+	.nav-menu .menu li {
+		margin-left: 12px;
+	}
+
+	.nav-menu .menu li a {
+		font-size: 17px;
+	}
+
+	.header-caption {
+		margin-top: 30px;
+	}
+
+	h1 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+
+	.register-whitelist .text {
+		font-size: 20px;
+	}
+
+	.video-bg {
+		width: 229px;
+		top: 20%;
+		right: 0;
+	}
+
+	.register-btn {
+		margin-left: auto;
+	}
+
+	.progressbar {
+		margin: 40px auto 0 auto;
+		padding-bottom: 30px;
+	}
+
+	.form-join-block {
+		padding: 5px 0 5px 0;
+	}
+
+	.join-form .input {
+		width: 400px;
+	}
+
+	.inform-table .worchain-block .text:after {
+		width: 750px;
+	}
+
+	.workchain-bg .img-text-block img {
+		max-width: 50%;
+	}
+
+	.workchain-bg .img-text-block .text {
+		width: 50%;
+	}
+
+	html body .content-block {
+		padding-top: 30px!important;
+		padding-bottom: 30px!important;
+	}
+
+	.product .text-mac-block .text-block {
+		width: 70%;
+	}
+
+	.product .text-mac-block .text-block p:first-child {
+		font-size: 20px;
+	}
+
+	.product .text-mac-block .text-block p.blue {
+		font-size: 22px;
+	}
+
+	.zigzag .zigzag-icons .item p {
+		font-size: 16px;
+	}
+
+	.inform-table .left-caption {
+		width: 12.38983%;
+	}
+
+	.inform-table .worchain-block {
+		margin-left: 50px;
+	}
+
+	.inform-table .upwork-block {
+		width: 28.491525%;
+    	margin-left: 100px;
+	}
+
+	.inform-table .freelance-block {
+		width: 27.491525%;
+    	margin-left: 75px;
+	}
+
+	.distribution .grafik-block .list-block {
+		margin-left: 100px;
+	}
+
+	.distribution .grafik-block .list-block ul {
+		margin-bottom: 25px;
+	}
+
+	.distribution .grafik-block .list-block ul li {
+		margin-bottom: 8px;
+		font-size: 22px;
+	}
+
+	.distribution .grafik-block .list-block .text {
+		font-size: 22px;
+	}
+
+	.distribution .inform-table .left-caption {
+		width: 20.38983%;
+	}
+
+	.distribution .inform-table .worchain-block {
+		width: 23.254237%;
+	}
+
+	.roadmap-block {
+		margin-top: 30px;
+	}
+
+	.roadmap-block .item {
+		width: 220px;
+	}
+
+	.roadmap-block .item .caption {
+		font-size: 22px;
+		margin: 15px 0 15px 0;
+	}
+
+	.roadmap-block ul {
+		margin-top: 20px;
+		padding-left: 5px;
+    	padding-right: 5px;
+	}
+
+	.roadmap-block ul li {
+		font-size: 16px;
+	}
+
+	.contact-img-block .img-block {
+		margin-left: 50px;
+	}
+
+	.contact-img-block .contact-block .adress1 {
+		margin-top: 20px;
+	}
+
+	.contact-img-block .contact-block .caption, .contact-img-block .contact-block .adress {
+		font-size: 20px;
+	}
+
+	.contact-img-block .contact-block .check {
+		margin: 15px 0;
+	}
+
+	.contact-img-block .contact-block .check a {
+		font-size: 22px;
+	}
+
+	.contact-img-block .contact-block .pdf-block {
+		margin-top: 60px;
+	}
+
+/*WHITELIST.HTML*/
+.tabs .tabs-content {
+	margin-left: 30px;
+}
+
+.tabs-content .personal-info input,
+.whitelist-registration .wallet input,
+.tabs-content .personal-info .text,
+.whitelist-registration .info-form .personal-info .info,
+.whitelist-registration .info-form .wallet .reginfo .pouch,
+.whitelist-registration .wallet .text  {
+	width: 65%;
+	font-size: 16px;
+
+}
+
+#fine-uploader-validation .qq-uploader,
+#fine2-uploader-validation .qq-uploader,
+#fine3-uploader-validation .qq-uploader,
+#fine4-uploader-validation .qq-uploader {
+	width: 300px;
+	height: 250px;
+}
+
+.whitelist-registration .idorpassport .photo,
+.whitelist-registration .idorpassport .selfie {
+	width: 300px;
+	height: 250px;
+}
+
+.qq-upload-file {
+	width: 100%;
+}
+
+#fine-uploader-validation .qq-upload-button,
+#fine2-uploader-validation .qq-upload-button,
+#fine3-uploader-validation .qq-upload-button,
+#fine4-uploader-validation .qq-upload-button {
+	bottom: -150px;
+}
+
+footer .footer-whitelist .text {
+	text-align: center;
+}
+
+.selectdiv {
+	margin-left: 26%;
+}
+
+.tabs-content .contribution .deposit .dirrect {
+	width: 100%;
+}
+
+.tabs-content .contribution .deposit .depositnumber {
+	width: 65%;
+}
+
+.tabs-content .contribution .deposit .qrcod {
+	width: 34%;
+}
+
+.tabs-content .contribution .deposit .dirrect .number-deposit {
+	font-size: 15px;
+}
+
+.tabs-content .contribution .deposit .dirrect {
+	flex-wrap: wrap;
+}
+/*WHITELIST.HTML*/
+
+/*POPUP*/
+.nonebox {
+	padding: 20px 50px;
+}
+
+.nonebox .form .caption {
+	margin: 15px auto;
+}
+/*POPUP*/
+
+/*PAGE2*/
+.page2 .head p a {
+	font-size: 21px;
+}
+
+.page2 .current-project,
+.page2 .freelancers {
+	padding-top: 50px;
+}
+
+.page2 .selectdiv {
+	min-width: 280px;
+}
+/*PAGE2*/
+
+.indexsoon .progressbar {
+	margin: 160px auto 0 auto;
+}
+
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.is-sticky .form-bg {
+		margin-top: 49px;
+	}
+
+	.container .caption-block p {
+		font-size: 18px;
+	} 
+
+	.inform-table .worchain-block .text:after {
+		width: 570px;
+	}
+
+	.mobile-header {
+	    position: fixed;
+	    z-index: 9999999999999;
+	}
+
+	.mobile-menu .logo {
+		display: block;
+		position: fixed;
+	}
+
+	.head-bg {
+	  	margin-top: 50px;
+	}
+
+	.head p {
+		font-size: 14px;
+	}
+
+	.header-menu {
+	  	display: none;
+	}
+
+	.header-caption {
+	  	margin-top: 0;
+	  	padding-top: 20px;
+	}
+
+	.video-bg {
+	  	top: 20px;
+	}
+
+	.join-form .input {
+		width: 300px;
+	}
+
+	.form-bg .question {
+		font-size: 16px;
+	}
+
+	.join-telegram a {
+		font-size: 15px;
+	}
+
+	.workchain-bg .text {
+		padding: 0;
+	}
+
+	.workchain-bg .img-text-block .text {
+		margin-left: 30px;
+	}
+
+	.product .text-mac-block {
+		align-items: flex-start;
+	}
+
+	.product .text-mac-block .text-block {
+		width: 90%;
+	}
+
+	.product .text-mac-block .text-block p:first-child {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.product .text-mac-block .text-block p.blue {
+		font-size: 20px;
+	}
+
+	.zigzag-bg {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: url(../img/who-bg.jpg) no-repeat center;
+	}
+
+	.zigzag .zigzag-icons {
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.zigzag .zigzag-icons .item {
+		padding: 0;
+		width: 33%;
+		margin: 15px auto;
+	}
+
+	.inform-table .left-caption {
+		margin-top: 46px;
+	}
+
+	.inform-table .left-caption {
+		width: 16.38983%;
+	}
+
+	.inform-table .worchain-block {
+		margin-left: 25px;
+		width: 30.254237%;
+	}
+
+	.inform-table .upwork-block {
+		margin-left: 25px;
+		width: 52.491525%;
+	}
+
+	.inform-table .freelance-block {
+		margin-left: 25px;
+		width: 52.491525%;
+	}
+
+	.inform-table .inform-table-cols .text,
+	.inform-table .left-caption p {
+		font-size: 16px;
+	}
+
+	.who .who-icons {
+		width: 100%;
+	}
+
+	.distribution .grafik-block {
+		padding-left: 0;
+		padding-bottom: 50px;
+	}
+
+	.distribution .grafik-block .list-block {
+		margin-left: 50px;
+	}
+
+	.distribution .grafik-block .list-block ul li {
+		font-size: 20px;
+	}
+
+	.distribution .grafik-block .list-block .text {
+		font-size: 20px;
+	}
+
+	.distribution .inform-table .left-caption {
+		width: 33.38983%;
+	}
+
+	.distribution .inform-table .worchain-block {
+		margin-left: 25px;
+	}
+
+	.distribution .inform-table .worchain-block {
+		width: 39.254237%;
+	}
+
+	.inform-table .upwork-block {
+		width: 39.254237%;
+	}
+
+	.distribution .inform-table .left-caption {
+		margin-top: 54px;
+	}
+
+	.roadmap-block {
+		flex-wrap: wrap;
+	}
+
+	.roadmap-block .item {
+		margin: 20px auto;
+	}
+
+	.team-block .item {
+		width: 45%;
+		margin: 40px auto 0 auto;
+	}
+
+	.contact .contact-block,
+	.contact-img-block .img-block {
+		width: 50%;
+	}
+
+	.contact-img-block .contact-block .caption, .contact-img-block .contact-block .adress {
+		font-size: 16px;
+	}
+
+	.contact .text {
+		margin-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.contact-bg .content-block {
+		padding-bottom: 0!important;
+	}
+
+/*WHITELIST.HTML*/
+.tabs .tabs-content {
+	width: 71%;
+}
+
+.tabs-content .personal-info .item,
+.whitelist-registration .personal-info .input,
+.whitelist-registration .wallet .input {
+	width: 90%;
+}
+
+.tabs-content .personal-info label,
+.whitelist-registration .registration-form .submit {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.whitelist-page .flex {
+	flex-wrap: wrap;
+}
+
+.tabs-content .personal-info input,
+.whitelist-registration .wallet input,
+.tabs-content .personal-info .text,
+.whitelist-registration .info-form .personal-info .info,
+.whitelist-registration .wallet .text {
+	width: 100%;
+	margin-left: 0;
+}
+
+.whitelist-registration .wallet label {
+	margin-bottom: 10px;
+}
+
+.whitelist-registration .wallet .text,
+.whitelist-registration .info-form .wallet .reginfo .pouch {
+	width: 90%;
+}
+
+.whitelist-registration .personal-info .input img {
+	top: 28px;
+}
+
+.whitelist-registration .idorpassport .photo,
+.whitelist-registration .idorpassport .selfie {
+	margin: 10px auto;
+}
+
+.whitelist-registration .idorpassport .selfie {
+	margin-top: 150px;
+}
+
+.whitelist-registration .wallet .checkbox {
+	margin-left: 0;
+	width: 90%;
+}
+
+.whitelist-registration .info-form .personal-info .reginfo {
+	margin: 30px 0;
+}
+
+.whitelist-registration .info-form .personal-info .reginfo p,
+.whitelist-registration .info-form .wallet .reginfo .etn {
+	margin-bottom: 10px;
+}
+
+.selectdiv {
+	margin-left: 17%;
+}
+
+.tabs-content .contribution .deposit .qrcod {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.tabs-content .contribution .deposit .depositnumber {
+	width: 100%;
+	margin: 10px auto;
+}
+
+.tabs-content .contribution .deposit .dirrect {
+	margin-top: 5px;
+}
+/*WHITELIST.HTML*/
+
+/*POPUP*/
+	.form-join-block,
+	.join-form .input {
+		flex-wrap: nowrap;
+	}
+/*POPUP*/
+
+/*PAGE2*/
+.page2 .head {
+	flex-wrap: wrap;
+}
+
+.page2 .head .logo {
+	width: 50%;
+	text-align: left;
+	order: 0;
+}
+
+.page2 .head .singup {
+	order: 1;
+	width: 50%;
+}
+
+.page2 .head p {
+	order: 2;
+	margin-top: 30px;
+}
+
+.page2 .header-bg h1 {
+	font-size: 40px;
+}
+
+.page2 .header-bg .caption {
+	font-size: 25px;
+}
+
+.page2 .selectdiv {
+	min-width: 190px;
+}
+
+.page2 .project-block, .page2 .freelancers-block {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.page2 .project-block .item {
+	width: 45%;
+	margin: 20px auto;
+}
+
+.page2 .freelancers-block .item {
+	width: 45%;
+	margin: 20px auto;
+}
+/*PAGE2*/
+
+.indexsoon h1 {
+	text-align: center;
+}
+
+.indexsoon .video-bg {
+	position: static;
+	margin: 10px auto;
+}
+
+.indexsoon .progressbar {
+	margin: 40px auto 0 auto;
+}
+}
+
+	@media (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#particles-js,
+	.form-bg {
+		display: none;
+	}
+	
+	.inform-table .worchain-block .text:after {
+		display: none;
+	}
+
+	h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.head {
+		padding: 5px 0 5px 0;
+	}
+
+	.head p {
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.register-whitelist .text {
+		font-size: 11px;
+	}
+
+	.register-whitelist .text p {
+		line-height: 20px;
+	}
+
+	.video-bg {
+		width: 150px;
+		right: 15px;
+	}
+
+	.progressbar .caption {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.progressbar .text {
+		font-size: 20px;
+		margin-top: 15px;
+	}
+
+	.register-btn {
+		width: 150px;
+	}
+
+	.register-btn {
+		font-size: 12px;
+	}
+
+	.form-join-block {
+		flex-wrap: wrap;
+	}
+
+	.form-join-block .join-form {
+		width: 45%;
+	}
+
+	.join-form .input {
+		width: 100%;
+	}
+
+	.form-bg .question {
+		display: none;
+	}
+
+	.join-form .input input[type="submit"] {
+		font-size: 16px;
+	}
+
+	.container .caption-block p {
+		margin-top: 10px;
+	}
+
+	.caption-block:after {
+		margin: 15px auto 0 auto;
+	}
+
+	.workchain-bg .text {
+		line-height: 22px;
+	}
+
+	.workchain-bg .img-text-block {
+		flex-wrap: wrap;
+	}
+
+	.workchain-bg .img-text-block img {
+		max-width: 100%;
+	}
+
+	.workchain-bg .img-text-block .text {
+		margin: 15px auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.product .text-mac-block {
+		flex-wrap: wrap;
+	}
+
+	.product .text-mac-block .text-block {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.demo-btn {
+		margin: 15px auto;
+	}
+
+	.zigzag .zigzag-icons .item {
+		width: 45%;
+	}
+
+	.inform-table {
+		align-items: flex-start;
+	}
+
+	.inform-table .left-caption {
+		display: none;
+	}
+
+	.inform-table .inform-table-cols,
+	.distribution .inform-table .inform-table-cols {
+		width: 33%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-self: stretch;
+	}
+
+	.distribution .inform-table .inform-table-cols {
+		justify-content: flex-end;
+	}
+
+	.inform-table .inform-table-cols .caption {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.inform-table .mobile-caption {
+		display: block;
+		font-family: 'PFDinDisplayPro-Medium';
+		font-size: 16px;
+		color: rgb(0, 193, 249);
+		height: 36px;
+		display: flex;
+		align-items: center;
+	} 
+
+	.inform-table .inform-table-cols .text {
+		padding: 0;
+		margin: 0;
+		height: 46px;
+		font-size: 14px;
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.who .who-icons,
+	.distribution .grafik-block {
+		flex-wrap: wrap;
+	}
+
+	.distribution .grafik-block .grafik {
+		margin: 0 auto;
+	}
+
+	.distribution .grafik-block .list-block {
+		/*text-align: center;*/
+	}
+
+	.who .who-icons .item {
+		margin: 10px auto;
+	}
+
+	.distribution .grafik-block .list-block {
+		margin: 20px auto;
+	}
+
+	.distribution .inform-table .inform-table-cols .text {
+		padding: 0;
+		margin: 0;
+	}
+
+	.distribution .inform-table .inform-table-cols .caption {
+		font-size: 20px;
+	}
+
+	.distribution .inform-table .inform-table-cols .discount {
+		height: auto;
+		font-size: 16px;
+	}
+
+	.distribution .grafik-block {
+		padding-bottom: 10px;
+	}
+
+	.distribution .inform-table {
+		margin-top: 20px;
+	}
+
+	.roadmap-block .item {
+		width: 48%;
+		margin: 10px auto;
+	}
+
+	.roadmap-block ul li {
+		font-size: 12px;
+	}
+
+	.team-block .item .img-block {
+		width: 150px;
+		height: 150px;
+	}
+
+	.team-block .item .img-block .photo img {
+		height: auto;
+		bottom: -20px;
+	}
+
+	.advisors .team-block .item {
+		margin-top: 40px;
+	}
+
+	.team-block .item p.name {
+		font-size: 16px;
+	}
+
+	.team-block .item p.info {
+		font-size: 15px;
+	}
+
+	.contact-img-block {
+		flex-wrap: wrap;
+	}
+
+	.contact .contact-block, .contact-img-block .img-block {
+		width: 100%;
+	}
+
+	.contact-img-block .img-block {
+		margin: 20px auto;
+	}
+
+	.contact-img-block .contact-block .pdf-block,
+	.contact-img-block .contact-block .contact-social {
+		margin-top: 20px;
+	}
+
+	.contact .text {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.contact .copyright {
+		font-size: 16px;
+	}
+
+	.nonebox {
+		width: 90%;
+		max-height: 592px;
+		min-height: 370px;
+	}
+
+	.nonebox .form {
+		max-height: 300px;
+		overflow-y: auto;
+		padding-bottom: 70px;
+	}
+
+	.nonebox .form .capcha {
+		width: 188px;
+	}
+
+	.nonebox .form .forgotpass a {
+		font-size: 14px;
+	}
+
+	.nonebox .form .caption {
+		font-size: 20px;
+	}
+
+/*WHITELIST.HTML*/
+	.tabs {
+		flex-wrap: wrap;
+	}
+
+	.tabs .tabs-menu {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.tabs ul li {
+		width: 25%;
+		padding: 15px 10px;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.tabs .tabs-content {
+		width: 100%;
+		padding-top: 30px;
+		margin-left: 0;
+	}
+
+	.tabs-content .personal-info .item,
+	.whitelist-registration .personal-info .input,
+	.whitelist-registration .wallet .input {
+		width: 100%;
+	}
+
+	.tabs .tabs-content .caption {
+		text-align: center;
+	}
+
+	.quantity {
+		width: 150px;
+	}
+
+	.quantity input {
+		width: 100%;
+	}
+
+	.selectdiv {
+		margin-left: 5%;
+		margin-top: 10px;
+	}
+
+	.tabs-content .contribution .contribution-form .calculate .input-group-right {
+		margin-top: 30px;
+	}
+
+	.tabs-content .contribution .deposit-bg {
+		padding: 10px;
+	}
+
+	.tabs-content .contribution .deposit .qrcod {
+		width: 200px;
+	}
+
+	.tabs-content .contribution .deposit .dirrect {
+		display: block;
+	    width: 90%;
+	    margin: 0 auto;
+	}
+
+	.tabs-content .contribution .deposit .dirrect .number-deposit {
+		font-size: 14px;
+	}
+
+	.tabs-content .contribution .contribution-info .pouch-info .pouch {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	footer .footer-whitelist {
+		background-size: cover;
+	}
+
+	footer .footer-whitelist .pdf-block a {
+		width: 100%;
+		justify-content: flex-start;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+
+	.idorpassport .flex {
+		flex-direction: column;
+	}
+
+/*WHITELIST.HTML*/
+
+/*PAGE2*/
+.page2 .header-bg h1 {
+	font-size: 35px;
+}
+
+.page2 .head .singup {
+	width: 150px;
+}
+
+.page2 .head p {
+	margin-bottom: 10px;
+}
+
+.page2 .input-group {
+	flex-wrap: wrap;
+}
+
+.page2 .input-group .rangeinput {
+	order: 0;
+	width: 100%;
+}
+
+.page2 .input-group .selectdiv1 {
+	order: 1;
+}
+
+.page2 .input-group .selectdiv2 {
+	order: 2;
+}
+
+.selecteurPrix {
+	margin: 0 auto;
+}
+
+.page2 .selectdiv {
+	width: 40%;
+	margin: 10px auto;
+}
+
+.selecteurPrix {
+	width: 290px;
+}
+
+.page2 .current-project-bg .caption,
+.page2 .freelancers-bg .caption {
+	margin-bottom: 80px;
+}
+
+.page2 .header-bg {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.page2 .project-block, .page2 .freelancers-block {
+	flex-wrap: wrap;
+}
+
+.page2 .project-block .item,
+.page2 .freelancers-block .item {
+	width: 280px;
+}
+
+.page2 .current-project .caption .zg, .page2 .freelancers .caption .zg {
+	font-size: 30px;
+}
+
+.page2 .footer {
+	flex-wrap: wrap;
+}
+
+.page2 .footer .logo-footer {
+	width: 100%;
+	text-align: center;
+}
+
+.page2 .footer .social-footer {
+	margin: 20px auto;
+}
+/*PAGE2*/
+
+.indexsoon .video-bg {
+	width: 90%;
+	padding: 15px;
+	height: auto;
+}
+
+.indexsoon .timer .number, .indexsoon .timer .delimiter {
+	font-size: 50px;
+}
+
+.indexsoon .timer .delimiter {
+	line-height: 40px;
+}
+
+.indexsoon .timer-form .submit {
+	width: 40%;
+}
+
+.indexsoon .timer-form .input input::-webkit-input-placeholder {color: rgb(255, 255, 255);font-size: 12px;}
+.indexsoon .timer-form .input input::-moz-placeholder {color: rgb(255, 255, 255);font-size: 12px;}
+.indexsoon .timer-form .input input:-moz-placeholder {color: rgb(255, 255, 255);font-size: 12px;}
+.indexsoon .timer-form .input input:-ms-input-placeholder {color: rgb(255, 255, 255);font-size: 12px;}
+
+.indexsoon .timer-form .input:after {
+	right: 8px;
+}
+
+}
+
+	@media (max-width: 413px) {
+	h1 {
+		font-size: 13px;
+	}
+
+	.head p {
+		font-size: 10px;
+	}
+
+	.register-whitelist {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.register-whitelist .text {
+		width: 100%;
+	}
+
+	.register-btn {
+		margin: 15px auto;
+	}
+
+	.progressbar {
+		margin: 15px auto 15px auto;
+	}
+
+	.progressbar .caption,
+	.progressbar .text {
+		font-size: 14px;
+	}
+
+	.join-form .input input[type="text"] {
+		font-size: 12px;
+		padding-left: 7px;
+	}
+
+	.join-telegram {
+		width: 45%;
+	}
+
+	.workchain-bg .text,
+	.workchain-bg .img-text-block .text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.zigzag .zigzag-icons .item .img {
+		width: 120px;
+		height: 120px;
+	}
+
+	.zigzag .zigzag-icons {
+		align-items: flex-start;
+	}
+
+	.zigzag .zigzag-icons .item p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.inform-table .inform-table-cols .caption {
+		font-size: 16px;
+	}
+
+	.inform-table .inform-table-cols .text {
+		font-size: 12px;
+	}
+
+	.who .who-icons {
+		margin: 15px auto 15px auto;
+	}
+
+	.distribution .inform-table .inform-table-cols .caption {
+		font-size: 16px;
+	}
+
+	.roadmap-block .item .caption{
+		font-size: 16px;
+		margin: 10px auto 10px auto;
+	}
+
+	.roadmap-block ul {
+		margin-top: 10px;
+	}
+
+	.roadmap-block ul li {
+		margin-top: 10px;
+	}
+
+	.team-block .item .img-block {
+		width: 130px;
+		height: 130px;
+	}
+
+/*WHITELIST*/
+.tabs ul li {
+	font-size: 12px;
+	padding: 15px 5px;
+}
+
+.whitelist-registration .idorpassport .photo, .whitelist-registration .idorpassport .selfie {
+	width: 100%;
+}
+
+#fine-uploader-validation .qq-uploader, #fine2-uploader-validation .qq-uploader, #fine3-uploader-validation .qq-uploader, #fine4-uploader-validation .qq-uploader {
+	width: 100%;
+}
+
+.whitelist-registration .info-form .wallet .reginfo .pouch {
+	font-size: 12px;
+}
+
+.quantity {
+	width: 130px;
+}
+
+.selectdiv {
+	margin-left: 0;
+}
+
+.tabs-content .contribution .contribution-form .calculate .input-group-left .amount {
+	font-size: 15px;
+}
+
+.selectdiv select {
+	font-size: 16px;
+}
+
+.tabs-content .contribution .contribution-form .calculate .input-group-right .sum {
+	font-size: 20px;
+}
+
+.tabs-content .contribution .contribution-form .calculate .input-group-right .text {
+	font-size: 16px;
+}
+
+.tabs-content .contribution .deposit .dirrect {
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.tabs-content .contribution .deposit .dirrect .red {
+	text-align: center;
+}
+
+.tabs-content .contribution .deposit .dirrect .number-deposit {
+	word-wrap: break-word;
+}
+
+.tabs .tabs-content .caption {
+	font-size: 23px;
+}
+/*WHITELIST*/
+
+/*PAGE2*/
+.page2 .head .logo {
+	width: 100%;
+	text-align: center;
+}
+
+.page2 .head .singup {
+	margin: 20px auto;
+}
+/*PAGE2*/
+}

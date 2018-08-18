@@ -1,0 +1,423 @@
+@media (max-width: 1199px) {
+	.navbar-nav>li {
+		padding: 0 20px;
+	}
+
+	.head-info .tel-block .tel {
+		font-size: 23px;
+	}
+
+	.carousel-indicators {
+		bottom: 0;
+	}
+
+	.search .calculator {
+		width: 300px;
+	}
+
+	.search .input-group {
+		width: 650px;
+	}
+
+	.form-left .tel {
+		font-size: 14px;
+	}
+
+	.btn-tertiary {
+		width: 220px;
+	}
+
+	.news .item .text-img .rubrika {
+		margin-left: 10px;
+	}
+	/*CATALOG-HTML*/
+	.catalog-slider .carousel-caption h3 {
+		font-size: 25px;
+	}
+
+	.catalog-slider .carousel-caption {
+		left: 10%;
+		right: 10%;
+	}
+	/*CATALOG-HTML*/
+}
+
+@media (max-width: 991px) {
+	.head-info {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.head-info .logo {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.navbar-nav>li {
+		padding: 0 10px;
+	}
+
+	.navbar-nav>li>a {
+		font-size: 14px;
+	}
+
+	.slider .carousel-caption {
+		width: auto;
+	}
+
+	.slider .carousel-caption h3 {
+		font-size: 35px;
+	}
+
+	.slider .item img {
+		height: 400px;
+	}
+
+	.search .calculator {
+		width: 40%;
+	}
+
+	.search .input-group {
+		width: 55%;
+	}
+
+	.nav-tabs>li>a {
+		padding: 10px 5px;
+	}
+
+	.nav-tabs>li>a {
+		font-size: 12px;
+	}
+
+	.nav-tabs>li.active>a,
+	.nav-tabs>li.active>a:hover,
+	.nav-tabs>li.active>a:focus {
+		font-size: 12px;
+	}
+
+	.tab-content .item .caption {
+		font-size: 12px;
+	}
+
+	.about-img .item {
+		margin: 10px auto;
+	}
+
+	.news .item {
+		margin: 10px auto;
+	}
+
+	.info .logo {
+		text-align: center;
+	}
+
+	.info .info-block .flex {
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.info .info-block .item {
+		text-align: center;
+	}
+
+	.footer-info .text-block .flex {
+		justify-content: center;
+	}
+
+	.footer-info .btns-block .button-call,
+	.footer-info .btns-block .button-aplication {
+		margin: 10px auto;
+	}
+
+	.catalog-slider {
+		display: none;
+	}
+
+	.catalog-content-bg .catalog-product {
+		padding-left: 0;
+	}
+
+	.catalog-content-bg .catalog-list {
+		padding-right: 0;
+	}
+} 
+
+@media (max-width: 767px) {
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.time-mail {
+		text-align: center;
+	}
+
+	.head-info .logo,
+	.head-info .tel-block {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.flex-menu {
+		flex-direction: column;
+	}
+
+	.navbar-nav>li {
+		border: none;
+	}
+
+	.navbar-brand {
+		display: block;
+		float: none;
+		text-align: right;
+		color: rgb(255, 255, 255);
+	}
+
+	.navbar-toggle {
+		margin-left: 10px;
+	}
+
+	.slider .carousel-caption h3 {
+		font-size: 25px;
+	}
+
+	.slider .carousel-caption .btn-begin,
+	.slider .carousel-caption .btn-all {
+		width: 100%;
+	}
+
+	.search .flex {
+		flex-wrap: wrap;
+	}
+
+	.search .calculator,
+	.search .input-group {
+		width: 100%;
+		margin: 10px auto;
+	}
+
+	.nav-tabs {
+		flex-wrap: wrap;
+	}
+
+	.nav-tabs>li {
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.nav-tabs>li>a {
+		font-size: 14px;
+	}
+
+	.tab-content .item .caption {
+		font-size: 14px;
+	}
+
+	.tab-content .item .img {
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	.about h2,
+	.tab-content .tab-item h2,
+	.form h2,
+	.news .zg,
+	.catalog-product .dop-services h2,
+	.catalog-product h2 {
+		border: none;
+	}
+
+	.about h2 span:after,
+	.tab-content .tab-item h2 span:after,
+	.form span:after,
+	.news h2 span:after,
+	.catalog-product .dop-services h2 span:after,
+	.catalog-product h2 span:after {
+		display: none;
+	}
+
+	.tab-content .tab-item h2,
+	.form h2 {
+		text-align: center;
+	}
+
+	.about {
+		text-align: center;
+	}
+
+	.about .text {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+	.form .file-item {
+		flex-wrap: wrap;
+	}
+
+	.file-item p,
+	.input-file + .js-labelFile {
+		width: 100%;
+	}
+
+	.form-left .tel a {
+		display: block;
+	}
+
+	.form-right button {
+		margin: 20px auto;
+	}
+
+	.news .zg {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.news .zg h2 {
+		width: 100%;
+	}
+
+	.news .zg a {
+		margin: 0 auto;
+	}
+
+	.info .info-block .item {
+		text-align: left;
+		width: 100%;
+	}
+
+	.footer-info .text-block .flex {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footer-info .text-block a.icon2 {
+		margin-left: 0;
+	}
+
+	.tab-content .tab-item,
+	.about-bg,
+	.form-bg,
+	.news-bg,
+	.info-bg {
+		padding: 30px 0;
+	}
+
+	/*CATALOG*/
+	.product-info-links a {
+		text-align: center;
+		border-bottom: 0;
+	}
+
+	.inquiry table thead th {
+		font-size: 12px;
+	}
+
+	.inquiry table tbody td {
+		font-size: 12px;
+	}
+
+	.inquiry table tbody td a {
+		width: 115px;
+	}
+
+	.dop-services h2 {
+		text-align: center;
+	}
+
+	.catalog-product h2 {
+		text-align: center;
+	}
+	/*CATALOG*/
+	/*MODAL*/
+	.modal-content {
+		padding: 10px;
+	}
+
+	.modal-header h4 {
+		font-size: 25px;
+	}
+
+	.modal-header {
+		padding: 0;
+	}
+
+	.modal-body p {
+		font-size: 16px;
+	}
+
+	.modal-header .close {
+		top: 5px;
+		right: 5px;
+	}
+	/*MODAL*/
+
+	.tabs-desctop,
+	.mobilenone {
+		display: none;
+	}
+
+	.myacordion {
+		display: block;
+	}
+
+	.product-info-blocks .price .item .img {
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.product-info-blocks .price .item .info {
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.product-info-blocks .price .item {
+		padding: 10px;
+		margin: 10px 0;
+	}
+
+	.catalog-product .product-img {
+		margin: 10px auto;
+	}
+
+	.product-info-blocks .description .text {
+		margin: 10px 0;
+	}
+
+}
+
+@media (max-width: 550px) {
+	.slider .carousel-caption h3 {
+		font-size: 17px;
+	}
+
+	.slider .carousel-caption .link {
+		font-size: 14px;
+	}
+
+	.nav-tabs>li {
+		margin: 5px auto;
+	}
+
+	.slider-service .slickPrev, .slider-service .slickNext {
+		top: -30px;
+	}
+
+	.product-info-blocks .inquiry .table {
+		width: 100%;
+		overflow-x: auto;
+	}
+
+	.inquiry table thead th {
+		padding: 15px 5px;
+	}
+	.product-info-links {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+}

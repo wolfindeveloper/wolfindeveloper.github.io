@@ -1,0 +1,1143 @@
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'ProximaNova-Bold';
+	font-size: 45px;
+	text-transform: uppercase;
+	color: rgb(254, 254, 254);
+	text-shadow: -2px 4px 45px rgba(17, 20, 63, 0.58);
+	position: relative;
+	z-index: 2;
+}
+
+h2 {
+	font-family: 'ProximaNova-Bold';
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+h2 span {
+	color: rgb(60, 165, 200);
+}
+
+h2:after {
+	content: '';
+	display: block;
+	width: 280px;
+	height: 6px;
+	border: 1px solid #1e89ca;
+	border-right: none;
+	border-left: none;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.btn a {
+	display: block;
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -15px;
+	width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 15px solid #3ca4c8;
+    border-bottom: 25px solid transparent;
+}
+
+.btn:after {
+	content: '';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 15px solid #3ca4c8;
+    border-bottom: 25px solid transparent;
+}
+
+/*BEGIN-HEADER*/
+.header-index {
+	background: url(../img/header-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.head-bg {
+	background: rgba(0, 0, 0, 0.5);
+	padding-left: 5.208333%;
+	padding-right: 5.208333%;
+	font-family: 'ProximaNova-Light';
+}
+
+.head .price p {
+	font-family: 'ProximaNova-Bold';
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 4px rgba(17, 20, 63, 0.86);
+}
+
+.head .nav-menu ul {
+	justify-content: center;
+}
+
+.head .nav-menu ul li {
+	padding: 40px 10px;
+	margin: 0 10px;
+	transition: 0.5s all;
+}
+
+.head .nav-menu ul li:hover {
+	box-shadow: inset 0px -4px 0px 0px rgb(60, 165, 200);
+}
+
+.head .nav-menu ul li a {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+.head .btns .link {
+	width: 170px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(60, 165, 200);
+	position: relative;
+	margin: 0 20px;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.head .btns .link:hover {
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.66);
+}
+
+.head .languiges a {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	margin: 0 5px;
+}
+
+.head .languiges a img {
+	margin-right: 3px;
+}
+
+.header-block {
+	text-align: center;
+	padding: 10% 0 0 0;
+	position: relative;
+	z-index: 3;
+}
+
+.header-block h1:after {
+	content: '';
+	display: block;
+	width: 280px;
+	height: 6px;
+	border: 1px solid #1e89ca;
+	margin: 25px auto;
+	border-right: none;
+	border-left: none;
+}
+
+.header-block .link {
+	width: 335px;
+	height: 50px;
+	background-color: rgb(60, 165, 200);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+	transition: 0.5s all;
+	position: relative;
+	z-index: 2;
+}
+
+.header-block .link:hover {
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.29);
+}
+/*END-HEADER*/
+
+/*BEGIN-TIMER*/
+.timer-bg {
+	padding: 75px 0 100px 0;
+	background: url(../img/timer-work-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center 100%;
+}
+
+.timer-block h2 {
+	color: rgb(255, 255, 255);
+}
+
+.timer-block h2:after {
+	border-color: rgb(255, 255, 255);
+	margin-top: 14px;
+}
+/*END-TIMER*/
+
+/*BEGIN-PLATFORMA*/
+.platforma {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.platforma h2 {
+	position: relative;
+}
+
+.exit {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.platforma h2:after {
+	margin: 19px auto;
+}
+
+.platforma .zg {
+	font-family: 'ProximaNova-Light';
+	font-size: 20px;
+	color: rgb(40, 40, 40);
+}
+
+.platforma .link {
+	width: 220px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(60, 165, 200);
+	margin: 25px auto;
+	position: relative;
+	transition: 0.5s all;
+}
+
+.platforma .link:hover {
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.13), inset 0 0 4px 3px rgba(255, 255, 255, 0.35);
+}
+
+.platforma .link a {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: initial;
+}
+/*END-PLATFORMA*/
+
+/*BEGIN-ADVANTAGES*/
+.advantages-bg {
+	background: url(../img/advatages-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.advantages h2 {
+	text-align: center;
+}
+
+.advantages h2:after {
+	margin: 14px auto;
+}
+
+.advantages-content .item {
+	width: 32%;
+	align-self: stretch;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.advantages-content .item figure {
+	width: 138px;
+	height: 138px;
+	background-color: rgb(234, 234, 234);
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;justify-content: center;
+	align-items: center;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+
+.advantages-content .item figure:hover {
+	background-color: rgb(60, 165, 200);
+}
+
+.advantages-content .item figure:hover img {
+	filter: brightness(10);
+}
+
+.advantages-content .item .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 20px;
+	color: rgb(40, 40, 40);
+	margin: 30px auto 17px auto;
+}
+
+.advantages-content .item .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 16px;
+	color: rgb(40, 40, 40);
+	line-height: 22px;
+}
+/*END-ADVANTAGES*/
+
+/*BEGIN-ROAD-MAP*/
+.road-map-bg {
+	background: url(../img/road-map.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.road-map h2 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.road-map h2:after {
+	margin: 14px auto;
+}
+
+.road-map-content1 {
+	justify-content: flex-start;
+	margin-top: 25px;
+}
+
+.road-map-content2 {
+	justify-content: flex-end;
+	position: relative;
+    bottom: 35px;
+    right: 3px;
+}
+
+.road-map-content .item {
+	width: 129px;
+	height: 149px;
+	background: url(../img/road-map-item.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 2px;
+	padding: 0 5px;
+}
+
+.road-map-content .item .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+	line-height: 19.14px;
+}
+
+.road-map-content .item .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 12px;
+	color: rgb(60, 165, 200);
+	margin-top: 12px;
+}
+
+.road-map-content .opacity {
+	opacity: 0;
+}
+/*END-ROAD-MAP*/
+
+/*BEGIN-OUR-TEAM*/
+.our-team-bg {
+	padding: 100px 0;
+}
+
+.our-team h2 {
+	text-align: center;
+}
+
+.our-team h2:after {
+	margin: 14px auto;
+}
+
+.our-team-slider {
+	margin-top: 30px;
+}
+
+.our-team-slider .slide {
+	outline: none;
+}
+
+.our-team-slider .slide {
+	text-align: center;
+}
+
+.our-team-slider .slide img {
+	margin: 0 auto;
+}
+
+.our-team-slider .slide .name {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	margin-top: 18px;
+}
+
+.our-team-slider .slide .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 14px;
+	color: rgb(60, 165, 200);
+	margin-top: 6px;
+}
+
+.our-team-slider .slick-next {
+	width: 9px;
+	height: 17px;
+	background: url(../img/arrow-next.png) no-repeat;
+}
+
+.our-team-slider .slick-prev {
+	width: 9px;
+	height: 17px;
+	background: url(../img/arrow-prev.png) no-repeat;
+}
+/*END-OUR-TEAM*/
+
+/*BEGIN-JOIN-US*/
+.join-us-bg {
+	padding: 100px 0;
+	background: url(../img/join-us-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.join-us h2 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.join-us h2:after {
+	margin: 14px auto;
+	border: 1px solid rgb(255, 255, 255);
+	border-right: none;
+	border-left: none;
+}
+
+.join-us .social {
+	width: 313px;
+	margin: 30px auto;
+
+}
+
+.join-us .social a {
+	border-radius: 50%;
+	transition: 0.5s all;
+}
+
+.join-us .social a:hover {
+	box-shadow: 0px 0px 15px 8px rgba(255, 255, 255, 0.35);
+}
+/*END-JOIN-US*/
+
+/*BEGIN-FOOTER*/
+footer {
+	padding: 35px 0;
+	text-align: center;
+}
+
+footer p {
+	font-family: 'ProximaNova-Light';
+	font-size: 16px;
+	color: rgb(40, 40, 40);
+}
+/*END-FOOTER*/
+
+/*CHART*/
+
+
+.chart {
+	position: absolute;
+	bottom: 0;
+	width: 867px;
+	height: 312px;
+	z-index: 1;
+}
+
+.chart img {
+	position: absolute;
+	animation: myMove 2s linear 0s 1 normal;
+}
+
+@keyframes myMove {
+    0% { width: 0%; left: -1000px; }
+    100% { width: 100%; left: 0; }
+}
+/*CHART*/
+
+/*CLOCK*/
+/* Можно стилизовать элементы по отдельности как нравится */
+.time { font-size: 80px; font-family: 'ProximaNova-Bold'; }
+.timer #days { color: rgb(255, 255, 255); }
+.timer #hours { color: rgb(255, 255, 255); }
+.timer #minutes { color: rgb(255, 255, 255); }
+.timer #seconds { color: rgb(255, 255, 255); }
+
+.clock-bg {
+	width: 129px;
+	height: 149px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(../img/clock-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 15px;
+	position: relative;
+	padding-top: 20px;
+}
+
+.clock-bg:after {
+	content: '';
+	display: block;
+	width: 130%;
+	height: 11px;
+	background: url(../img/line-black.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 48%;
+
+}
+
+.clock-bg .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+/*CLOCK*/
+
+
+/*BEGIN-HOWIT-WORK.HTML*/
+.head-bg-all {
+	background: url(../img/head-bg-all.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.platforma-content .item {
+	margin: 40px 0;
+}
+
+.platforma-content .item .bg {
+	width: 103px;
+	height: 120px;
+	background: url(../img/number-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.platforma-content .item .bg p {
+	font-family: 'ProximaNova-Bold';
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+.platforma-content .item .text-block {
+	width: 60%;
+	text-align: left;
+}
+
+.platforma-content .item .text-block .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 22px;
+	color: rgb(40, 40, 40);
+	text-transform: uppercase;
+}
+
+.platforma-content .item .text-block .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 16px;
+	color: rgb(40, 40, 40);
+	line-height: 22px;
+	margin-top: 15px;
+}
+
+.platforma-content .item .bg:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -80%;
+	width: 1px;
+	height: 80px;
+	background-color: rgb(60, 165, 200);
+}
+
+.platforma-content .item4 .bg:after {
+	display: none;
+}
+
+.timer-how-itwork {
+	width: 540px;
+	margin: 0 auto;
+}
+
+.timer-bg-itwork {
+	position: relative;
+}
+
+.timer-left,
+.timer-right {
+	position: absolute;
+	top: 6%;
+}
+
+.timer-left {
+	left: 0;
+}
+
+.timer-right {
+	right: 0;
+}
+
+.timer-bg-itwork .link {
+	width: 335px;
+	height: 50px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.29);
+}
+
+.timer-bg-itwork .link a {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(59, 162, 197);
+	text-transform: uppercase;
+}
+
+.timer-bg-itwork .btn:before {
+	content: '';
+	position: absolute;
+	left: -15px;
+	width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-right: 15px solid rgb(255, 255, 255);
+    border-bottom: 26px solid transparent;
+}
+
+.timer-bg-itwork .btn:after {
+	content: '';
+    position: absolute;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-left: 15px solid rgb(255, 255, 255);
+    border-bottom: 26px solid transparent
+}
+
+.footer-other {
+	padding-top: 60px;
+}
+/*END-HOWIT-WORK.HTML*/
+
+/*BEGIN-WHITE-PAPER.HTML*/
+.white-paper-bg {
+	padding: 45px 0 100px 0;
+}
+
+.white-paper h2 {
+	text-align: center;
+}
+
+.white-paper h2:after {
+	margin: 14px auto;
+}
+
+.white-paper .number-zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 18px;
+	color: rgb(60, 165, 200);
+	margin-top: 25px;
+}
+
+.white-paper .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	margin-top: 25px;
+	line-height: 22px;
+}
+
+.white-paper ul li, 
+.white-paper ul .list {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	line-height: 22px;
+}
+
+.white-paper ul .list {
+	margin-top: 10px;
+}
+
+.white-paper ul li strong {
+	font-family: 'ProximaNova-Semibold';
+}
+/*END-WHITE-PAPER.HTML*/
+
+/*BEGIN-BAUNTY-PAPER.HTML*/
+.baunty-bg {
+	padding: 45px 0 100px 0;
+}
+
+.baunty h2 {
+	text-align: center;
+}
+
+.baunty h2:after {
+	margin: 14px auto;
+}
+
+.baunty .number-zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 18px;
+	color: rgb(60, 165, 200);
+	margin-top: 25px;
+}
+
+.baunty .link {
+
+}
+
+.baunty .text {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	margin-top: 25px;
+	line-height: 22px;
+}
+
+.baunty .link {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	line-height: 22px;
+}
+
+.baunty ul {
+	margin-top: 10px;
+}
+
+.baunty ul li, 
+.baunty ul .list {
+	font-family: 'ProximaNova-Light';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	line-height: 22px;
+}
+
+.baunty ul .list {
+	margin-top: 10px;
+}
+
+.baunty ul li strong {
+	font-family: 'ProximaNova-Semibold';
+}
+
+.baunty ul li a, 
+.baunty p a {
+	color: rgb(60, 165, 200);
+	text-decoration: underline;
+}
+/*END-BAUNTY-PAPER.HTML*/
+
+/*BEGIN-LK.HTML*/
+.cash {
+	margin-top: 50px;
+}
+
+.cash .invest,
+.cash .kurs {
+	background: url(../img/invest.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 48%;
+	height: 120px;
+	position: relative;
+	padding-top: 23px;
+	text-align: left;
+}
+
+.cash .invest .zg,
+.cash .kurs .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 25px;
+	color: rgb(40, 40, 40);
+	padding-left: 30%;
+}
+
+.cash .invest .text,
+.cash .kurs .text {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(60, 165, 200);
+	padding-left: 30%;
+	margin: 3px 0;
+}
+
+.cash .kurs .text span {
+	color: rgb(40, 40, 40);
+	font-family: 'ProximaNova-Light';
+}
+
+.cash .img {
+	position: absolute;
+	top: 0;
+}
+
+.status-bg .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 25px;
+	color: rgb(40, 40, 40);
+	text-align: center;
+}
+
+.status-content {
+	border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.status-content .item .zg {
+	margin: 16px auto 10px auto;
+}
+
+.status-content .item .text {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(60, 165, 200);
+}
+
+.status-icon-bg {
+	justify-content: center;
+}
+
+.status-icon-bg .item {
+	margin: 35px 100px;
+	text-align: center;
+	align-self: stretch;
+}
+
+.status-icon-bg .item figure {
+	height: 76px;
+}
+
+.status-icon-bg .item .text-block {
+	margin-top: 15px;
+}
+
+.status-icon-bg .item .zg {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(40, 40, 40);
+}
+
+.status-icon-bg .item .bl {
+	font-family: 'ProximaNova-Bold';
+	color: rgb(60, 165, 200);
+	font-size: 22px;
+	margin: 3px 0;
+}
+
+.status-icon-bg .item .gr {
+	font-size: 18px;
+	color: rgb(212, 212, 212);
+	margin: 3px 0;
+}
+
+.status-icon-bg .item .black {
+	font-family: 'ProximaNova-Bold';
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+	margin: 3px 0;
+}
+/*END-LK.HTML*/
+
+/*BEGIN-VHOD.HTML*/
+.vhod {
+
+}
+
+.vhod .input {
+	width: 460px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	margin: 20px auto;
+}
+
+.vhod .input input {
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-top: 1px solid rgba(40, 40, 40, 0.09);
+	border-bottom: 1px solid rgba(40, 40, 40, 0.09);
+	padding-left: 25px;
+	font-size: 18px;
+	color: rgb(40, 40, 40);
+}
+
+.vhod .input:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 50px;
+	background: url(../img/input-left.png) no-repeat;
+}
+
+.vhod .input:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 50px;
+	background: url(../img/input-right.png) no-repeat;
+}
+
+.vhod .submit {
+	position: relative;
+	width: 220px;
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.29);
+	background-color: rgb(60, 165, 200);
+	height: 50px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.vhod .submit input {
+	width: 100%;
+	background-color: rgb(60, 165, 200);
+	border: none;
+	outline: none;
+	line-height: 50px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.vhod .submit input:hover {
+	box-shadow: 0 3px 12px 1px rgba(0, 170, 255, 0.29);	
+}
+
+.vhod-after {
+	justify-content: center;
+}
+
+.vhod-after p {
+	margin: 0 7px;
+}
+
+.vhod-after .parol a {
+	font-size: 16px;
+	color: rgb(40, 40, 40);
+	text-decoration: underline;
+}
+
+.vhod-after .reg a {
+	font-size: 16px;
+	color: rgb(60, 165, 200);
+}
+
+/*END-VHOD.HTML*/
+
+/*MODAL*/
+.overlay {
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.nonebox {
+    position: fixed;
+    top: -700px;
+    background: rgba(33, 29, 25, 0);
+    width: auto;
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    padding: 20px;
+}
+
+.row-nonebox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a.box-close {
+    width: 42px;
+    height: 42px;
+    background: url('../img/close.png') no-repeat top left;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal-form .btn {
+	width: 220px;
+	height: 50px;
+	background-color: rgb(60, 165, 200);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px auto;
+}
+
+.modal-form .text-block {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.modal-form .text-block .pre {
+  font-family: 'ProximaNova-Bold';
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);	
+}
+
+.modal-form .logo:after,
+.modal-form .text-block:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.modal-form .text-block .zg {
+	font-family: 'ProximaNova-Bold';
+	font-size: 150px;
+	font-weight: 700;
+	color: rgb(60, 165, 200);
+}
+
+.modal-form .text-block .bonus-bounty {
+	font-family: 'ProximaNova-Bold';
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+}
+
+.modal-form .text-block .time {
+	font-family: 'ProximaNova-Light';
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.form-icon  p {
+	font-family: 'ProximaNova-Light';
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.form-icon  p a {
+	font-family: 'ProximaNova-Light';
+	color: rgb(60, 165, 200);
+	text-decoration: underline;
+}
+
+.modal-form {
+	height: 80vh;
+	overflow-y: auto;
+}
+/*MODAL*/
+
+/*ZAGLUSHKA*/
+body.zaglushka {
+	height: 100vh;
+	background: url(../img/header-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow-y: auto;
+}
+
+body.zaglushka .nonebox {
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+body.zaglushka .nonebox .modal-form {
+	height: 100%;
+	/*overflow-y: auto;*/
+	overflow: initial;
+}
+/*ZAGLUSHKA*/

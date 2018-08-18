@@ -1,0 +1,389 @@
+@media (max-width: 1199px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h2.pw-after:after {
+		margin: 10px auto;
+	}
+
+	.pw-slider1 {
+		margin: 0 auto;
+	}
+
+	.flip-clock-wrapper {
+		width: 95%;
+	}
+
+	.pw-why .pw-text-block {
+		width: auto;
+	}
+
+	.slider-for2 .pw-slide .pw-img {
+		height: 430px;
+	}
+
+	.slider-for2 .text-info .pw-caption {
+		font-size: 20px;
+		padding-top: 15px;
+	}
+
+	.slider-for2 .text-info .pw-text {
+		margin: 10px 0;
+	}
+
+	.pw-clients-bg .pw-video-block .pw-caption .pw-zg {
+		font-size: 20px;
+	}
+
+	.pw-clients-bg .pw-video-block .pw-info .pw-name {
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.pw-clients-bg .pw-video-block .pw-info .pw-text {
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.pw-clients-bg .pw-form2 {
+		padding-top: 150px;
+	}
+
+	.pw-why-bg {
+		background-position: center -50%;
+	}
+
+	.pw-3blocks-bg {
+		background-position: 36% 86%;
+	}
+
+	.pw-delivery-bg {
+		padding: 60px 0 0 0;
+	}
+
+	.pw-price-block {
+		margin-top: 50px;
+	}
+
+	.pw-service .pw-item .pw-caption p {
+		font-size: 20px;
+	}
+
+	.pw-service .pw-item ul li {
+		font-size: 16px;
+		margin: 12px 0;
+	}
+
+	.pw-fordentcompany .pw-item p, .pw-fordentcompany .pw-item p a {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	h1 {
+		font-size: 35px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.pw-colorsw-bg {
+		background-position: 50% 100%;
+	}
+
+	.pw-form1 .pw-input {
+		margin: 25px auto;
+	}
+
+	.pw-timer-block {
+		padding: 30px 40px 20px;
+	}
+
+	.pw-timer-block .pw-sale-block .pw-price {
+		font-size: 60px;
+	}
+
+	.flip-clock-wrapper {
+		width: 100%;
+	}
+
+	.slider-for2 .pw-slide .pw-img {
+		height: 300px;
+	}
+
+	.pw-why-bg {
+    background-position: center 70%;
+}
+
+	.pw-delivery-bg {
+		background: #2ac8c7;
+	}
+
+	.pw-delivery-bg .pw-info-block {
+		padding-left: 0;
+	}
+
+	.pw-delivery-bg .pw-info-block .pw-calculation {
+		margin-left: 0;
+	}
+
+	.pw-service-bg {
+		margin-top: 50px;
+	}
+
+	.pw-service .pw-item {
+		margin-top: 20px;
+	}
+
+	.pw-service .pw-item .pw-caption p {
+		color: rgb(255, 255, 255);
+	}
+
+	.pw-fordentcompany .pw-item p, .pw-fordentcompany .pw-item p a {
+		font-size: 14px;
+	}
+
+	.pw-footer .pw-info .pw-item img {
+		margin-right: 10px;
+	}
+
+	.pw-footer .pw-info .pw-text p, .pw-footer .pw-info .pw-text p a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 767px) {
+	.flip-clock-wrapper ul {
+		/*width: auto;*/
+	}
+
+	.pw-colorsw-bg {
+		padding-top: 0;
+		padding-bottom: 60px;
+	}
+
+	.pw-mercury .pw-img {
+		width: 150px;
+	}
+
+	.pw-btn1 {
+		width: 100%;
+	}
+
+	.pw-slider1 .draggable {
+		padding: 0;
+	}
+
+	.pw-timer-block {
+		padding: 10px;
+	}
+
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 55px;
+	}
+
+	.flip-clock-wrapper {
+		width: 480px;
+		margin: 0 auto;
+	}
+
+	.flip-clock-wrapper ul {
+		width: 42px;
+	}
+
+	.pw-slider1 .pw-slide:hover {
+		box-shadow: none;
+		transform: initial;
+	}
+
+	.slider-for .pw-slide .pw-text-block {
+		display: none;
+	}
+
+	.slider-nav .pw-slide img {
+		margin: 0 auto;
+	}
+
+	.slider-nav .pw-slide .pw-zg {
+		text-align: center;
+	}
+
+	.pw-why .pw-text-block .pw-zg {
+		font-size: 30px;
+	}
+
+	.pw-why .pw-text-block .pw-text1 {
+		font-size: 18px;
+	}
+
+	.pw-slider5-bg .pw-text-block .pw-zg {
+		font-size: 30px;
+	}
+
+	.pw-slider5-bg .pw-text-block .pw-text {
+		margin-bottom: 20px;
+	}
+
+	.pw-video-item{
+		display: block;
+		float: none;
+		width: 300px;
+		margin: 10px auto;
+	}
+
+	.pw-delivery-bg .pw-info-block {
+		padding-left: 15px;
+	}
+
+	.pw-fordentcompany .pw-item {
+		width: 50%;
+		margin: 10px auto;
+	}
+
+	.pw-fordentcompany .pw-item2 {
+		border: none;
+	}
+
+	.pw-footer .pw-info .pw-flex {
+		margin: 15px 0;
+	}
+}
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 22px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.pw-mercury .pw-img {
+		width: 50px;
+	}
+
+	.pw-btn1 {
+		font-size: 12px;
+	}
+
+	.pw-slider1 .pw-slide {
+		border: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	.pw-form1 .pw-zg, .pw-form1 .pw-text {
+		font-size: 20px;
+	}
+
+	.pw-timer-block .pw-img {
+		display: none;
+	}
+
+	.pw-timer-block .pw-sale-block .pw-price {
+		font-size: 35px;
+	}
+
+	.pw-timer-block .pw-sale-block .pw-nosale {
+		font-size: 17px;
+	}
+
+	.pw-slider2-bg {
+		padding-bottom: 0;
+	}
+
+	.pw-slider2 .pw-slide{
+		height: auto;
+	}
+
+	.pw-slider2 .pw-slide .pw-text-block .pw-zg {
+		font-size: 20px;
+	}
+
+	.flip-clock-wrapper {
+		width: 280px;
+	}
+
+	.flip-clock-wrapper ul {
+		width: 15px;
+		height: 60px;
+	}
+
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 20px;
+	}
+
+	.flip-clock-wrapper ul li {
+		line-height: 60px;
+	}
+
+	.flip-clock-dot.top {
+		top: 20px;
+	}
+
+	.flip-clock-divider {
+		height: 80px;
+	}
+
+	.pw-timer-block {
+		padding: 5px;
+	}
+
+	.pw-delivery-bg .pw-info-block .pw-calculation,
+	.pw-why .pw-text-info {
+		width: 100%;
+	}
+
+	.pw-why .pw-text-info .pw-zg {
+		font-size: 20px;
+	}
+
+	.pw-slider5-bg .pw-text-block .pw-zg,
+	.pw-slider5-bg .pw-text-block .pw-text {
+		font-size: 18px;
+	}
+
+	.slider-for2 .text-info .pw-caption {
+		padding-right: 0;
+		line-height: 20px;
+		font-size: 15px;
+	}
+
+	.slider-for2 .text-info .pw-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.pw-clients-bg .pw-text-block .pw-text {
+		padding: 0;
+	}
+
+	.pw-delivery-bg .pw-price-block .caption {
+		font-size: 14px;
+	}
+
+	.pw-slider-reviews .pw-slide-head {
+		justify-content: center;
+	}
+
+	.pw-slider-reviews .pw-slide {
+		padding: 12px 10px 25px 10px;
+	}
+
+	.pw-fordentcompany .pw-item {
+		width: 100%;
+	}
+
+	.pw-nonebox {
+		width: 90%;
+	}
+
+	a.pw-box-close {
+		right: -15px;
+	}
+}

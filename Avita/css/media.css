@@ -1,0 +1,354 @@
+@media screen and (max-width:1279px){
+	.container {
+		width: 992px;
+		padding: 0 15px;
+	}
+
+	header {
+		background-position: center 100%;
+	}
+
+	.trening .odd .img {
+		margin-right: 20px;
+	}
+
+	.trening .even .img {
+		margin-left: 20px;
+	}
+
+	.trening .odd:before {
+		left: 0;
+		bottom: -40px;
+	}
+
+	.trening .even:after {
+		right: 0;
+		bottom: -50px;
+	}
+
+	.effect-bg {
+		padding: 50px 0 500px 0;
+	}
+
+	.slider {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.slider .slide .img {
+		width: 140px;
+		height: 140px;
+	}
+
+	footer {
+		background-position: center 100%;
+	}
+
+	.footer {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width:1023px){
+	.container {
+		width: 700px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.if .item .text {
+		line-height: 20px;
+		font-size: 18px;
+	}
+
+	.trening-bg {
+		padding: 30px 0;
+	}
+
+	.trening .zg {
+		font-size: 17px;
+	}
+
+	.trening .odd:before,
+	.trening .even:after {
+		display: none;
+	}
+
+	.trening .item .img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.trening .item .caption {
+		font-size: 18px;
+	}
+
+	.trening .item .text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.effect .text {
+		font-size: 16px;
+		padding-bottom: 0;
+	}
+
+	.effect .caption {
+		margin: 15px 0 12px 0;
+	}
+
+	.why .block .item {
+		width: 33%;
+	}
+
+	.why .block .text {
+		font-size: 18px;
+	}
+
+	.why .block .zg {
+		font-size: 19px;
+	}
+
+	.slider .slide .img {
+		margin: 15px auto;
+	}
+
+	.slider .slide .text-block {
+		width: 100%;
+	}
+
+	.footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:767px){
+	.container {
+		width: 100%;
+	}
+
+	h1,
+	.footer .zg {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.if-bg {
+		padding: 30px 0;
+	}
+	
+	.if .row {
+		justify-content: space-around;
+	}
+
+	.if .item .text {
+		font-size: 16px;
+	}
+
+	.trening .zg {
+		line-height: 20px;
+		margin: 10px 0;
+	}
+
+	.trening .item {
+		margin: 15px 0;
+	}
+
+	.trening .item .img {
+		display: none;
+	}
+
+	.effect .text {
+		line-height: 20px;
+	}
+
+	.trainer .block .imac {
+		width: 500px;
+    	height: 396px;
+	}
+
+	.trainer .block .imac img {
+		margin-top: 15px;
+	}
+
+	.why .block {
+		justify-content: space-around;
+	}
+
+	.why .block .item {
+		width: 50%;
+		margin-top: 15px;
+	}
+
+	.reviews-bg {
+		padding: 30px 0;
+	}
+
+	.footer-btn {
+		width: 240px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width:550px){
+	h1:after,
+	h2:after,
+	.footer .zg:after {
+		display: none;
+	}
+
+	header {
+		padding: 30px 0;
+	}
+
+	.header .logo {
+		margin-bottom: 30px;
+	}
+
+	h1, .footer .zg {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.header .text {
+		font-size: 15px;
+	}
+
+	.header .text {
+		margin: 10px 0;
+		line-height: 20px;
+	}
+
+	.btns {
+		margin-top: 0;
+	}
+
+	.header-btn {
+		margin-right: 0;
+		margin: 15px auto;
+	}
+
+	.effect-bg {
+		padding: 30px 0;
+		background: none;
+	}
+
+	.effect .text,
+	.effect .text-block {
+		padding: 0;
+		margin: 15px 0;
+	}
+
+	.effect .caption {
+		font-size: 18px;
+	}
+
+	.effect .caption img {
+		display: none;
+	}
+
+	.trening .item .text-block {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.trening .zg {
+		font-size: 16px;
+	}
+
+	.trainer-bg {
+		padding: 30px 0;
+	}
+
+	.trainer .block .imac {
+    	width: 280px;
+    	height: 222px;
+	}
+
+	.trainer .block .imac img {
+		margin-top: 10px;
+	}
+
+	.why-bg {
+		padding: 30px 0;
+	}
+
+	.why .block .item {
+		width: 100%;
+	}
+
+	.slider {
+		width: 100%;
+		text-align: center;
+	}
+
+	.slider .slide .zg {
+		font-size: 18px;
+	}
+
+	.slider .slide .text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.slider .slick-prev {
+		left: 0;
+		top: 20%;
+	}
+
+	.slider .slick-next {
+		right: 0;
+		top: 20%;
+	}
+
+	.footer .zg {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.footer .text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.footer .text strong {
+		font-size: 16px;
+	}
+
+	.footer-btn {
+		margin-right: 0;
+		margin: 15px auto;
+	}
+
+	.footer .ps {
+		font-size: 15px;
+	}
+
+	.close {
+		right: 0;
+	}
+
+	.nonebox {
+		width: 280px;
+	}
+
+	.thanks .text {
+		font-size: 15px;
+	}
+
+
+
+}
