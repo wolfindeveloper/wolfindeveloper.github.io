@@ -95,14 +95,18 @@
 
 
  @media screen and (max-width: 768px) {
-	.menu {
-		width: 60%;
-	}
-
 	.about .aboutfooter .technologies .img-block .item {
 		width: 50px;
 		padding: 5px;
 		margin: 10px auto;
+	}
+
+	.menu li {
+		width: 100px;
+	}
+
+	.menu li a {
+		font-size: 20px;
 	}
 
 	.about .aboutfooter .technologies .img-block .item:last-child {
