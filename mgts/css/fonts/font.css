@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'FedraSansPro-Light';
+  src: url('FedraSansPro-Light.eot?#iefix') format('embedded-opentype'),  url('FedraSansPro-Light.otf')  format('opentype'),
+       url('FedraSansPro-Light.woff') format('woff'), url('FedraSansPro-Light.ttf')  format('truetype'), url('FedraSansPro-Light.svg#FedraSansPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FedraSansPro-Bold';
+  src: url('FedraSansPro-Bold.eot?#iefix') format('embedded-opentype'),  url('FedraSansPro-Bold.otf')  format('opentype'),
+       url('FedraSansPro-Bold.woff') format('woff'), url('FedraSansPro-Bold.ttf')  format('truetype'), url('FedraSansPro-Bold.svg#FedraSansPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FedraSansPro-Medium';
+  src: url('FedraSansPro-Medium.eot?#iefix') format('embedded-opentype'),  url('FedraSansPro-Medium.otf')  format('opentype'),
+       url('FedraSansPro-Medium.woff') format('woff'), url('FedraSansPro-Medium.ttf')  format('truetype'), url('FedraSansPro-Medium.svg#FedraSansPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
