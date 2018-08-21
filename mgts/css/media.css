@@ -35,7 +35,7 @@
 	}
 
 	.header-caption {
-		margin-top: 100px;
+		margin-top: 40px;
 	}
 
 	.header-caption p {
@@ -122,11 +122,12 @@
 
 @media (max-width: 767px) {
 	.header-img {
-		height: 45%;
+		width: 60%;
+		height: 75%;
 	}
 
 	.logo {
-		width: 40%;
+		width: 28%;
 	}
 
 	.head .period {
@@ -140,7 +141,7 @@
 	}
 
 	.header-caption p {
-		font-size: 25px;
+		font-size: 24px;
 	}
 
 	h1 {
