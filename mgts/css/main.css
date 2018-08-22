@@ -1,3 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+body.active {
+	overflow: hidden;
+}
+
 h1 {
 	font-family: 'FedraSansPro-Bold';
 	font-size: 92px;
@@ -7,6 +19,7 @@ h1 {
 
 a {
 	text-decoration: none;
+	outline: none;
 }
 
 img {
@@ -235,4 +248,429 @@ footer {
 	color: rgb(255, 255, 255);
 }
 /* FOOTER */
+
+/* BEGIN-PAGE.HTML */
+.page-header {
+	background: none;
+	background-color: #ffffff;
+	padding: 0;
+	-webkit-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
+-moz-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
+box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
+}
+
+.page-content {
+	margin-top: 80px;
+	padding-bottom: 80px;
+}
+
+.page-container {
+	width: 1130px;
+	margin: 0 auto;
+}
+
+.page-header .period span:first-child {
+	font-family: 'FedraSansPro-Medium';
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+}
+
+.page-header .period span:nth-child(2) {
+	font-family: 'FedraSansPro-Light';
+	font-size: 21px;
+	color: rgb(0, 0, 0);
+}
+
+.page-header .period span:last-child {
+	font-family: 'FedraSansPro-Light';
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+}
+
+.page-content .mobileapp .caption {
+	font-family: 'FedraSansPro-Light';
+	font-size: 31px;
+	line-height: 60.42px;
+	color: rgb(1, 1, 1);
+}
+
+.page-content .mobileapp h1 {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 65px;
+	color: rgb(1, 1, 1);
+	text-transform: initial;
+	margin-bottom: 38px;
+}
+.page-content .mobileapp h1,
+.page-content .mobileapp .caption,
+.page-content .mobileapp-text,
+.page-content .stage-block .stage p {
+	padding-left: 110px;
+	padding-right: 200px;
+}
+
+.mobileapp-img {
+	margin: 50px 0;
+}
+
+.page-content .mobileapp-text {
+	font-family: 'FedraSansPro-Light';
+	font-size: 27px;
+	color: rgb(1, 1, 1);
+	line-height: 50px;
+}
+
+.page-content .mobileapp-text::first-letter {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 56px;
+	text-transform: uppercase;
+}
+
+.page-content .stage-block .stage p:first-child,
+.page-content .stage-block .stage p:nth-child(2) {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 27px;
+	line-height: 50px;
+	color: rgb(1, 1, 1);
+}
+
+.page-content .stage-block .stage .text {
+	font-family: 'FedraSansPro-Light';
+	font-size: 27px;
+	color: rgb(1, 1, 1);
+	line-height: 50px;
+}
+
+.page-content .stage-block .stage .quotes {
+	background: url('../img/quotes.jpg') no-repeat center;
+	background-size: 100% 100%;
+	font-family: 'FedraSansPro-Bold';
+	font-size: 31px;
+	color: rgb(255, 254, 254);
+	line-height: 62.5px;
+	text-transform: uppercase;
+	padding: 130px 110px 82px 110px;
+	margin-bottom: 100px;
+	margin-top: 80px;
+}
+
+.page-content .mobileapp-category {
+	margin: 70px 0;
+	position: relative;
+	z-index: 1;
+	padding-left: 100px;
+	padding-right: 25px;
+}
+
+.page-content .mobileapp-category::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 200px;
+	background: url('../img/mobileapp-gradient.jpg') no-repeat center;
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	left: 0;
+	z-index: -1;
+}
+
+.slider {
+    border-left: 20px solid #9a5bb4;
+    border-right: 20px solid #622e9a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 20px;
+    background-color: #c49fd2;
+    background-image: -webkit-gradient(linear, left top, right top, from(#985bb1), to(#622e9a)), -webkit-gradient(linear, left top, right top, from(#7741a3), to(#622e9a));
+    background-image: -webkit-linear-gradient(left, #985bb1 0%, #622e9a 100%), -webkit-linear-gradient(left, #995ab1 0%, #622e9a 100%);
+    background-image: -o-linear-gradient(left, #985bb1 0%, #622e9a 100%), -o-linear-gradient(left, #995ab1 0%, #622e9a 100%);
+    background-image: linear-gradient(to right, #985bb1 0%, #622e9a 100%), linear-gradient(to right, #995ab1 0%, #622e9a 100%);
+    padding: 64px 82px;
+    margin-top: 70px;
+}				
+.slider .slide img {
+	margin: 0 auto;
+}								
+
+/* BURGER-MENU */
+		.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#4778ba;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+
+.ham8 .top {
+  stroke-dasharray: 40 160;
+}
+.ham8 .middle {
+  stroke-dasharray: 40 142;
+  transform-origin: 50%;
+  transition: transform 400ms;
+}
+.ham8 .bottom {
+  stroke-dasharray: 40 85;
+  transform-origin: 50%;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.ham8.active .top {
+  stroke-dashoffset: -64px;
+}
+.ham8.active .middle {
+  //stroke-dashoffset: -20px;
+  transform: rotate(90deg);
+}
+.ham8.active .bottom {
+  stroke-dashoffset: -64px;
+}				
+
+.burger-menu-bg {
+	background: url(../img/burger-menu-bg.jpg) no-repeat center;
+	background-size: cover;
+	position: fixed;
+	top: 85px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	padding-top: 21px;
+	padding-bottom: 30px;
+	z-index: 999;
+	display: none;
+}		
+
+.burger-menu-bg.active {
+	display: block;
+	transition: 0.5s all;
+}		
+
+.burger-menu {
+	width: 1140px;
+	margin: 0 auto;
+	align-items: flex-start;
+	height: 100%;
+	overflow-y: auto;
+}
+	/* хром, сафари */
+.burger-menu::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.burger-menu { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.burger-menu { overflow: -moz-scrollbars-none; }
+
+
+.burger-menu-logo {
+	margin-top: 55px;
+}
+
+.burger-menu-textblock {
+	width: 753px;
+}	
+
+.burger-menu-textblock .caption {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	position: relative;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.burger-menu-textblock ul {
+	column-count: 2;
+}
+
+.burger-menu-textblock ul li {
+	margin-top: 5px;
+	line-height: 25px;
+}
+
+.burger-menu-textblock ul li a {
+	font-family: 'FedraSansPro-Light';
+	font-size: 23px;
+	color: rgb(255, 255, 255);
+}			
+
+.burger-menu-textblock .list-block li.zg {
+	margin-top: 50px;
+}
+
+.burger-menu-textblock .list-block li:first-child {
+	margin-top: 0;
+}
+
+.burger-menu-textblock ul li.zg a {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 23px;
+	color: rgb(255, 255, 255);
+}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+/* BURGER-MENU																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									 */
+/* END-PAGE.HTML */
+
+/* CATALOG.HTML */
+.catalog-header {
+	box-shadow: none;
+}
+
+.catalog-content .catalog .item {
+	width: 24.5%;
+	background-color: #2390d5;
+	margin-top: 10px;
+}
+
+.catalog-content .catalog .item .img {
+	text-align: center;
+}
+
+.catalog-content .catalog .item img {
+	margin: 5px auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+.catalog-content .catalog .item .item-footer {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 30px 0 30px 25px;
+}
+
+.catalog-content .catalog .item .item-footer p {
+	font-family: 'FedraSansPro-Light';
+	font-size: 23px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+/* CATALOG.HTML */
+
+/* MODAL */
+.animated-modal {
+	background-color: #2390d5;
+	width: 765px;
+	padding: 25px 65px;
+}
+
+.animated-modal form {
+	width: 100%;
+}
+
+.animated-modal form h2 {
+	font-family: 'FedraSansPro-Medium';
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.animated-modal form .input {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.animated-modal form .input input {
+	width: 100%;
+	height: 100%;
+	font-family: 'FedraSansPro-Light';
+	font-size: 23px;
+	color: rgb(35, 144, 213);
+	padding-left: 12px;
+	border: none;
+	outline: none;
+}
+
+.animated-modal form .input input::-webkit-input-placeholder, /* Chrome/Opera/Safari */
+.animated-modal form .textarea textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(35, 144, 213);
+}
+.animated-modal form .input input::-moz-placeholder,  /* Firefox 19+ */
+.animated-modal form .textarea textarea::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(35, 144, 213);
+}
+.animated-modal form .input input:-ms-input-placeholder,  /* IE 10+ */
+.animated-modal form .textarea textarea:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(35, 144, 213);
+}
+.animated-modal form .input input:-moz-placeholder, /* Firefox 18- */
+.animated-modal form .textarea textarea:-moz-placeholder { /* Firefox 18- */
+  color: rgb(35, 144, 213);
+}
+
+.animated-modal form .textarea {
+	width: 100%;
+}
+
+.animated-modal form .textarea textarea {
+	width: 100%;
+	height: 210px;
+	font-family: 'FedraSansPro-Light';
+	font-size: 23px;
+	color: rgb(35, 144, 213);
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+.animated-modal form .submit {
+	width: 245px;
+	height: 68px;
+	margin: 40px auto;
+}
+
+.animated-modal form .submit input {
+	width: 100%;
+	height: 100%;
+	font-family: 'FedraSansPro-Bold';
+	font-size: 31px;
+	color: rgb(35, 144, 213);
+	cursor: pointer;
+}
+
+.fancybox-close-small {
+	color: #ffffff;
+	width: 80px;
+	height: 80px;
+}
+
+.fancybox-close-small svg {
+	opacity: 1;
+}
+/* MODAL */
+
+/* TOTOP */
+#toTop {
+width:100px;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+/* TOTOP */
 

@@ -63,6 +63,49 @@
 	}
 }
 
+@media (max-width: 1279px) {
+	.page-container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.page-content .mobileapp h1,
+	.page-content .mobileapp .caption,
+	.page-content .mobileapp-text,
+	.page-content .stage-block .stage p {
+		padding: 0;
+	}
+
+	.page-content .mobileapp h1 {
+		font-size: 55px;
+	}
+
+	.page-content .mobileapp-category {
+		padding: 0;
+	}
+
+	.slider {
+		width: 100%;
+	}
+
+	.burger-menu {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.catalog-content .catalog .item {
+		width: 32.5%;
+	}
+
+	.catalog-content .catalog .item .item-footer {
+		padding: 30px 0 30px 10px;
+	}
+
+	.catalog-content .catalog .item .item-footer p {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 1023px) {
 	.index-content .item {
 		width: 100%;
@@ -112,11 +155,48 @@
 	.footer-menu li {
 		font-size: 15px;
 	}
+
+	.burger-menu-textblock ul {
+		column-count: 1;
+	}
+
+	.burger-menu-textblock {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 992px) {
 	.footer-menu li.mobile {
 		display: none;
+	}
+
+	.page-content .mobileapp h1 {
+		font-size: 40px;
+	}
+
+	.page-content .mobileapp .caption {
+		line-height: 50px;
+	}
+
+	.page-content .stage-block .stage .quotes {
+		font-size: 25px;
+		line-height: 35px;
+		padding: 100px 70px 50px 70px;
+	}
+
+	.page-content .stage-block .stage .text {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	.page-content .mobileapp-category img {
+		width: 30%;
+	}
+
+	.page-content .mobileapp-category::after {
+		height: 100px;
+		top:calc(50% - 50px);
 	}
 }
 
@@ -142,7 +222,7 @@
 
 	.header-caption p {
 		font-size: 24px;
-	}
+	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 
 	h1 {
 		font-size: 40px;
@@ -176,5 +256,138 @@
 
 	.index-content .item {
 		margin-bottom: inherit;
+	}
+
+	.burger-menu-textblock ul li.zg a {
+		font-size: 20px;
+	}
+
+	.burger-menu-textblock ul li a {
+		font-size: 18px;
+	}
+
+	.burger-menu-textblock .list-block li.zg {
+		margin-top: 20px;
+	}
+
+	.burger-menu-textblock .list-block li:first-child {
+		margin-top: 0;
+	}
+
+	.catalog-content .catalog .item {
+		width: 49.5%;
+	}
+
+	.animated-modal {
+		width: 90%;
+		margin: 0 auto;
+		padding: 30px;
+	}
+
+	.animated-modal form .input {
+		height: 50px;
+	}
+
+	.animated-modal form .input input,
+	.animated-modal form .textarea textarea {
+		font-size: 20px;
+	}
+
+	.animated-modal form .submit {
+		margin: 20px auto;
+	}
+
+	.animated-modal form .submit input {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.page-content .mobileapp h1 {
+		font-size: 20px;
+	}
+
+	.page-content .mobileapp .caption,
+	.page-content .mobileapp-text,
+	.page-content .stage-block .stage p:first-child,
+	.page-content .stage-block .stage p:nth-child(2),
+	.page-content .stage-block .stage .text {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.page-content .stage-block .stage .quotes {
+		padding: 45px 30px 30px 30px;
+    font-size: 12px;
+    line-height: 15px;
+		margin: 20px auto;
+	}
+
+	.slider {
+		padding: 30px 60px;
+		margin-top: 20px;
+	}
+
+	.slick-prev {
+		left: 15px;
+	}
+
+	.slick-next {
+		right: 15px;
+	}
+
+	.page-content .mobileapp-category {
+		margin: 20px auto;
+	}
+
+	.burger-menu-logo {
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
+		text-align: center;
+	}
+
+	.burger-menu-logo img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.burger-menu-textblock {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.catalog-content .catalog .item {
+		width: 100%;
+	} 
+
+	.animated-modal {
+		width: 100%;
+	}
+
+	.animated-modal form h2 {
+		font-size: 20px;
+	}
+
+	.fancybox-close-small {
+		width: 40px;
+		height: 40px;
+	}
+
+	.animated-modal form .input {
+		height: 45px;
+		margin-bottom: 10px;
+	}
+
+	.animated-modal form .textarea textarea {
+		height: 150px;
+	}
+
+	.animated-modal form .submit {
+		width: 100%;
+	}
+
+	.animated-modal form .submit input {
+		font-size: 20px;
 	}
 }
