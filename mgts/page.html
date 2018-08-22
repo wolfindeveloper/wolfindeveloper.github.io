@@ -174,7 +174,7 @@
 			<li class="mobile"><a href="#">Скачать  Бесплатно</a></li>
 			<li class="mobile"><a href="#">архив номеров</a></li>
 			<li class="mobile"><a href="#">Условия  Конфиденциальности</a></li>
-			<li><a href="#">обратная связь</a></li>
+			<li><a data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;" class="btn btn-primary">обратная связь</a></li>
 			<li class="mobile"><a href="#">О нас</a></li>
 		</ul>
 	</div>
@@ -182,6 +182,34 @@
 
 <div id="toTop" ><img src="img/arrow-up.png" alt=""></div>
 <!-- FOOTER -->
+<!-- MODAL -->
+    <div class="card">
+      <div class="card-body">
+        <div style="display: none;" id="animatedModal" class="animated-modal">
+        	<form action="">
+	          <h2>Связаться с нами</h2>
+	          <p class="input">
+	          	<input type="text" placeholder="Ваше имя*">
+	          </p>
+	          <p class="input">
+	          	<input type="mail" placeholder="Ваш e-mail*">
+	          </p>
+	          <p class="input">
+	          	<input type="tel" placeholder="Ваш телефон*">
+	          </p>
+	          <p class="textarea">
+	          	<textarea placeholder="Ваше сообщение*"></textarea>
+	          </p>
+
+	          <p class="submit">
+	          	<input type="submit" value="ОТПРАВИТЬ">
+	          </p>
+          </form>
+        </div>
+      </div>
+    </div>
+<!-- MODAL -->
+
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.fancybox.min.js"></script>
