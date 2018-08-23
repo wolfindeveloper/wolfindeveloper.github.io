@@ -567,6 +567,12 @@ footer {
 	margin-top: 10px;
 }
 
+.catalog-content .catalog .item:hover {
+		-webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
+  filter: brightness(50%);
+	transition: 0.5s all;
+}
+
 .catalog-content .catalog .item .img {
 	text-align: center;
 }
