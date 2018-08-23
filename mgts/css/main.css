@@ -43,13 +43,15 @@ header {
 	background: url('../img/header-bg.jpg') no-repeat center;
 	background-size: cover;
 	padding-top: 50px;
+	height: 100vh;
 }
 
 .header-container {
 	width: 1344px;
 	margin: 0 auto;
 	position: relative;
-	padding-bottom: 150px;
+	/* padding-bottom: 150px; */
+	height: 100%;
 }
 
 .head {
@@ -111,6 +113,12 @@ header {
 	height: 375px;
 	align-items: flex-start;
 	margin: 4px 2px;
+}
+
+.index-content .item:hover {
+	-webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
+  filter: brightness(50%);
+	transition: 0.5s all;
 }
 
 .index-content .item:first-child,
@@ -233,7 +241,6 @@ footer {
 
 .footer-menu li {
 	font-family: 'FedraSansPro-Light';
-	font-size: 23px;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
 }
@@ -243,9 +250,14 @@ footer {
 }
 
 .footer-menu li a {
-	font-size: 23px;
+	font-size: 18px;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
+}
+
+.footer-menu li a:hover {
+	color: rgb(71, 120, 186);
+	transition: 0.5s all;
 }
 /* FOOTER */
 
@@ -254,9 +266,10 @@ footer {
 	background: none;
 	background-color: #ffffff;
 	padding: 0;
+	height: auto;
 	-webkit-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
--moz-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
+	-moz-box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
+	box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 }
 
 .page-content {
@@ -393,7 +406,24 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 }				
 .slider .slide img {
 	margin: 0 auto;
-}								
+}			
+
+.slick-dots {
+	width: 200px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 30px;
+}					
+
+.slick-dots li.slick-active button:before {
+	opacity: 1;
+}
+
+.slick-dots li button:before {
+	font-size: 35px;
+	line-height: 30px;
+}
 
 /* BURGER-MENU */
 		.ham {
@@ -467,19 +497,13 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 .burger-menu {
 	width: 1140px;
 	margin: 0 auto;
-	align-items: flex-start;
 	height: 100%;
-	overflow-y: auto;
+	overflow-y: hidden;
+	align-items: flex-start;
 }
-	/* хром, сафари */
-.burger-menu::-webkit-scrollbar { width: 0; }
+/* SCROLLBAR */
 
-/* ie 10+ */
-.burger-menu { -ms-overflow-style: none; }
-
-/* фф (свойство больше не работает, других способов тоже нет)*/
-.burger-menu { overflow: -moz-scrollbars-none; }
-
+/* SCROLLBAR */
 
 .burger-menu-logo {
 	margin-top: 55px;
@@ -487,6 +511,7 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 
 .burger-menu-textblock {
 	width: 753px;
+	height: 100%;
 }	
 
 .burger-menu-textblock .caption {
@@ -569,7 +594,7 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 .animated-modal {
 	background-color: #2390d5;
 	width: 765px;
-	padding: 25px 65px;
+	padding: 15px 65px;
 }
 
 .animated-modal form {
@@ -581,12 +606,12 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 	font-size: 40px;
 	color: rgb(255, 255, 255);
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .animated-modal form .input {
 	width: 100%;
-	height: 70px;
+	height: 50px;
 	margin-bottom: 20px;
 }
 
@@ -624,7 +649,7 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 
 .animated-modal form .textarea textarea {
 	width: 100%;
-	height: 210px;
+	height: 150px;
 	font-family: 'FedraSansPro-Light';
 	font-size: 23px;
 	color: rgb(35, 144, 213);
@@ -635,7 +660,7 @@ box-shadow: 0px 18px 20px 0px rgba(232,224,238,0.93);
 .animated-modal form .submit {
 	width: 245px;
 	height: 68px;
-	margin: 40px auto;
+	margin: 40px auto 15px auto;
 }
 
 .animated-modal form .submit input {
@@ -664,7 +689,7 @@ width:100px;
 text-align:center;
 padding:5px;
 position:fixed;
-bottom:10px; /* отступ кнопки от нижнего края страницы*/
+bottom:90px; /* отступ кнопки от нижнего края страницы*/
 right:10px;
 cursor:pointer;
 display:none;
@@ -673,4 +698,6 @@ font-family:verdana;
 font-size:11px;
 }
 /* TOTOP */
+
+
 

@@ -12,6 +12,10 @@
 	.header-caption {
 		margin-top: 100px;
 	}
+
+	.header-img {
+		width: 50%;
+	}
 }
 
 @media (max-width: 1359px) {
@@ -64,6 +68,10 @@
 }
 
 @media (max-width: 1279px) {
+	header {
+		height: auto;
+	}
+
 	.page-container {
 		width: 100%;
 		padding: 0 15px;
@@ -229,17 +237,17 @@
 	}
 
 	.index-content .item .text-block p .caption {
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 22px;
 	}
 
 	.index-content .item .text-block p .text {
-		font-size: 17px;
+		font-size: 15px;
 		line-height: 21px;
 	}
 
 	.index-content .item .img-block {
-		width: 100px;
+		width: 140px;
 	}
 
 	.index-content .item {
@@ -353,7 +361,7 @@
 	}
 
 	.burger-menu-textblock {
-		width: 100%;
+		width: 90%;
 		margin-top: 20px;
 	}
 
