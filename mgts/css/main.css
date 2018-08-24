@@ -701,7 +701,7 @@ footer {
 
 .animated-modal form .submit input {
 	width: 100%;
-	height: 100%;
+	height: 68px;
 	font-family: 'FedraSansPro-Bold';
 	font-size: 31px;
 	color: rgb(35, 144, 213);
