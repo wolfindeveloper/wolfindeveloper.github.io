@@ -250,6 +250,10 @@
 		width: 140px;
 	}
 
+	.index-content .item .text-block {
+		padding-left: 5px;
+	}
+
 	.index-content .item {
 		height: auto;
 	}
