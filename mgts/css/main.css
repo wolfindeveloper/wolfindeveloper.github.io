@@ -17,6 +17,27 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: 'FedraSansPro-Bold';
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
 a {
 	text-decoration: none;
 	outline: none;
@@ -36,6 +57,13 @@ img {
 
 .flex-item {
 	align-self: stretch;
+}
+
+ul li {
+	  font-family: 'FedraSansPro-Light';
+    font-size: 25px;
+    color: rgb(1, 1, 1);
+    line-height: 35px;
 }
 
 /* HEADER */
