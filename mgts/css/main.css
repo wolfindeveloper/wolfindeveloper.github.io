@@ -142,10 +142,14 @@ header {
 	align-items: flex-start;
 	margin: 4px 2px;
 	position: relative;
+	-webkit-filter: brightness(50%); 
+  filter: brightness(50%);
+	transition: 0.5s all;
 }
 
 .index-content .item:hover {
-	opacity: 0.7;
+	-webkit-filter: brightness(100%); 
+  filter: brightness(100%);
 	transition: 0.5s all;
 }
 
@@ -593,13 +597,13 @@ footer {
 	width: 24.5%;
 	background-color: #2390d5;
 	margin-top: 10px;
+			-webkit-filter: brightness(50%); 
+  filter: brightness(50%);
 }
 
 .catalog-content .catalog .item:hover {
-/* 		-webkit-filter: brightness(50%); 
-  filter: brightness(50%);
-	transition: 0.5s all; */
-		opacity: 0.7;
+			-webkit-filter: brightness(100%); 
+  filter: brightness(100%);
 	transition: 0.5s all;
 }
 
