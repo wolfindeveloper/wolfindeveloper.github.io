@@ -89,7 +89,7 @@ $('.burger-menu').slimScroll({
     railVisible: true,
     railColor: '#222',
     railOpacity: 0.3,
-    wheelStep: 10,
+    wheelStep: 50,
     allowPageScroll: false,
     disableFadeOut: false
 });
