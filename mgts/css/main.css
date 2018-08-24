@@ -113,11 +113,11 @@ header {
 	height: 375px;
 	align-items: flex-start;
 	margin: 4px 2px;
+	position: relative;
 }
 
 .index-content .item:hover {
-	-webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
-  filter: brightness(50%);
+	opacity: 0.7;
 	transition: 0.5s all;
 }
 
