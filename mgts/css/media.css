@@ -112,6 +112,10 @@
 	.catalog-content .catalog .item .item-footer p {
 		font-size: 20px;
 	}
+
+	.index-content .item .img-block {
+		width: 50%;
+	}
 }
 
 @media (max-width: 1023px) {
