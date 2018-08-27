@@ -26,6 +26,7 @@ $(document).ready(function() {
         slideSpeed: 500,
         loop: true,
         nav: true,
+        animateOut: 'fadeOut',
         dotsClass: 'owl-dots_sl',
         dotClass: 'owl-dot_sl',
         navContainerClass: 'owl-nav_sl',
