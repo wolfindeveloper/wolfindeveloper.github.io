@@ -52,24 +52,16 @@ $('.burger').click(function(){
 });
 
 // TO-TOP
-$(window).scroll(function() {
- 
+$(window).scroll(function() { 
 if($(this).scrollTop() != 0) {
- 
 $('#toTop').fadeIn();
- 
-} else {
- 
+	} else {
 $('#toTop').fadeOut();
- 
 }
- 
 });
  
 $('#toTop').click(function() {
- 
 $('body,html').animate({scrollTop:0},800);
- 
 });
 
 
@@ -85,7 +77,6 @@ $('.burger-menu').slimScroll({
     color: '#9fc9e0',
     alwaysVisible: true,
     distance: '20px',
-    // start: $('#child_image_element'),
     railVisible: true,
     railColor: '#222',
     railOpacity: 0.3,
