@@ -12585,6 +12585,10 @@ textarea:focus {
     margin-top: -60px;
 }
 
+.carousels {
+    margin-top: -60px;
+}
+
 @media (max-width:1279px) {
 	.dropdown-item:hover .submenu,
 	.drop_menu_10:hover .special-submenu,
