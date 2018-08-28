@@ -378,7 +378,8 @@ footer {
 	color: rgb(1, 1, 1);
 }
 
-.page-content .stage-block .stage .text {
+.page-content .stage-block .stage .text,
+.page-content .text {
 	font-family: 'FedraSansPro-Light';
 	font-size: 27px;
 	color: rgb(1, 1, 1);

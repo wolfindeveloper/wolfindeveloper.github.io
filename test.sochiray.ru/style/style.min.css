@@ -11050,37 +11050,59 @@ textarea:focus {
 
 .owl-prev_sl {
     border: 0;
-    background-color: transparent
-}
-
-.owl-prev_sl:before {
+    background-color: transparent;
     position: absolute;
-    content: '';
     width: 30px;
     height: 30px;
     border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-    left: 56px
+    left: 56px;
+    z-index: 999;
+    cursor: pointer;
 }
+
+/* .owl-prev_sl:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: 56px;
+    z-index: 999;
+} */
 
 .owl-next_sl {
     border: 0;
-    background-color: transparent
-}
-
-.owl-next_sl:before {
+    background-color: transparent;
     position: absolute;
-    content: '';
     width: 30px;
     height: 30px;
     border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    right: 56px
+    right: 56px;
+    z-index: 999;
+    cursor: pointer;
 }
+
+/* .owl-next_sl:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 56px;
+    z-index: 999;
+} */
 
 .owl-dots_sl {
     text-align: center;
@@ -11115,8 +11137,17 @@ textarea:focus {
 }
 
 .prev_c {
-    border: 0;
-    background-color: transparent
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: -56px;
+    z-index: 2;
+    border: none;
+    background-color: #09afa5;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
 }
 
 .prev_c:before {
@@ -11128,11 +11159,12 @@ textarea:focus {
     border-right: 2px solid #fff;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-    left: -56px;
-    z-index: 2
+    top: 14px;
+    left: 15px;
+    z-index: 1;
 }
 
-.prev_c:after {
+/* .prev_c:after {
     position: absolute;
     content: '';
     width: 40px;
@@ -11141,27 +11173,39 @@ textarea:focus {
     border-radius: 50%;
     left: -71px;
     bottom: -23px
-}
+} */
 
 .next_c {
     border: 0;
-    background-color: transparent
+    background-color: transparent;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    right: -56px;
+    z-index: 2;
+    border: none;
+    background-color: #09afa5;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
 }
 
 .next_c:before {
-    position: absolute;
+   position: absolute;
     content: '';
     width: 12px;
     height: 12px;
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
-    -webkit-transform: rotate(-45deg);
+    -webkit-transform: rotate(135deg);
     transform: rotate(-45deg);
-    right: -56px;
-    z-index: 2
+    top: 14px;
+    right: 15px;
+    z-index: 1;
 }
 
-.next_c:after {
+/* .next_c:after {
     position: absolute;
     content: '';
     width: 40px;
@@ -11169,12 +11213,12 @@ textarea:focus {
     background-color: #09afa5;
     border-radius: 50%;
     right: -71px;
-    bottom: -23px
-}
+    bottom: -23px;
+} */
 
 .dots_c {
     text-align: center;
-    padding-top: 25px
+    padding-top: 25px;
 }
 
 .dots_c .active {
@@ -11188,12 +11232,12 @@ textarea:focus {
     width: 12px;
     border-radius: 50%;
     margin: 10px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .carousel_block {
     background-color: #fff;
-    position: relative
+    position: relative;
 }
 
 .prev_price {
@@ -11205,7 +11249,7 @@ textarea:focus {
     font-weight: 600;
     font-size: 1.125rem;
     background-color: #ff6f41;
-    padding: 13px 17px 11px
+    padding: 13px 17px 11px;
 }
 
 .old_prev_price {
@@ -11218,14 +11262,14 @@ textarea:focus {
     font-size: .875rem;
     background-color: #c7452f;
     padding: 7px 17px 6px;
-    z-index: 2
+    z-index: 2;
 }
 
 .carousel_index_title {
     font-size: 1.875rem;
     font-family: Montserrat;
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .carousel_block_title {
@@ -11506,8 +11550,17 @@ textarea:focus {
 }
 
 .prev_pc {
-    border: 0;
-    background-color: transparent
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: -56px;
+    z-index: 2;
+    border: none;
+    background-color: #09afa5;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
 }
 
 .prev_pc:before {
@@ -11519,11 +11572,12 @@ textarea:focus {
     border-right: 2px solid #fff;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-    left: -56px;
-    z-index: 2
+    top: 14px;
+    left: 15px;
+    z-index: 1;
 }
 
-.prev_pc:after {
+/* .prev_pc:after {
     position: absolute;
     content: '';
     width: 40px;
@@ -11532,9 +11586,9 @@ textarea:focus {
     border-radius: 50%;
     left: -71px;
     bottom: -23px
-}
+} */
 
-.next_pc {
+/* .next_pc {
     border: 0;
     background-color: transparent
 }
@@ -11561,6 +11615,36 @@ textarea:focus {
     border-radius: 50%;
     right: -71px;
     bottom: -23px
+} */
+
+.next_pc {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    right: -56px;
+    z-index: 2;
+    border: none;
+    background-color: #09afa5;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.next_pc:before {
+   position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(-45deg);
+    top: 14px;
+    right: 15px;
+    z-index: 1;
 }
 
 .dots_pc {
@@ -12590,12 +12674,12 @@ textarea:focus {
 }
 
 .about_img_block {
-    height: 800px;
+    height: 1000px;
     background-size: 100% 100%;
 }
 
 .partners-index {
-    height: 810px;
+    height: 1000px;
     background-size: 100% 100%;
 }
 
