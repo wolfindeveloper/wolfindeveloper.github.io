@@ -74,7 +74,11 @@ $(document).ready(function() {
                 items: 1
             },
             480: {
-                items: 2
+                items: 2,
+            },
+            767: {
+                items: 2,
+                margin: 0
             },
             980: {
                 items: 3

@@ -12578,7 +12578,7 @@ textarea:focus {
 }
 
 .partners-index {
-	  height: 686px;
+	height: 686px;
     background: url(../img/index/sad.png), transparent;
     background-repeat: no-repeat;
     background-position: center center;
@@ -12589,11 +12589,84 @@ textarea:focus {
     margin-top: -60px;
 }
 
+.about_img_block {
+    height: 800px;
+    background-size: 100% 100%;
+}
+
+.partners-index {
+    height: 810px;
+    background-size: 100% 100%;
+}
+
+.sad_img_block {
+    background: none;
+}
+
+@media (max-width:1500px) {
+.dropdown-item {
+    line-height: 2;
+    }
+}
+
+
 @media (max-width:1279px) {
 	.dropdown-item:hover .submenu,
 	.drop_menu_10:hover .special-submenu,
 	.special-link:hover .special-drop-menu {
 		display: none;
 	}
+
+    .slider2 img {
+        height: 700px;
+    }
+
+    .about_img_block {
+        height: 743px;
+        background-size: initial;
+    }
+
+    .partners-index {
+        height: 780px;
+    }
+}
+
+@media (max-width:1279px) {
+    .slider2 img {
+        height: auto;
+    } 
+}
+
+@media (max-width:767px) {
+    .nav_c {
+        top: initial;
+        bottom: 0;
+    }
+
+    .about_img_block {
+        height: auto;
+    }
+
+    .partners-index {
+        height: auto;
+    }
+
+    .nav_pc {
+        position: absolute;
+        top: initial;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .partners_block {
+        margin: 0 auto;
+    }
+
+    .slider .row {
+        margin: 0;
+    }
 }
 
