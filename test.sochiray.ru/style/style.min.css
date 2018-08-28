@@ -11233,8 +11233,8 @@ textarea:focus {
 .dot_c {
     background-color: #313131;
     border: 0;
-    height: 12px;
-    width: 12px;
+    height: 16px;
+    width: 16px;
     border-radius: 50%;
     margin: 10px;
     cursor: pointer;
