@@ -77,10 +77,11 @@
 		padding: 0 15px;
 	}
 
-	.page-content .mobileapp h1,
-	.page-content .mobileapp .caption,
-	.page-content .mobileapp-text,
-	.page-content .stage-block .stage p {
+.page-content .mobileapp h1,
+.page-content .mobileapp .caption,
+.page-content .text,
+.page-content .stage-block .stage .text, 
+.page-content .stage-block .stage h3 {
 		padding: 0;
 	}
 
@@ -195,6 +196,11 @@
 		font-size: 25px;
 		line-height: 35px;
 		padding: 100px 70px 50px 70px;
+	}
+
+	.page-content .stage-block .stage h3 {
+		font-size: 25px;
+		line-height: 35px;
 	}
 
 	.page-content .stage-block .stage .text {
@@ -334,12 +340,17 @@
 	}
 
 	.page-content .mobileapp .caption,
-	.page-content .mobileapp-text,
+	.page-content .text,
 	.page-content .stage-block .stage p:first-child,
 	.page-content .stage-block .stage p:nth-child(2),
 	.page-content .stage-block .stage .text {
 		font-size: 18px;
 		line-height: 25px;
+	}
+
+	.page-content .stage-block .stage h3 {
+		font-size: 18px;
+		line-height: 20px;
 	}
 
 	.page-content .stage-block .stage .quotes {

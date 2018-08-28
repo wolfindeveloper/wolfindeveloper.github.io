@@ -347,8 +347,9 @@ footer {
 }
 .page-content .mobileapp h1,
 .page-content .mobileapp .caption,
-.page-content .mobileapp-text,
-.page-content .stage-block .stage p {
+.page-content .text,
+.page-content .stage-block .stage .text, 
+.page-content .stage-block .stage h3 {
 	padding-left: 110px;
 	padding-right: 200px;
 }
@@ -370,8 +371,7 @@ footer {
 	text-transform: uppercase;
 }
 
-.page-content .stage-block .stage p:first-child,
-.page-content .stage-block .stage p:nth-child(2) {
+.page-content .stage-block .stage h3 {
 	font-family: 'FedraSansPro-Bold';
 	font-size: 27px;
 	line-height: 50px;
