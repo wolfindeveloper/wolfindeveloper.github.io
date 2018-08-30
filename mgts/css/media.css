@@ -10,11 +10,19 @@
 	}
 
 	.header-caption {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.header-img {
 		width: 50%;
+	}
+
+	.header-caption p {
+		font-size: 65px;
+	}
+
+	h1 {
+		font-size: 75px;
 	}
 }
 
@@ -68,22 +76,31 @@
 }
 
 @media (max-width: 1279px) {
-	header {
+header {
 		height: auto;
 	}
 
-	.page-container {
+.page-container {
 		width: 100%;
 		padding: 0 15px;
 	}
 
 .page-content .mobileapp h1,
 .page-content .mobileapp .caption,
-.page-content .text,
+.stage-block .text,
 .page-content .stage-block .stage .text, 
-.page-content .stage-block .stage h3 {
+.page-content .stage-block h3,
+.page-content .stage-block .stage .text,
+.stage-block .text,
+.stage-block p {
 		padding: 0;
 	}
+
+.stage-block ol,
+.stage-block ul {
+	padding: 0;
+	padding-left: 15px;
+}
 
 	.page-content .mobileapp h1 {
 		font-size: 55px;
@@ -192,18 +209,20 @@
 		line-height: 50px;
 	}
 
-	.page-content .stage-block .stage .quotes {
+	.page-content .stage-block .quotes {
 		font-size: 25px;
 		line-height: 35px;
 		padding: 100px 70px 50px 70px;
 	}
 
-	.page-content .stage-block .stage h3 {
+	.page-content .stage-block h3 {
 		font-size: 25px;
 		line-height: 35px;
 	}
 
-	.page-content .stage-block .stage .text {
+	.page-content .stage-block .stage .text,
+	.stage-block .text,
+	.stage-block p {
 		font-size: 25px;
 		line-height: 40px;
 	}
@@ -332,6 +351,10 @@
 	footer {
 		padding: 15px;
 	}
+
+	.stage-block img {
+		height: 200px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -343,17 +366,20 @@
 	.page-content .text,
 	.page-content .stage-block .stage p:first-child,
 	.page-content .stage-block .stage p:nth-child(2),
-	.page-content .stage-block .stage .text {
+	.page-content .stage-block .stage .text,
+	.stage-block ul li,
+	.stage-block ol li,
+	.stage-block p {
 		font-size: 18px;
 		line-height: 25px;
 	}
 
-	.page-content .stage-block .stage h3 {
+	.page-content .stage-block h3 {
 		font-size: 18px;
 		line-height: 20px;
 	}
 
-	.page-content .stage-block .stage .quotes {
+	.page-content .stage-block .quotes {
 		padding: 45px 30px 30px 30px;
     font-size: 12px;
     line-height: 15px;

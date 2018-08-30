@@ -347,9 +347,11 @@ footer {
 }
 .page-content .mobileapp h1,
 .page-content .mobileapp .caption,
-.page-content .text,
-.page-content .stage-block .stage .text, 
-.page-content .stage-block .stage h3 {
+.stage-block .text,
+.page-content .stage-block h3,
+.stage-block ul,
+.stage-block ol,
+.stage-block p {
 	padding-left: 110px;
 	padding-right: 200px;
 }
@@ -371,7 +373,7 @@ footer {
 	text-transform: uppercase;
 }
 
-.page-content .stage-block .stage h3 {
+.page-content .stage-block h3 {
 	font-family: 'FedraSansPro-Bold';
 	font-size: 27px;
 	line-height: 50px;
@@ -379,14 +381,53 @@ footer {
 }
 
 .page-content .stage-block .stage .text,
-.page-content .text {
+.stage-block .text,
+.stage-block p {
 	font-family: 'FedraSansPro-Light';
 	font-size: 27px;
 	color: rgb(1, 1, 1);
 	line-height: 50px;
 }
 
-.page-content .stage-block .stage .quotes {
+.stage-block img {
+	height: 400px;
+}
+
+.stage-block p img,
+.stage-block i img {
+	height: auto;
+}
+
+.stage-block p:last-child {
+	position: relative;
+}
+
+.stage-block p:last-child:after {
+    content: '';
+    height: 20px;
+    font-size: 20px;
+    width: 20px;
+    display: inline-block;
+    background: url(../img/text-img.png) no-repeat center;
+}
+
+.stage-block ul {
+	list-style: circle;
+}
+
+.stage-block ol {
+	list-style: decimal;
+}
+
+.stage-block ul li,
+.stage-block ol li {
+	font-family: 'FedraSansPro-Light';
+	font-size: 27px;
+	color: rgb(1, 1, 1);
+	line-height: 50px;
+}
+
+.page-content .stage-block .quotes {
 	background: url('../img/quotes.jpg') no-repeat center;
 	background-size: 100% 100%;
 	font-family: 'FedraSansPro-Bold';
