@@ -9606,6 +9606,13 @@ body.compensate-for-scrollbar {
     font-style: normal
 }
 
+@font-face {
+  font-family: 'CityFlowersscriptTwo';
+  src: url('../fonts/CityFlowersscriptTwo.eot?#iefix') format('embedded-opentype'),  url('../fonts/CityFlowersscriptTwo.woff') format('woff'), url('../fonts/CityFlowersscriptTwo.ttf')  format('truetype'), url('../fonts/CityFlowersscriptTwo.svg#CityFlowersscriptTwo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 ::after,
 ::before {
@@ -12609,10 +12616,33 @@ header .head-info button {
 }
 .ham8.active .bottom {
   stroke-dashoffset: -64px;
-}               
+}       
 
+.slider2 .img {
+    position: relative;
+}  
 
+.slider2 .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: 'CityFlowersscriptTwo';
+    font-size: 108px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}    
 
+.footer_menu a:hover {
+    color: rgb(28, 178, 169);
+    transition: 0.5s all;
+}
 
 @media (max-width:1920px) {
     .partners-index {
@@ -12638,10 +12668,17 @@ header .head-info button {
     header .nav-menu li {
         margin: 0 10px;
     }
+
+        .slider2 .text {
+            font-size: 90px;
+    }
 }
 
 
 @media (max-width:1279px) {
+    .slider2 .text {
+        font-size: 70px;
+    }
 
     .services {
         width: 100%;
@@ -12733,11 +12770,6 @@ header .head-info button {
     line-height: 1.5rem
 }
 
-/* .pice-bg {
-    background: none;
-    background-color: rgb(21, 149, 148);
-} */
-
 .burger {
     display: block;
     cursor: pointer;
@@ -12762,10 +12794,13 @@ header .nav-menu li {
     background-color: rgba(255, 255, 255, 1);
     display: none;
 }
-
 }
 
 @media (max-width:1023px) {
+    .slider2 .text {
+        font-size: 55px;
+    }
+
     .gallery .slider-small {
         width: 80%;
     }
@@ -12802,6 +12837,12 @@ header .nav-menu li {
 @media (max-width:767px) {
     .slider2 img {
         height: auto;
+    }
+
+        .slider2 .text {
+            font-size: 25px;
+            align-items: flex-start;
+            padding-top: 30px;
     }
 
     .nav_c {

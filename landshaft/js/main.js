@@ -232,14 +232,12 @@ $(function(){
             });
 
             $('.page-gallery .map_open_wrap').click(function(even){
-                event.preventDefault();
                 $(".page-gallery>img").fadeIn();
                 $(".page-gallery .map_open_wrap").fadeOut();
                 $(".page-gallery .line").fadeOut();
             });
 
         });
- 
 });
 
 $(function(){
