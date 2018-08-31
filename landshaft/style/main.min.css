@@ -12037,6 +12037,12 @@ header .nav-menu li a {
     text-transform: uppercase;
 }
 
+header .nav-menu li a:hover {
+    color: rgb(28, 178, 169);
+    border-bottom: 1px solid rgb(28, 178, 169);
+    transition: 0.5s all;
+}
+
 header .head-info a {
     display: block;
     font-family: Montserrat;
@@ -12498,14 +12504,6 @@ header .head-info button {
     top: 36px;
 }
 
-/* .page-gallery .map_open_wrap {
-    transform: rotate(-180deg);
-}
-
-.page-gallery .map_open {
-    transform: rotate(-180deg);
-} */
-
 .page-gallery .map_open_wrap {
     background-color: #e0dee0;
 }
@@ -12584,7 +12582,7 @@ header .head-info button {
 .line {
   fill:none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke:#4778ba;
+  stroke: rgb(49, 49, 49);
   stroke-width:5.5;
   stroke-linecap:round;
 }
