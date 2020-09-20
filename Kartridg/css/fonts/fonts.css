@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "MuseoSansCyrl-500";
+    src: url("MuseoSansCyrl1.woff") format("woff"), /* Modern Browsers */
+      url("MuseoSansCyrl1.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
