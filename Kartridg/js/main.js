@@ -59,7 +59,7 @@ $(document).ready(function() {
         elementClick = $(this).attr("href");
 
         destination = $(elementClick).offset().top;
-        $("body,html").animate({scrollTop: destination }, 800); 
+        $("body,html").animate({scrollTop: destination }, 1500); 
       });
      });
 
