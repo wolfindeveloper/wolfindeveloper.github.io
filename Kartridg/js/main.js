@@ -23,6 +23,8 @@ $('.slider-reviews').slick({
     ]
   });
 
+  
+
   //эта функция выполняется, когда страница полностью загрузилась
 $(document).ready(function() {
   var menuToggle = $('.menu-toggle');
@@ -58,7 +60,7 @@ $(document).ready(function() {
      $("nav li a").click(function () {
         elementClick = $(this).attr("href");
 
-        destination = $(elementClick).offset().top;
+        destination = $(elementClick).offset().top - 80;
         $("body,html").animate({scrollTop: destination }, 1500); 
       });
      });
